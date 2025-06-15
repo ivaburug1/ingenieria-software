@@ -1,0 +1,17 @@
+CrearUsuario:
+Tengo varios TextBox, se llaman:
+	1) TXTNombre
+	2) TXTApellido
+	3) TXTDNI
+	4) TXTEmail
+
+Tengo varios Label, se llaman:
+	1) LBLNombre, texto Nombre
+	2) LBLApellido, texto Apellido
+	3) LBLDNI, texto DNI
+	4) LBLEmail, texto Email
+	5) LBLTitulo, texto Crear Cuenta
+
+Tengo varios Botones, se llaman:
+	1) BTNRegistrar, texto Registrar
+	2) BTNCancelar, texto Cancelar

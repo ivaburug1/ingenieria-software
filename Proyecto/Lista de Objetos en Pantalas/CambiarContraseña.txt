@@ -1,0 +1,15 @@
+CamviarContraseña.cs:
+Tengo 3 TextBox, siendo estos:
+	1) TXTContraseñaActual
+	2) TXTConfirmacionContraseñaActual
+	3) TXTContraseñaNueva
+Tambien tengo 4 Label, son estos:
+	1) LBLContraseñaActual, texto Contraseña Actual
+	2) LBLConfirmacionContraseñaActual, texto Confirmar Contraseña Actual
+	3) LBLContraseñaNueva, texto Contraseña Nueva
+	4) LBLTitulo, texto Cambio de Contraseña
+y tengo 2 Botones:
+	1) BTNConfimar, texto Confirmar
+	2) BTNCancelar, texto Cancelar
+	
+	

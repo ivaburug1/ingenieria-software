@@ -1,0 +1,134 @@
+PROGRAMA FACTORY METHOD AUTOS SUCURSALES:
+
+Crear programa en Console App (.NET Framework)
+
+
+Programa:
+Auto.cs:
+namespace FactoryMethod
+{
+    public abstract class Auto
+    {
+        protected string _descripcion;
+        protected string _modalidad;
+
+        public override string ToString()
+        {
+            return string.Format("- Venta '{0}' bajo modalidad: {1}", _descripcion, _modalidad);
+        }
+    }
+}
+
+AutoContado.cs:
+namespace FactoryMethod
+{
+    public class AutoContado : Auto
+    {
+        public AutoContado(string modalidad)
+        {
+            _descripcion = "Venta de auto al contado";
+            _modalidad = modalidad;
+        }
+    }
+}
+
+AutoFinanciado.cs:
+namespace FactoryMethod
+{
+    public class AutoFinanciado : Auto
+    {
+        public AutoFinanciado(string modalidad)
+        {
+            _descripcion = "Venta de auto financiado";
+            _modalidad = modalidad;
+        }
+    }
+}
+
+Vendedor.cs:
+namespace FactoryMethod
+{
+    public abstract class Vendedor
+    {
+        public abstract Auto CrearOferta(string tipo);
+    }
+}
+
+VendedorSucursalA.cs:
+namespace FactoryMethod
+{
+    public class VendedorSucursalA : Vendedor
+    {
+        public override Auto CrearOferta(string tipo)
+        {
+            if (tipo == "contado")
+            {
+                return new AutoContado("Sucursal A");
+            }
+            else if (tipo == "financiado")
+            {
+                return new AutoFinanciado("Sucursal A");
+            }
+            else
+            {
+                return null;
+            }
+        }
+    }
+}
+
+VendedorSucursalB.cs:
+namespace FactoryMethod
+{
+    public class VendedorSucursalB : Vendedor
+    {
+        public override Auto CrearOferta(string tipo)
+        {
+            if (tipo == "contado")
+            {
+                return new AutoContado("Sucursal B");
+            }
+            else if (tipo == "financiado")
+            {
+                return new AutoFinanciado("Sucursal B");
+            }
+            else
+            {
+                return null;
+            }
+        }
+    }
+}
+
+Program.cs:
+using System;
+
+namespace FactoryMethod
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Auto auto;
+            Vendedor vendedor;
+
+            vendedor = new VendedorSucursalA();
+            auto = vendedor.CrearOferta("contado");
+            Console.WriteLine(auto.ToString());
+            auto = vendedor.CrearOferta("financiado");
+            Console.WriteLine(auto.ToString());
+
+            vendedor = new VendedorSucursalB();
+            auto = vendedor.CrearOferta("contado");
+            Console.WriteLine(auto.ToString());
+            auto = vendedor.CrearOferta("financiado");
+            Console.WriteLine(auto.ToString());
+
+	    Console.WriteLine("Ingrese tipo de oferta (contado o financiado):");
+	    string tipo = Console.ReadLine();
+	    auto = vendedor.CrearOferta(tipo);
+	    Console.WriteLine(auto.ToString());
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,12 @@
+Login:
+Tengo 2 TextBox:
+	1) TXTUsuario
+	2) TXTContraseña
+Tambien tengo varios Labels:
+	1) LBLUsuario, texto Usuario
+	2) LBLContraseña, texto Contraseña
+	3) LBLTitulo, Login
+Tambien tengo algunos botones:
+	1) BTNIngresar, texto Ingresar
+	2) BTNCancelar, texto Cancelar
+	3) BTNMostrarContraseña, texto, Mostrar Contraseña

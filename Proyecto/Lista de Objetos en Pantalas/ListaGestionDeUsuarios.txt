@@ -1,0 +1,33 @@
+Gestion de Usuarios:
+Lable: Se llama "LBLGestionDeUsuarios" y tiene el texto "Gestion de Usuarios"
+Un DataGridView llamado "DGVMuestraUsuarios"
+Una serie de botones:
+	1) BTNAgregar, texto Agregar
+	2) BTNEliminar, texto Eliminar
+	3) BTNModificar, texto Modificar
+	4) BTNDesbloquear, texto Desbloquear
+	5) BTNAplicar, texto Aplicar
+	6) BTNCancelar, texto Cancelar
+	7) BTNFiltrar, texto Filtrar
+Una serie de Labels:
+	1) LBLDNI, texto DNI
+	2) LBLNombre, texto Nombre
+	3) LBLApellido, texto Apellido
+	4) LBLNombreUsuario, texto NombreUsuario
+	5) LBLCorreo, texto Correo
+	6) LBLRol, texto Rol
+	7) LBLActivoNoActivo, texto Activo / No Activo:
+	8) LBLUsuariosBloqueados, texto Usuarios Bloqueados
+	9) LBLRol2, texto Rol
+	10) LBLFiltros, texto Fltros
+Debajo de cada uno de estos hay un TextBox, que son:
+	1) TXBXDNI
+	2) TXBXNombreUsuario
+	3) TXBXNombre
+	4) TXBXApellido
+	5) TXBXCorreo
+Excepto de bajo de los Label LBLRol, LBLActivoNoActivo, LBLUsuariosBloqueados, LBLRol2, que hay una serie de ComboBox que se llaman:
+	1) CBRol
+	2) CBActivoNoActivo
+	3) CBUsuariosBloqueados
+	4) CBRol2
