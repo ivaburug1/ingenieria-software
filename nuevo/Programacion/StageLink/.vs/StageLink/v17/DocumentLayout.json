@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\bll_391iau\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C2F387-16CA-4C11-BF36-22E541D83C0B}|DAL_391IAU\\DAL_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\dal_391iau\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C2F387-16CA-4C11-BF36-22E541D83C0B}|DAL_391IAU\\DAL_391IAU.csproj|solutionrelative:dal_391iau\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\be_391iau\\beusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|solutionrelative:be_391iau\\beusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\cambiarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\cambiarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\StageLink.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\StageLink.csproj|solutionrelative:stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\stagelink\\cambiarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\cambiarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\DAL_391IAU\\DAL.cs",
+              "RelativeDocumentMoniker": "DAL_391IAU\\DAL.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\DAL_391IAU\\DAL.cs",
+              "RelativeToolTip": "DAL_391IAU\\DAL.cs",
+              "ViewState": "AgIAAA0BAAAAAAAAAADwvxsBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:49:45.648Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLLUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLLUsuario.cs",
+              "RelativeDocumentMoniker": "BLL_391IAU\\BLLUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLLUsuario.cs",
+              "RelativeToolTip": "BLL_391IAU\\BLLUsuario.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowFcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:49:12.086Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrearUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs",
+              "RelativeDocumentMoniker": "StageLink\\CrearUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs",
+              "RelativeToolTip": "StageLink\\CrearUsuario.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:42:29.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionDeUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDeUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDeUsuarios.cs [Design]",
+              "RelativeToolTip": "StageLink\\GestionDeUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:58:19.218Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrearUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs",
+              "RelativeDocumentMoniker": "StageLink\\CrearUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs [Design]",
+              "RelativeToolTip": "StageLink\\CrearUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:56:58.116Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\Login.cs",
+              "RelativeDocumentMoniker": "StageLink\\Login.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\Login.cs",
+              "RelativeToolTip": "StageLink\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:39:40.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BEUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BE_391IAU\\BEUsuario.cs",
+              "RelativeDocumentMoniker": "BE_391IAU\\BEUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BE_391IAU\\BEUsuario.cs",
+              "RelativeToolTip": "BE_391IAU\\BEUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:52:40.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "StageLink\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs [Design]",
+              "RelativeToolTip": "StageLink\\PantallaPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:37:21.91Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "StageLink\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeToolTip": "StageLink\\PantallaPrincipal.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAArwEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:54:49.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestionDeUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDeUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeToolTip": "StageLink\\GestionDeUsuarios.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAmwOYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:33:51.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CambiarContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CambiarContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "StageLink\\CambiarContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CambiarContrase\u00F1a.cs",
+              "RelativeToolTip": "StageLink\\CambiarContrase\u00F1a.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:46:29.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PantallaPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "StageLink\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs [Design]",
+              "RelativeToolTip": "StageLink\\PantallaPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:02:01.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CambiarContrase\u00F1a.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CambiarContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "StageLink\\CambiarContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CambiarContrase\u00F1a.cs [Design]",
+              "RelativeToolTip": "StageLink\\CambiarContrase\u00F1a.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:46:27.161Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
