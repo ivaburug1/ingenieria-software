@@ -1,0 +1,14 @@
+En mi pantalla de Login tengo una serie de cosas:
+
+Tengo varios TextBox:
+TXTDNI.
+TXTContraseña.
+
+Tengo varios lable:
+LBLDNI, texto “DNI”.
+LBLContraseña, texto “Contraseña”.
+LBLLoginTitulo, texto “Login”.
+
+y 2 botones:
+BTNLogin, texto “Login”.
+BTNCancelar, texto “Cancelar”.

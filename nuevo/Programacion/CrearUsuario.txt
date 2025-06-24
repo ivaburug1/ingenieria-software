@@ -1,0 +1,19 @@
+En mi pantalla de CrearUsuario tengo una serie de cosas:
+
+Tengo varios TextBox, que se llaman:
+TXTDNI.
+TXTNombre.
+TXTApellido.
+TXTeMail.
+TXTContraseña.
+
+Tengo varios Lable:
+LBLNombre, texto "Nombre".
+LBLApellido, texto "Apellido".
+LBLeMail, texto "e-Mail".
+LBLContraseña, texto "Contraseña".
+LBLExplicacionContraseña, texto “Si este campo se deja vacio, la contraseña sera creada automaticamente como “DNI+Nombre”.”.
+
+Tengo varios Button.
+BTNCrearUsuario, texto "Crear Usuario".
+BTNCancelar, texto “Cancelar”.

@@ -1,0 +1,37 @@
+Ahora estoy diseñando la parte de gestion de usuarios, este tiene varios Labels:
+LBLTitulo, texto “Gestion de Usuarios”
+LBLFiltros, texto “Filtros”
+LBLActivoNoActivo, texto “Activo / No Activo”
+LBLUsuariosBloqueados, texto “Usuarios Bloqueados”
+LBLRol, texto “Rol”
+LBLBuscar, texto “Buscar”
+LBLDNI, texto “DNI”
+LBLNombre, texto “Nombre”
+LBLApellido, texto “Apellido”
+LBLCorreo, texto “Correo”
+LBLIdioma, texto “Idioma”
+
+Tambien tengo varios Combobox:
+CBActivoNoActivo
+CBUsuariosBloqueados
+CBRol
+CBIdioma
+
+Tambien tengo varios Textbox:
+TXTDNI
+TXTNombre
+TXTApellido
+TXTCorreo
+
+Tambien hay varios Buttons:
+BTNFiltrar, texto “Filtrar”
+BTNActivar, texto “Activar”
+BTNDesactivar, texto “Desactivar”
+BTNModificar, texto “Modificar”
+BTNDesbloquear, texto “Desbloquear”
+BTNAplicar, texto “Aplicar”
+BTNCancelar, texto “Cancelar”
+BTNBuscar, texto “Buscar”
+
+Y un DataGridView que se llama:
+DGVMuestraUsuarios

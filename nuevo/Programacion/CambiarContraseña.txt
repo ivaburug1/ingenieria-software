@@ -1,0 +1,16 @@
+Mi cambiar contraseña tiene tiene:
+
+Una serie de TXT:
+TXTContraseñaActual.
+TXTContraseñaNueva.
+TXTContraseñaConfirmacion.
+
+Una serie de Labels:
+LBLContraseñaActual, texto “Contraseña Actual”.
+LBLContraseñaNueva, texto “Nueva”.
+LBLContraseñaConfirmacion, texto “Confirmacion”.
+LBLTitulo, texto “Cambiar Contraseña”.
+
+Y una serie de Buttons:
+BTNCambiarContraseña, texto “Cambiar Contraseña”.
+BTNCancelar, texto “Cancelar”.
