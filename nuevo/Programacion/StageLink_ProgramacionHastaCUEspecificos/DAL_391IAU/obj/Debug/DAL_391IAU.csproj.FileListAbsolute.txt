@@ -1,0 +1,9 @@
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\bin\Debug\DAL_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\bin\Debug\DAL_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\bin\Debug\BE_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\bin\Debug\BE_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\obj\Debug\DAL_391IAU.csproj.AssemblyReference.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\obj\Debug\DAL_391IAU.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\obj\Debug\DAL_391IAU.csproj.Up2Date
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\obj\Debug\DAL_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\DAL_391IAU\obj\Debug\DAL_391IAU.pdb
