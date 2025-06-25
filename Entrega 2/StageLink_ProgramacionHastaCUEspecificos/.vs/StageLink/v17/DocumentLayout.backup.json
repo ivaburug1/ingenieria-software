@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\crearclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\crearclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\crearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\crearclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\crearclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionDeUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDeUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDeUsuarios.cs [Design]",
+              "RelativeToolTip": "StageLink\\GestionDeUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:26:01.662Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrearUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs",
+              "RelativeDocumentMoniker": "StageLink\\CrearUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs",
+              "RelativeToolTip": "StageLink\\CrearUsuario.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA0wCgAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:19:01.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CrearUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs",
+              "RelativeDocumentMoniker": "StageLink\\CrearUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearUsuario.cs [Design]",
+              "RelativeToolTip": "StageLink\\CrearUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:19:00.716Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrearClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearClientes.cs",
+              "RelativeDocumentMoniker": "StageLink\\CrearClientes.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearClientes.cs",
+              "RelativeToolTip": "StageLink\\CrearClientes.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBoAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:18:51.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrearClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearClientes.cs",
+              "RelativeDocumentMoniker": "StageLink\\CrearClientes.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\CrearClientes.cs [Design]",
+              "RelativeToolTip": "StageLink\\CrearClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:18:47.303Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PantallaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "StageLink\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeToolTip": "StageLink\\PantallaPrincipal.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:14:40.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PantallaPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs",
+              "RelativeDocumentMoniker": "StageLink\\PantallaPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\PantallaPrincipal.cs [Design]",
+              "RelativeToolTip": "StageLink\\PantallaPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:14:40.392Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
