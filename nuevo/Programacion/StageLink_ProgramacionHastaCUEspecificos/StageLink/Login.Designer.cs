@@ -108,9 +108,9 @@
             // 
             // BTNMostrarContraseña
             // 
-            this.BTNMostrarContraseña.Location = new System.Drawing.Point(39, 188);
+            this.BTNMostrarContraseña.Location = new System.Drawing.Point(158, 154);
             this.BTNMostrarContraseña.Name = "BTNMostrarContraseña";
-            this.BTNMostrarContraseña.Size = new System.Drawing.Size(100, 35);
+            this.BTNMostrarContraseña.Size = new System.Drawing.Size(74, 35);
             this.BTNMostrarContraseña.TabIndex = 7;
             this.BTNMostrarContraseña.Text = "Mostrar Contraseña";
             this.BTNMostrarContraseña.UseVisualStyleBackColor = true;

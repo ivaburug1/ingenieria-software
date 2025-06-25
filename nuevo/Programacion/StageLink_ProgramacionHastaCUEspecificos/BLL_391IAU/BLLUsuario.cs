@@ -15,19 +15,10 @@ namespace BLL_391IAU
         {
             if (string.IsNullOrWhiteSpace(dni) ||
                 string.IsNullOrWhiteSpace(nombre) ||
-                string.IsNullOrWhiteSpace(apellido))
+                string.IsNullOrWhiteSpace(apellido) ||
+                string.IsNullOrWhiteSpace(email))
             {
-                throw new ArgumentException("Completar los campos obligatorios.");
-            }
-
-            if (dni.Length != 8 || !dni.All(char.IsDigit))
-            {
-                throw new ArgumentException("El DNI debe tener 8 dígitos, en caso de tener 7, agregar un 0 adelante.");
-            }
-
-            if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))
-            {
-                throw new ArgumentException("El e-Mail debe tener el formato correcto.");
+                throw new ArgumentException("Completar todos los campos obligatorios.");
             }
 
             if (string.IsNullOrWhiteSpace(contraseña))
@@ -162,6 +153,5 @@ namespace BLL_391IAU
         {
             return CriptoManager.DesencriptarAES(textoEncriptado);
         }
-
     }
 }

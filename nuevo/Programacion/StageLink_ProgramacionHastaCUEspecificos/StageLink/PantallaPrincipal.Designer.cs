@@ -70,6 +70,7 @@
             this.administradorToolStripMenuItem.Name = "administradorToolStripMenuItem";
             this.administradorToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.administradorToolStripMenuItem.Text = "Administrador";
+            this.administradorToolStripMenuItem.Click += new System.EventHandler(this.administradorToolStripMenuItem_Click);
             // 
             // gestionDeUsuariosToolStripMenuItem
             // 
@@ -93,18 +94,19 @@
             this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
             this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.maestrosToolStripMenuItem.Text = "Maestros";
+            this.maestrosToolStripMenuItem.Click += new System.EventHandler(this.maestrosToolStripMenuItem_Click);
             // 
             // agregarConciertosToolStripMenuItem
             // 
             this.agregarConciertosToolStripMenuItem.Name = "agregarConciertosToolStripMenuItem";
-            this.agregarConciertosToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.agregarConciertosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarConciertosToolStripMenuItem.Text = "Agregar Eventos";
             this.agregarConciertosToolStripMenuItem.Click += new System.EventHandler(this.agregarConciertosToolStripMenuItem_Click);
             // 
             // crearClientesToolStripMenuItem
             // 
             this.crearClientesToolStripMenuItem.Name = "crearClientesToolStripMenuItem";
-            this.crearClientesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.crearClientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.crearClientesToolStripMenuItem.Text = "Crear Clientes";
             this.crearClientesToolStripMenuItem.Click += new System.EventHandler(this.crearClientesToolStripMenuItem_Click);
             // 
@@ -146,11 +148,12 @@
             this.vendedorToolStripMenuItem.Name = "vendedorToolStripMenuItem";
             this.vendedorToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.vendedorToolStripMenuItem.Text = "Vendedor";
+            this.vendedorToolStripMenuItem.Click += new System.EventHandler(this.vendedorToolStripMenuItem_Click);
             // 
             // venderBoletoToolStripMenuItem
             // 
             this.venderBoletoToolStripMenuItem.Name = "venderBoletoToolStripMenuItem";
-            this.venderBoletoToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.venderBoletoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.venderBoletoToolStripMenuItem.Text = "Vender Boleto";
             this.venderBoletoToolStripMenuItem.Click += new System.EventHandler(this.venderBoletoToolStripMenuItem_Click);
             // 
@@ -159,6 +162,7 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // PantallaPrincipal
             // 

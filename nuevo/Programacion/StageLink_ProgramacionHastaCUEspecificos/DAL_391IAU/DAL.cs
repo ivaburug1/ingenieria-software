@@ -517,7 +517,7 @@ namespace DAL_391IAU
         {
             bool exito = true;
 
-            using (SqlConnection conn = new SqlConnection(@"Server=DESKTOP-06GODJN\MSSQLSERVER01;Database=A_StageLink;Integrated Security=True;"))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
                 SqlTransaction transaccion = conn.BeginTransaction();

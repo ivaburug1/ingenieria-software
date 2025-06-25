@@ -279,7 +279,7 @@
             this.BTNDesactivar.Name = "BTNDesactivar";
             this.BTNDesactivar.Size = new System.Drawing.Size(75, 23);
             this.BTNDesactivar.TabIndex = 22;
-            this.BTNDesactivar.Text = "Eliminar";
+            this.BTNDesactivar.Text = "Desactivar";
             this.BTNDesactivar.UseVisualStyleBackColor = true;
             this.BTNDesactivar.Click += new System.EventHandler(this.BTNDesactivar_Click);
             // 

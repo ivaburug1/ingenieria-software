@@ -1,12 +1,6 @@
 ﻿using BLL_391IAU;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace StageLink
@@ -19,11 +13,6 @@ namespace StageLink
             TXTDNI.Text = "45679391";
         }
 
-        private void TXTContraseña_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void BTNCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -31,7 +20,6 @@ namespace StageLink
 
         private void Login_Load(object sender, EventArgs e)
         {
-
         }
 
         private void BTNLogin_Click(object sender, EventArgs e)
@@ -40,6 +28,12 @@ namespace StageLink
             {
                 string dni = TXTDNI.Text.Trim();
                 string contrasenia = TXTContraseña.Text;
+
+                if (!Regex.IsMatch(dni, @"^\d{8}$"))
+                {
+                    MessageBox.Show("El DNI debe tener exactamente 8 dígitos numéricos.");
+                    return;
+                }
 
                 BLLUsuario bll = new BLLUsuario();
                 bool loginExitoso = bll.Login(dni, contrasenia);
@@ -81,6 +75,10 @@ namespace StageLink
             {
                 BTNMostrarContraseña.Text = "Ocultar";
             }
+        }
+
+        private void TXTContraseña_TextChanged(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -1,13 +1,7 @@
 ﻿using BE_391IAU;
 using BLL_391IAU;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace StageLink
@@ -19,41 +13,41 @@ namespace StageLink
             InitializeComponent();
         }
 
-        private void LBLTitulo_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BTNCrearCliente_Click(object sender, EventArgs e)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(TXTDNICliente.Text) ||
-                    string.IsNullOrWhiteSpace(TXTNombreCliente.Text) ||
-                    string.IsNullOrWhiteSpace(TXTApellidoCliente.Text) ||
-                    string.IsNullOrWhiteSpace(TXTCorreoCliente.Text))
-                {
-                    MessageBox.Show("Todos los campos deben estar completos.");
-                    return;
-                }
-
-                if (!int.TryParse(TXTDNICliente.Text.Trim(), out int dni))
-                {
-                    MessageBox.Show("El DNI debe ser un número válido.");
-                    return;
-                }
-
+                string dni = TXTDNICliente.Text.Trim();
                 string nombre = TXTNombreCliente.Text.Trim();
                 string apellido = TXTApellidoCliente.Text.Trim();
                 string correo = TXTCorreoCliente.Text.Trim();
 
-                if (!correo.Contains("@"))
+                if (!Regex.IsMatch(dni, @"^\d{8}$"))
                 {
-                    MessageBox.Show("El mail debe tener un formato válido.");
+                    MessageBox.Show("El DNI debe tener exactamente 8 dígitos numéricos. En caso de tener 7, agregar un 0 al principio de este.");
                     return;
                 }
 
-                BECliente cliente = new BECliente(dni, nombre, apellido, correo);
+                if (!Regex.IsMatch(nombre, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                {
+                    MessageBox.Show("El nombre solo puede contener letras.");
+                    return;
+                }
+
+                if (!Regex.IsMatch(apellido, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                {
+                    MessageBox.Show("El apellido solo puede contener letras.");
+                    return;
+                }
+
+                if (!Regex.IsMatch(correo, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                {
+                    MessageBox.Show("El e-Mail no tiene un formato válido.");
+                    return;
+                }
+
+                int dniInt = int.Parse(dni);
+                BECliente cliente = new BECliente(dniInt, nombre, apellido, correo);
                 BLLCliente bll = new BLLCliente();
 
                 if (bll.InsertarCliente(cliente))
@@ -79,7 +73,10 @@ namespace StageLink
 
         private void CrearClientes_Load(object sender, EventArgs e)
         {
+        }
 
+        private void LBLTitulo_Click(object sender, EventArgs e)
+        {
         }
     }
 }

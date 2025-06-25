@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using BLL_391IAU;
 
@@ -20,7 +21,6 @@ namespace StageLink
 
         private void LBLExplicacionContraseña_Click(object sender, EventArgs e)
         {
-
         }
 
         private void BTNCancelar_Click(object sender, EventArgs e)
@@ -32,16 +32,27 @@ namespace StageLink
         {
             try
             {
-                BLLUsuario bll = new BLLUsuario();
-                string contraseñaGenerada = TXTDNI.Text + TXTNombre.Text;
+                string dni = TXTDNI.Text.Trim();
+                string nombre = TXTNombre.Text.Trim();
+                string apellido = TXTApellido.Text.Trim();
+                string email = TXTeMail.Text.Trim();
 
-                bool resultado = bll.CrearUsuario(
-                    TXTDNI.Text,
-                    TXTNombre.Text,
-                    TXTApellido.Text,
-                    TXTeMail.Text,
-                    contraseñaGenerada
-                );
+                if (!Regex.IsMatch(dni, @"^\d{8}$"))
+                    throw new ArgumentException("El DNI debe tener exactamente 8 dígitos numéricos. En caso de tener 7, agregar un 0 al principio de este.");
+
+                if (!Regex.IsMatch(nombre, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                    throw new ArgumentException("El nombre solo puede contener letras.");
+
+                if (!Regex.IsMatch(apellido, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                    throw new ArgumentException("El apellido solo puede contener letras.");
+
+                if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                    throw new ArgumentException("El e-Mail no tiene un formato válido.");
+
+                BLLUsuario bll = new BLLUsuario();
+                string contraseñaGenerada = dni + nombre;
+
+                bool resultado = bll.CrearUsuario(dni, nombre, apellido, email, contraseñaGenerada);
 
                 if (resultado)
                 {
@@ -58,9 +69,9 @@ namespace StageLink
                 MessageBox.Show("Error: " + ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void CrearUsuario_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

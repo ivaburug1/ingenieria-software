@@ -26,3 +26,5 @@ C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\DAL_391I
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.Up2Date
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.exe
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CambiarIdioma.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.GestionDePerfiles.resources

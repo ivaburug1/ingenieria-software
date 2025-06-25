@@ -139,7 +139,7 @@
             this.Name = "CambiarContraseña";
             this.Text = "CambiarContraseña";
             this.Load += new System.EventHandler(this.CambiarContraseña_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

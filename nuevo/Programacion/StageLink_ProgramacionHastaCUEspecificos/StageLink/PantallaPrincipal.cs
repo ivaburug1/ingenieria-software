@@ -16,6 +16,12 @@ namespace StageLink
         public PantallaPrincipal()
         {
             InitializeComponent();
+            administradorToolStripMenuItem.Enabled = false;
+            maestrosToolStripMenuItem.Enabled = false;
+            vendedorToolStripMenuItem.Enabled = false;
+            ayudaToolStripMenuItem.Enabled = false;
+            logoutToolStripMenuItem.Enabled = false;
+            cambiarContraseñaToolStripMenuItem.Enabled = false;
         }
 
         private void PantallaPrincipal_Load(object sender, EventArgs e)
@@ -27,6 +33,12 @@ namespace StageLink
         {
             Login login = new Login();
             login.ShowDialog();
+            administradorToolStripMenuItem.Enabled = true;
+            maestrosToolStripMenuItem.Enabled = true;
+            vendedorToolStripMenuItem.Enabled = true;
+            ayudaToolStripMenuItem.Enabled = true;
+            logoutToolStripMenuItem.Enabled = true;
+            cambiarContraseñaToolStripMenuItem.Enabled = true;
         }
 
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -46,8 +58,6 @@ namespace StageLink
                     bll.Logout();
 
                     MessageBox.Show("Sesión cerrada correctamente.", "Logout", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    this.Close();
                 }
                 catch (Exception ex)
                 {
@@ -96,6 +106,26 @@ namespace StageLink
         {
             VenderBoleto venderBoleto = new VenderBoleto();
             venderBoleto.ShowDialog();
+        }
+
+        private void administradorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maestrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
