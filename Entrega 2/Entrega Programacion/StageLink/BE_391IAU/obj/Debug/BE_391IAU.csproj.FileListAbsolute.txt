@@ -1,0 +1,6 @@
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BE_391IAU\bin\Debug\BE_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BE_391IAU\bin\Debug\BE_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BE_391IAU\obj\Debug\BE_391IAU.csproj.AssemblyReference.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BE_391IAU\obj\Debug\BE_391IAU.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BE_391IAU\obj\Debug\BE_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BE_391IAU\obj\Debug\BE_391IAU.pdb
