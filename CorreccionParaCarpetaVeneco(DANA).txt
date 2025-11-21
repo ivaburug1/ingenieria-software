@@ -1,0 +1,13 @@
+Actualizar todo con Perfiles e Idiomas		hacer			(Hacer cuando tenga el codigo hecho)
+T02:
+LogIn > Observer, Composite y Singleton
+LogOut > Observer (Guarda el idioma en la BD)
+Gestion de Usuarios > Composite (Asigna Rol)
+
+
+FALTA HACER T04.2 (Crear Familia)
+T04.2		Diagrama de Casos de Uso
+T04.2.4 	Diagrama de Secuencia
+T04.2.5		Modelo de Clases
+T04.2.6		Diagrama DER
+T04.2.7		GUI
