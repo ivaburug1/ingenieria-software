@@ -28,3 +28,33 @@ C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLin
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.pdb
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CambiarIdioma.resources
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.GestionDePerfiles.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\StageLink.exe.config
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\StageLink.exe
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\StageLink.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\BE_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\BLL_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\SessionManager_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\DAL_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\BE_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\BLL_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\SessionManager_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\bin\Debug\DAL_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.AssemblyReference.cache
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.AgregarEventos.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.CambiarContraseña.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.CambiarIdioma.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.CobrarBoleto.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.CrearClientes.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.CrearUsuario.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.GestionDePerfiles.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.GestionDeUsuarios.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.Login.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.PantallaPrincipal.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.Properties.Resources.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.SeleccionarEvento.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.VenderBoleto.resources
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.GenerateResource.cache
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.CoreCompileInputs.cache
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.Up2Date
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.exe
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\Entrega 2\Entrega Programacion\StageLink\StageLink\obj\Debug\StageLink.pdb
