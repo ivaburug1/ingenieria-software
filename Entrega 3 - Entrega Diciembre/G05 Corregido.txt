@@ -1,0 +1,56 @@
+G05:
+
+1. Estandares aplicables:
+	Basado en ISO/IEC 25010, priorizando funcionalidad, usabilidad, eficiencia y confiabilidad.
+	Interfaz moderna y clara, con diseño intuitivo y coherente en todas las pantallas.
+	Estilo visual unificado, colores, tipografias homogenesis y correcta colocacion del logo.
+	Distribucion consistente de botones, tablas y formularios siguiendo buenas practicas.
+
+2. Requisitos del diseño
+	Respuesta en tiempo real para venta de boletos, carga de clientes y validaciones de QR.	
+	Tiempos de carga menores a 2 segundos por pantalla en condiciones normales.
+	Operacion fluida aun que alta concurrencia en LAN.
+	Uso eficiente de memoria y procesamiento durante la carga masiva de eventos o generacion de tickets.
+
+3. Requisitos del sistema:
+	Sistema operativo: windows 10 o windows 11
+	Framework: .NET Framework actualizado.
+	Base de datos: SQL Server 2019 o superior.
+	Hardware minimo: 4GB RAM, CPU 2GHz, 1GB de almacenamiento disponible.
+	Capacidad para realizar copias de seguridad y restauracion.
+
+4. Requisitos de entorno:
+	Funcionamiento de entorno LAN seguro para administracion local.
+	Integracion con Hardware Externo, como lectores de codigos QR.
+	Entorno exclusivo de escritorio Windows.
+	Requiere conexion estable para sincronizacion con la base de datos.
+
+5. Manual de usuario:
+	Documento con ejemplos reales de uso
+		Venta de boletos
+		Seleccion de clientes
+		Validacion de tickets
+		Generacion de comprobantes
+	Incluye capturas de pantalla y pasos detallados para cada funcion.
+
+6. Ayuda en linea:
+	Seccion accesible dentro del menu del sistema.
+	Activable mediante un icono de ayuda.
+	Contenido simplificado con consejos rapidos, advertencias y resolucion de problemas comunes.
+
+7.  Guia de instalacion y configuracion:
+	Documento PDF que explica:
+		Requisitos previos.
+		Instalacion el system.
+		Instalacion de SQL Server.
+		Configuracion inicial.
+		Restauracion de base de datos.
+	Instrucciones paro a paso con imagenes.
+
+8. Archivo README:
+	Incluye informacion rapida para el usuario:
+		Version del sistema.
+		Ultimos cambios.
+		Contacto de soporte.
+		Errores conocidos.
+		Notas de compatibilidad.
