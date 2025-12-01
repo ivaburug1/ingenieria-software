@@ -1,0 +1,22 @@
+Por ultimo te voy a dejar la estructura del Gestor:
+Este va a tener un DataGridView:
+DGVMuestraClientes, este va a mostrar los Clientes
+
+Tambien varios Labels:
+LBLTitulo, texto "Gestor de Clientes"
+LBLBuscar, texto "Buscar"
+LBLDNI, texto "DNI"
+LBLNombre, texto "Nombre"
+LBLApellido, texto "Apellido"
+LBLCorreo, texto "e-Mail"
+
+Tambien tengo varios TextBox
+TXTDNI
+TXTNombre
+TXTApellido
+TXTCorreo
+
+Tambien va a tener varios Buttons:
+BTNAplicar, texto "Aplicar"
+BTNCancelar, texto "Cancelar"
+BTNBuscar, texto "Buscar"
