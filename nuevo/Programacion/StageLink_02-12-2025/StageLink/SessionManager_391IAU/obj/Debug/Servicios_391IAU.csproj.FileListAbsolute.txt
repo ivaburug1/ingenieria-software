@@ -1,0 +1,9 @@
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\bin\Debug\SessionManager_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\bin\Debug\SessionManager_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\bin\Debug\BE_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\bin\Debug\BE_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\obj\Debug\Servicios_391IAU.csproj.AssemblyReference.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\obj\Debug\Servicios_391IAU.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\obj\Debug\Servicio.E6974DDF.Up2Date
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\obj\Debug\SessionManager_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\SessionManager_391IAU\obj\Debug\SessionManager_391IAU.pdb
