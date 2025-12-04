@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\gestiondeperfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeperfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\sessionmanager_391iau\\sessionmanager_391iau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|solutionrelative:sessionmanager_391iau\\sessionmanager_391iau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\bll_391iau\\bllperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\sessionmanager_391iau\\familia_391iau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|solutionrelative:sessionmanager_391iau\\familia_391iau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\stagelink\\gestiondeperfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeperfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\bll_391iau\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\sessionmanager_391iau\\composite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|solutionrelative:sessionmanager_391iau\\composite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\bll_391iau\\bllfamilia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllfamilia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\sessionmanager_391iau\\perfilcomposite_391iau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0DDC5A-E328-4AD9-97C7-BFDA49052B16}|SessionManager_391IAU\\Servicios_391IAU.csproj|solutionrelative:sessionmanager_391iau\\perfilcomposite_391iau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C2F387-16CA-4C11-BF36-22E541D83C0B}|DAL_391IAU\\DAL_391IAU.csproj|c:\\users\\ivan alejandro urso\\source\\repos\\stagelink\\dal_391iau\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C2F387-16CA-4C11-BF36-22E541D83C0B}|DAL_391IAU\\DAL_391IAU.csproj|solutionrelative:dal_391iau\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BLLUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLLUsuario.cs",
+              "RelativeDocumentMoniker": "BLL_391IAU\\BLLUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLLUsuario.cs",
+              "RelativeToolTip": "BLL_391IAU\\BLLUsuario.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAUwOwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T00:52:17.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionDePerfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDePerfiles.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDePerfiles.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDePerfiles.cs",
+              "RelativeToolTip": "StageLink\\GestionDePerfiles.cs",
+              "ViewState": "AgIAAGsCAAAAAAAAAAAIwHoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T00:47:33.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionManager_391IAU.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\SessionManager_391IAU.cs",
+              "RelativeDocumentMoniker": "SessionManager_391IAU\\SessionManager_391IAU.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\SessionManager_391IAU.cs",
+              "RelativeToolTip": "SessionManager_391IAU\\SessionManager_391IAU.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T00:43:11.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Composite.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\Composite.cs",
+              "RelativeDocumentMoniker": "SessionManager_391IAU\\Composite.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\Composite.cs",
+              "RelativeToolTip": "SessionManager_391IAU\\Composite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T00:42:19.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Familia_391IAU.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\Familia_391IAU.cs",
+              "RelativeDocumentMoniker": "SessionManager_391IAU\\Familia_391IAU.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\Familia_391IAU.cs",
+              "RelativeToolTip": "SessionManager_391IAU\\Familia_391IAU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:31:51.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BLlPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLlPerfil.cs",
+              "RelativeDocumentMoniker": "BLL_391IAU\\BLlPerfil.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLlPerfil.cs",
+              "RelativeToolTip": "BLL_391IAU\\BLlPerfil.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:07:08.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestionDePerfiles.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDePerfiles.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDePerfiles.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\StageLink\\GestionDePerfiles.cs [Design]",
+              "RelativeToolTip": "StageLink\\GestionDePerfiles.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T21:38:32.052Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PerfilComposite_391IAU.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\PerfilComposite_391IAU.cs",
+              "RelativeDocumentMoniker": "SessionManager_391IAU\\PerfilComposite_391IAU.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\SessionManager_391IAU\\PerfilComposite_391IAU.cs",
+              "RelativeToolTip": "SessionManager_391IAU\\PerfilComposite_391IAU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:31:54.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BLLFamilia.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLLFamilia.cs",
+              "RelativeDocumentMoniker": "BLL_391IAU\\BLLFamilia.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\BLL_391IAU\\BLLFamilia.cs",
+              "RelativeToolTip": "BLL_391IAU\\BLLFamilia.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:48:30.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\DAL_391IAU\\DAL.cs",
+              "RelativeDocumentMoniker": "DAL_391IAU\\DAL.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\source\\repos\\StageLink\\DAL_391IAU\\DAL.cs",
+              "RelativeToolTip": "DAL_391IAU\\DAL.cs",
+              "ViewState": "AgIAACoEAAAAAAAAAAA9wFcEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:07:16.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
