@@ -1,0 +1,3862 @@
+BE_391IAU:
+	BEBoletos.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE_391IAU
+{
+    public class BEBoleto
+    {
+        public string Artista { get; set; }
+        public int DNICliente { get; set; }
+        public int CodigoDeEvento { get; set; }
+        public int Sector { get; set; } 
+        public DateTime FechaEvento { get; set; }
+        public decimal Precio { get; set; }
+    }
+
+}
+
+	BECliente.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE_391IAU
+{
+    public class BECliente
+    {
+        public int DNI_391IAU { get; set; }
+        public string Nombre_391IAU { get; set; }
+        public string Apellido_391IAU { get; set; }
+        public string Correo_391IAU { get; set; }
+
+        public BECliente() { }
+
+        public BECliente(int dni, string nombre, string apellido, string correo)
+        {
+            DNI_391IAU = dni;
+            Nombre_391IAU = nombre;
+            Apellido_391IAU = apellido;
+            Correo_391IAU = correo;
+        }
+    }
+
+}
+
+	BEEvento.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE_391IAU
+{
+    public class BEEvento_391IAU
+    {
+        public DateTime Fecha_391IAU { get; set; }
+        public int CodigoDeEstadio_391IAU { get; set; }
+        public string NombreArtista_391IAU { get; set; }
+
+        public BEEvento_391IAU(DateTime fecha, int codigoEstadio, string nombreArtista)
+        {
+            Fecha_391IAU = fecha;
+            CodigoDeEstadio_391IAU = codigoEstadio;
+            NombreArtista_391IAU = nombreArtista;
+        }
+    }
+}
+
+	BEPerfil.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE_391IAU
+{
+    public class BEPerfil
+    {
+        public int IDRol_391IAU { get; set; }
+        public string Nombre_391IAU { get; set; }
+    }
+}
+
+	BEPermiso.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE_391IAU
+{
+    public class BEPermiso
+    {
+        public int IDPermiso_391IAU { get; set; }
+        public string NombrePermiso_391IAU { get; set; }
+        public bool EsFamilia_391IAU { get; set; }
+        public List<BEPermiso> Hijos { get; set; } = new List<BEPermiso>();
+    }
+}
+
+	BESectores.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+public class BESector
+{
+    public int Codigo { get; set; }
+    public string Nombre { get; set; }
+    public decimal Precio { get; set; }
+
+    public BESector(int codigo, string nombre, decimal precio)
+    {
+        Codigo = codigo;
+        Nombre = nombre;
+        Precio = precio;
+    }
+}
+
+	BEUsuario.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE_391IAU
+{
+    public class BEUsuario
+    {
+        public int DNI_391IAU { get; set; }
+        public string Nombre_391IAU { get; set; }
+        public string Apellido_391IAU { get; set; }
+        public string eMail_391IAU { get; set; }
+        public string Contraseña_391IAU { get; set; }
+        public string Idioma_391IAU { get; set; }
+        public bool Activo_391IAU { get; set; }
+        public bool Bloqueado_391IAU { get; set; }
+        public int Intentos_391IAU { get; set; }
+        public int? IDRol_391IAU { get; set; }
+        public string RolNombre { get; set; }
+    }
+}
+
+
+
+BLL_391IAU:
+	BLLBoleto.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BE_391IAU;
+using DAL_391IAU;
+using System.Data.SqlClient;
+
+
+namespace BLL_391IAU
+{
+    public class BLLBoleto
+    {
+        public bool RegistrarCompra(string artista, DateTime fecha, int sector, decimal precio, int cantidad, int dniCliente, int codigDeEvento)
+        {
+            List<BEBoleto> lista = new List<BEBoleto>();
+
+            for (int i = 0; i < cantidad; i++)
+            {
+                BEBoleto b = new BEBoleto
+                {
+                    Artista = artista,
+                    FechaEvento = fecha,
+                    Sector = sector,
+                    Precio = precio,
+                    DNICliente = dniCliente,
+                    CodigoDeEvento = codigDeEvento
+                };
+                lista.Add(b);
+            }
+
+            return DAL.GuardarEntradasYRelaciones(lista);
+        }
+    }
+}
+
+	BLLCliente.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BE_391IAU;
+using DAL_391IAU;
+using System.Data.SqlClient;
+
+namespace BLL_391IAU
+{
+    public class BLLCliente
+    {
+        public bool InsertarCliente(BECliente cliente)
+        {
+            try
+            {
+                string query = "INSERT INTO Clientes_391IAU (DNI_391IAU, Nombre_391IAU, Apellido_391IAU, Correo_391IAU) " +
+                               "VALUES (@DNI, @Nombre, @Apellido, @Correo)";
+
+                SqlParameter[] parametros =
+                {
+                    new SqlParameter("@DNI", cliente.DNI_391IAU),
+                    new SqlParameter("@Nombre", cliente.Nombre_391IAU),
+                    new SqlParameter("@Apellido", cliente.Apellido_391IAU),
+                    new SqlParameter("@Correo", cliente.Correo_391IAU)
+                };
+
+                return DAL.EjecutarInsert(query, parametros) > 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public static bool ExisteClientePorDNI(int dni)
+        {
+            string query = "SELECT COUNT(*) FROM Clientes_391IAU WHERE DNI_391IAU = @DNI";
+            SqlParameter[] parametros = { new SqlParameter("@DNI", dni) };
+            int cantidad = DAL.EjecutarScalar(query, parametros);
+            return cantidad > 0;
+        }
+        public List<BECliente> ObtenerTodosLosClientes()
+        {
+            return DAL.ObtenerTodosLosClientes();
+        }
+
+        public bool ModificarCliente(BECliente cli)
+        {
+            return DAL.ModificarCliente(cli);
+        }
+    }
+}
+
+	BLLEvento.cs:
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BE_391IAU;
+using DAL_391IAU;
+
+namespace BLL_391IAU
+{
+    public class BLL_Evento
+    {
+        public bool InsertarEvento(BEEvento_391IAU evento)
+        {
+            try
+            {
+                string query = "INSERT INTO Eventos_391IAU (Fecha_391IAU, CodigoDeEstadio_391IAU, NombreArtista_391IAU) " +
+                               "VALUES (@Fecha, @CodigoEstadio, @NombreArtista)";
+
+                SqlParameter[] parametros =
+                {
+                    new SqlParameter("@Fecha", evento.Fecha_391IAU),
+                    new SqlParameter("@CodigoEstadio", evento.CodigoDeEstadio_391IAU),
+                    new SqlParameter("@NombreArtista", evento.NombreArtista_391IAU)
+                };
+
+                return DAL.EjecutarInsert(query, parametros) > 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public bool EventoExiste(DateTime fecha, int codigoEstadio)
+        {
+            string query = "SELECT COUNT(*) FROM Eventos_391IAU WHERE Fecha_391IAU = @Fecha AND CodigoDeEstadio_391IAU = @CodigoEstadio";
+
+            SqlParameter[] parametros =
+            {
+                new SqlParameter("@Fecha", fecha),
+                new SqlParameter("@CodigoEstadio", codigoEstadio)
+            };
+
+            int cantidad = DAL.EjecutarScalar(query, parametros);
+
+            return cantidad > 0;
+        }
+        public List<string> ObtenerEventos()
+        {
+            return DAL.ObtenerNombresEventos();
+        }
+
+        public List<DateTime> ObtenerFechasPorArtista(string nombreArtista)
+        {
+            return DAL.ObtenerFechasPorArtista(nombreArtista);
+        }
+        public (string estadio, string direccion) ObtenerEstadioYDireccion(string artista)
+        {
+            return DAL.ObtenerEstadioYDireccion(artista);
+        }
+        public int ObtenerCodigoEvento(string artista, DateTime fecha)
+        {
+            string query = "SELECT CodigoDeEvento_391IAU FROM Eventos_391IAU WHERE NombreArtista_391IAU = @Artista AND Fecha_391IAU = @Fecha";
+
+            SqlParameter[] parametros =
+            {
+                new SqlParameter("@Artista", artista),
+                new SqlParameter("@Fecha", fecha)
+            };
+
+            return DAL.EjecutarScalar(query, parametros);
+        }
+
+    }
+}
+
+	BLLPerfil.cs:
+using BE_391IAU;
+using DAL_391IAU;
+using Servicios_391IAU.Composite;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL_391IAU
+{
+    public class BLLPerfil
+    {
+        public BEPerfil TraerPerfil(int idPerfil)
+        {
+            return DAL.ObtenerPerfilPorID(idPerfil);
+        }
+
+        public List<BEPermiso> ObtenerPermisosSimples(int idPerfil)
+        {
+            return DAL.ObtenerPermisosDePerfil(idPerfil);
+        }
+
+        public List<BEPerfil> TraerPerfiles()
+        {
+            return DAL.ObtenerPerfiles();
+        }
+        public PerfilComposite_391IAU TraerPerfilPermisos(int idRol)
+        {
+            BEPerfil perfilBE = DAL.ObtenerPerfilPorID(idRol);
+
+            PerfilComposite_391IAU perfil = new PerfilComposite_391IAU
+            {
+                IDRol = idRol,
+                Nombre = perfilBE?.Nombre_391IAU ?? ""
+            };
+
+            var permisosSimples = DAL.ObtenerPermisosDePerfil(idRol);
+            foreach (var p in permisosSimples)
+            {
+                var permiso = new PermisoSimple_391IAU(p.IDPermiso_391IAU, p.NombrePermiso_391IAU);
+                perfil.Permisos.Add(permiso);
+            }
+
+            var familiasIDs = DAL.ObtenerFamiliasDePerfil(idRol);
+            foreach (int idFamilia in familiasIDs)
+            {
+                var familia = ConstruirFamilia(idFamilia);
+                perfil.Permisos.Add(familia);
+            }
+
+            return perfil;
+        }
+
+        private Familia_391IAU ConstruirFamilia(int idFamilia)
+        {
+            string nombreFamilia = DAL.ObtenerNombreFamilia(idFamilia);
+            var familia = new Familia_391IAU(idFamilia, nombreFamilia);
+
+            var permisosSimples = DAL.ObtenerPermisosDeFamilia(idFamilia);
+            foreach (var p in permisosSimples)
+            {
+                var permiso = new PermisoSimple_391IAU(p.IDPermiso_391IAU, p.NombrePermiso_391IAU);
+                familia.Agregar(permiso);
+            }
+
+            var subfamilias = DAL.ObtenerSubfamilias(idFamilia);
+            foreach (int idSub in subfamilias)
+            {
+                var famHija = ConstruirFamilia(idSub);
+                familia.Agregar(famHija);
+            }
+
+            return familia;
+        }
+    }
+}
+
+
+	BLLPermiso.cs:
+using DAL_391IAU;
+using BE_391IAU;
+using System.Collections.Generic;
+
+namespace BLL_391IAU
+{
+    public class BLLPermiso
+    {
+        public List<BEPermiso> TraerPermisosSimples()
+        {
+            return DAL.ObtenerTodosLosPermisosSimples();
+        }
+
+        public BEPermiso TraerPermiso(int id)
+        {
+            return DAL.ObtenerPermisoPorID(id);
+        }
+    }
+}
+
+	BLLSector.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using DAL_391IAU;
+
+namespace BLL_391IAU
+{
+    public class BLLSector
+    {
+        public List<BESector> ObtenerSectoresPorEvento(string nombreArtista, DateTime fecha)
+        {
+            return DAL.ObtenerSectoresPorEvento(nombreArtista, fecha);
+        }
+        public decimal ObtenerPrecioSector(string nombreSector)
+        {
+            return DAL.ObtenerPrecioSector(nombreSector);
+        }
+        public int ObtenerCapacidadSector(string nombreSector)
+        {
+            return DAL.ObtenerCapacidadPorSector(nombreSector);
+        }
+    }
+}
+
+	BLLUsuario.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BE_391IAU;
+using DAL_391IAU;
+using SessionManager_391IAU;
+using System.Data.SqlClient;
+using System.Data;
+
+namespace BLL_391IAU
+{
+    public class BLLUsuario
+    {
+        public bool CrearUsuario(string dni, string nombre, string apellido, string email, string contraseña, int? rolID = null)
+        {
+            if (string.IsNullOrWhiteSpace(dni) ||
+                string.IsNullOrWhiteSpace(nombre) ||
+                string.IsNullOrWhiteSpace(apellido) ||
+                string.IsNullOrWhiteSpace(email))
+            {
+                throw new ArgumentException("Completar todos los campos obligatorios.");
+            }
+
+            int dniInt = int.Parse(dni);
+            BEUsuario existente = DAL.ObtenerUsuarioPorDNI(dniInt);
+
+            if (existente != null)
+                throw new InvalidOperationException("Ya existe un usuario registrado con ese DNI.");
+
+            if (string.IsNullOrWhiteSpace(contraseña))
+                contraseña = dni + nombre;
+
+            string contraseñaEncriptada = CriptoManager.EncriptarSHA256(contraseña);
+
+            BEUsuario nuevoUsuario = new BEUsuario
+            {
+                DNI_391IAU = dniInt,
+                Nombre_391IAU = nombre.Trim(),
+                Apellido_391IAU = apellido.Trim(),
+                eMail_391IAU = CriptoManager.EncriptarAES(email.Trim()),
+                Contraseña_391IAU = contraseñaEncriptada,
+                Idioma_391IAU = "Español",
+                Activo_391IAU = true,
+                Bloqueado_391IAU = false,
+                Intentos_391IAU = 0,
+                IDRol_391IAU = rolID
+            };
+
+            try
+            {
+                return DAL.InsertarUsuario(nuevoUsuario);
+            }
+            catch (SqlException sqlEx)
+            {
+                if (sqlEx.Number == 2627 || sqlEx.Number == 2601)
+                    throw new InvalidOperationException("Ya existe un usuario registrado con ese DNI.");
+
+                throw new InvalidOperationException("Ocurrió un error al intentar crear el usuario.");
+            }
+            catch (Exception)
+            {
+                throw new InvalidOperationException("Ocurrió un error inesperado. Intente nuevamente.");
+            }
+        }
+        public bool Login(string dni, string contrasenia)
+        {
+            if (string.IsNullOrWhiteSpace(dni) || string.IsNullOrWhiteSpace(contrasenia))
+                throw new ArgumentException("Debe ingresar usuario y contraseña.");
+
+            var sesion = SessionManager_391IAU.ObtenerInstancia();
+            if (sesion.HaySesionActiva())
+                throw new InvalidOperationException("Ya hay una sesión iniciada.");
+
+            if (!int.TryParse(dni, out int dniInt))
+                throw new ArgumentException("El DNI ingresado no es válido.");
+
+            BEUsuario usuario = DAL.ObtenerUsuarioPorDNI(dniInt);
+
+            if (usuario == null)
+                throw new UnauthorizedAccessException("El DNI ingresado no corresponde a un usuario registrado.");
+
+            if (!usuario.Activo_391IAU)
+                throw new UnauthorizedAccessException("El usuario no está activo.");
+
+            if (usuario.Bloqueado_391IAU)
+                throw new UnauthorizedAccessException("El usuario se encuentra bloqueado.");
+
+            string hashIngresado = CriptoManager.EncriptarSHA256(contrasenia);
+
+            if (usuario.Contraseña_391IAU != hashIngresado)
+            {
+                usuario.Intentos_391IAU++;
+
+                if (usuario.Intentos_391IAU >= 3)
+                {
+                    usuario.Bloqueado_391IAU = true;
+                    DAL.ActualizarUsuario(usuario);
+                    throw new UnauthorizedAccessException("Ingreso mal sus datos 3 veces. Cuenta bloqueada.");
+                }
+                else
+                {
+                    DAL.ActualizarUsuario(usuario);
+                    throw new UnauthorizedAccessException($"Contraseña incorrecta. Intento {usuario.Intentos_391IAU}/3");
+                }
+            }
+
+            DAL.ActualizarIntentos(usuario.DNI_391IAU, 0);
+
+            sesion.Permisos.Clear();
+
+            if (usuario.IDRol_391IAU.HasValue)
+            {
+                BLLPerfil bllPerfil = new BLLPerfil();
+                var perfil = bllPerfil.TraerPerfilPermisos(usuario.IDRol_391IAU.Value);
+
+                sesion.Permisos.AddRange(perfil.Permisos);
+            }
+
+
+            sesion.IniciarSesion(usuario);
+            return true;
+        }
+
+
+        public string ObtenerNombreUsuarioLogueado()
+        {
+            var sesion = SessionManager_391IAU.ObtenerInstancia();
+            if (!sesion.HaySesionActiva()) return "";
+            return $"{sesion.UsuarioActual.Nombre_391IAU} {sesion.UsuarioActual.Apellido_391IAU}";
+        }
+
+        public bool ValidarContraseñaActual(string actual)
+        {
+            var sesion = SessionManager_391IAU.ObtenerInstancia();
+
+            if (!sesion.HaySesionActiva())
+                throw new InvalidOperationException("Debe iniciar sesión.");
+
+            string hashActual = CriptoManager.EncriptarSHA256(actual);
+            return sesion.UsuarioActual.Contraseña_391IAU == hashActual;
+        }
+
+        public bool ContraseñaYaFueUsada(string contraseñaNueva)
+        {
+            var sesion = SessionManager_391IAU.ObtenerInstancia();
+            string hash = CriptoManager.EncriptarSHA256(contraseñaNueva);
+            return DAL.ContraseñaFueUsada(sesion.UsuarioActual.DNI_391IAU, hash);
+        }
+
+        public void CambiarContraseña(string nuevaContraseña)
+        {
+            var sesion = SessionManager_391IAU.ObtenerInstancia();
+            string hash = CriptoManager.EncriptarSHA256(nuevaContraseña);
+            sesion.UsuarioActual.Contraseña_391IAU = hash;
+
+            DAL.ActualizarContraseña(sesion.UsuarioActual.DNI_391IAU, hash);
+            DAL.GuardarContraseñaHistorial(sesion.UsuarioActual.DNI_391IAU, hash);
+        }
+
+        public void Logout()
+        {
+            var sesion = SessionManager_391IAU.ObtenerInstancia();
+            if (!sesion.HaySesionActiva())
+                throw new InvalidOperationException("No hay sesión activa.");
+
+            sesion.CerrarSesion();
+        }
+
+
+        public List<BEUsuario> ObtenerUsuariosConRol()
+        {
+            return DAL.ObtenerTodosLosUsuarios();
+        }
+
+        public List<BEUsuario> ObtenerTodosLosUsuarios()
+        {
+            return DAL.ObtenerTodosLosUsuarios();
+        }
+
+        public bool ModificarUsuario(BEUsuario usuarioModificado)
+        {
+            return DAL.ModificarUsuario(usuarioModificado);
+        }
+
+
+        public static string EncriptarAES(string textoPlano)
+        {
+            return CriptoManager.EncriptarAES(textoPlano);
+        }
+
+        public static string DesencriptarAES(string textoEncriptado)
+        {
+            return CriptoManager.DesencriptarAES(textoEncriptado);
+        }
+
+
+        public void ReencriptarTodosLosEmails()
+        {
+            List<BEUsuario> usuarios = DAL.ObtenerTodosLosUsuarios();
+
+            foreach (BEUsuario u in usuarios)
+            {
+                string dni = u.DNI_391IAU.ToString();
+                string emailPlano = u.eMail_391IAU;
+
+                if (CriptoManager.EsBase64(emailPlano))
+                    continue;
+
+                string emailEncriptado = CriptoManager.EncriptarAES(emailPlano);
+
+                DAL.ActualizarEmail(dni, emailEncriptado);
+            }
+        }
+
+
+        public static bool EsBase64(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+                return false;
+
+            try { Convert.FromBase64String(input); return true; }
+            catch { return false; }
+        }
+
+        public bool UsuarioTienePermiso(string permiso)
+        {
+            var sesion = SessionManager_391IAU.ObtenerSesion();
+            if (sesion == null || sesion.UsuarioActual == null)
+                return false;
+
+            return sesion.Permisos.Any(p => p.Nombre == permiso);
+        }
+    }
+}
+
+
+DAL_391IAU:
+	DAL.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
+using BE_391IAU;
+using System.Runtime.CompilerServices;
+
+
+namespace DAL_391IAU
+{
+    public static class DAL
+    {
+        private static readonly string connectionString = @"Server=DESKTOP-06GODJN\MSSQLSERVER01;Database=A_StageLink;Integrated Security=True;";
+
+        public static bool InsertarUsuario(BEUsuario usuario)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                SqlTransaction tran = con.BeginTransaction();
+
+                try
+                {
+                    string queryUsuario = @"INSERT INTO Usuario_391IAU
+                                  (DNI_391IAU, Nombre_391IAU, Apellido_391IAU, eMail_391IAU, 
+                                   Contraseña_391IAU, Idioma_391IAU, Activo_391IAU, 
+                                   Bloqueado_391IAU, Intentos_391IAU, IDRol_391IAU)
+                                  VALUES
+                                  (@DNI, @Nombre, @Apellido, @Email, 
+                                   @Contrasenia, @Idioma, @Activo, 
+                                   @Bloqueado, @Intentos, @Rol)";
+
+                    using (SqlCommand cmd = new SqlCommand(queryUsuario, con, tran))
+                    {
+                        cmd.Parameters.AddWithValue("@DNI", usuario.DNI_391IAU);
+                        cmd.Parameters.AddWithValue("@Nombre", usuario.Nombre_391IAU);
+                        cmd.Parameters.AddWithValue("@Apellido", usuario.Apellido_391IAU);
+                        cmd.Parameters.AddWithValue("@Email", usuario.eMail_391IAU ?? (object)DBNull.Value);
+                        cmd.Parameters.AddWithValue("@Contrasenia", usuario.Contraseña_391IAU);
+                        cmd.Parameters.AddWithValue("@Idioma", usuario.Idioma_391IAU);
+                        cmd.Parameters.AddWithValue("@Activo", usuario.Activo_391IAU);
+                        cmd.Parameters.AddWithValue("@Bloqueado", usuario.Bloqueado_391IAU);
+                        cmd.Parameters.AddWithValue("@Intentos", usuario.Intentos_391IAU);
+                        cmd.Parameters.AddWithValue("@Rol",
+                                 usuario.IDRol_391IAU.HasValue ? (object)usuario.IDRol_391IAU.Value : DBNull.Value);
+
+
+
+                        cmd.Parameters.AddWithValue("@Rol",
+                            usuario.IDRol_391IAU.HasValue ? (object)usuario.IDRol_391IAU.Value : DBNull.Value
+                        );
+
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    InsertarContraseñaHistorica(con, tran, usuario.DNI_391IAU, usuario.Contraseña_391IAU);
+
+                    tran.Commit();
+                    return true;
+                }
+                catch
+                {
+                    tran.Rollback();
+                    throw;
+                }
+            }
+        }
+
+
+        public static BEUsuario ObtenerUsuarioPorDNI(int dni)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM Usuario_391IAU WHERE DNI_391IAU = @DNI";
+
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    cmd.Parameters.AddWithValue("@DNI", dni);
+
+                    con.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        return new BEUsuario
+                        {
+                            DNI_391IAU = Convert.ToInt32(reader["DNI_391IAU"]),
+                            Nombre_391IAU = reader["Nombre_391IAU"].ToString(),
+                            Apellido_391IAU = reader["Apellido_391IAU"].ToString(),
+                            eMail_391IAU = reader["eMail_391IAU"].ToString(),
+                            Contraseña_391IAU = reader["Contraseña_391IAU"].ToString(),
+                            Idioma_391IAU = reader["Idioma_391IAU"].ToString(),
+                            Activo_391IAU = Convert.ToBoolean(reader["Activo_391IAU"]),
+                            Bloqueado_391IAU = Convert.ToBoolean(reader["Bloqueado_391IAU"]),
+                            Intentos_391IAU = Convert.ToInt32(reader["Intentos_391IAU"]),
+                            IDRol_391IAU = reader["IDRol_391IAU"] == DBNull.Value
+                                ? (int?)null
+                                : Convert.ToInt32(reader["IDRol_391IAU"])
+                        };
+                    }
+                }
+
+                return null;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el usuario por DNI: " + ex.Message);
+            }
+        }
+
+        private static void InsertarContraseñaHistorica(SqlConnection con, SqlTransaction tran, int dni, string contraseñaHash)
+        {
+            string query = "INSERT INTO Contraseñas_391IAU (DNI_391IAU, Contraseñas_391IAU) VALUES (@DNI, @Pass)";
+
+            using (SqlCommand cmd = new SqlCommand(query, con, tran))
+            {
+                cmd.Parameters.AddWithValue("@DNI", dni);
+                cmd.Parameters.AddWithValue("@Pass", contraseñaHash);
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public static void GuardarContraseñaHistorica(int dni, string contraseñaHash, SqlConnection con = null, SqlTransaction tran = null)
+        {
+            bool abrirConexion = false;
+
+            if (con == null)
+            {
+                con = new SqlConnection(connectionString);
+                abrirConexion = true;
+            }
+
+            if (abrirConexion)
+                con.Open();
+
+            string query = "INSERT INTO Contraseñas_391IAU (DNI_391IAU, Contraseñas_391IAU) VALUES (@DNI, @Pass)";
+            using (SqlCommand cmd = new SqlCommand(query, con, tran))
+            {
+                cmd.Parameters.AddWithValue("@DNI", dni);
+                cmd.Parameters.AddWithValue("@Pass", contraseñaHash);
+                cmd.ExecuteNonQuery();
+            }
+
+            if (abrirConexion)
+                con.Close();
+        }
+        public static bool ContraseñaFueUsada(int dni, string hash)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"SELECT COUNT(*) FROM Contraseñas_391IAU
+                         WHERE DNI_391IAU = @DNI AND Contraseñas_391IAU = @Hash";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+                cmd.Parameters.AddWithValue("@Hash", hash);
+
+                con.Open();
+                int count = (int)cmd.ExecuteScalar();
+                return count > 0;
+            }
+        }
+
+        public static void ActualizarContraseña(int dni, string hash)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Usuario_391IAU
+                         SET Contraseña_391IAU = @Hash
+                         WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Hash", hash);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public static void GuardarContraseñaHistorial(int dni, string contraseñaEncriptada)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"INSERT INTO Contraseñas_391IAU (DNI_391IAU, Contraseñas_391IAU)
+                         VALUES (@DNI, @Contrasenia)";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+                cmd.Parameters.AddWithValue("@Contrasenia", contraseñaEncriptada);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public static bool ActualizarIntentos(int dni, int intentos)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Usuario_391IAU 
+                         SET Intentos_391IAU = @Intentos 
+                         WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Intentos", intentos);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+
+                con.Open();
+                int rowsAffected = cmd.ExecuteNonQuery();
+                return rowsAffected > 0;
+            }
+        }
+
+        public static void BloquearUsuario(int dni)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Usuario_391IAU 
+                         SET Bloqueado_391IAU = 1 
+                         WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public static int ObtenerIntentosActuales(int dni)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"SELECT Intentos_391IAU FROM Usuario_391IAU WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+
+                con.Open();
+                object result = cmd.ExecuteScalar();
+                return (result != null) ? Convert.ToInt32(result) : 0;
+            }
+        }
+        public static void ActualizarUsuario(BEUsuario usuario)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Usuario_391IAU
+                         SET Intentos_391IAU = @Intentos,
+                             Bloqueado_391IAU = @Bloqueado
+                         WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Intentos", usuario.Intentos_391IAU);
+                cmd.Parameters.AddWithValue("@Bloqueado", usuario.Bloqueado_391IAU);
+                cmd.Parameters.AddWithValue("@DNI", usuario.DNI_391IAU);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public static List<BEUsuario> ObtenerTodosLosUsuarios()
+        {
+            List<BEUsuario> lista = new List<BEUsuario>();
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"
+            SELECT 
+                U.DNI_391IAU,
+                U.Nombre_391IAU,
+                U.Apellido_391IAU,
+                U.eMail_391IAU,
+                U.Activo_391IAU,
+                U.Bloqueado_391IAU,
+                U.Intentos_391IAU,
+                U.Idioma_391IAU,
+                U.Contraseña_391IAU,
+                U.IDRol_391IAU,
+                P.Nombre_391IAU AS RolNombre
+            FROM Usuario_391IAU U
+            LEFT JOIN GestionDePerfiles.Perfil_391IAU P 
+                ON P.IDRol_391IAU = U.IDRol_391IAU";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                con.Open();
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        BEUsuario u = new BEUsuario
+                        {
+                            DNI_391IAU = reader.GetInt32(0),
+                            Nombre_391IAU = reader.GetString(1),
+                            Apellido_391IAU = reader.GetString(2),
+                            eMail_391IAU = reader.GetString(3),
+                            Activo_391IAU = reader.GetBoolean(4),
+                            Bloqueado_391IAU = reader.GetBoolean(5),
+                            Intentos_391IAU = reader.GetInt32(6),
+                            Idioma_391IAU = reader.GetString(7),
+                            Contraseña_391IAU = reader.GetString(8),
+
+                            IDRol_391IAU = reader.IsDBNull(9) ? (int?)null : reader.GetInt32(9),
+
+                            RolNombre = reader.IsDBNull(10) ? "Sin rol" : reader.GetString(10)
+                        };
+
+                        lista.Add(u);
+                    }
+                }
+            }
+
+            return lista;
+        }
+
+
+        public static bool ModificarUsuario(BEUsuario u)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Usuario_391IAU
+                         SET Nombre_391IAU = @Nombre,
+                             Apellido_391IAU = @Apellido,
+                             eMail_391IAU = @Email,
+                             Idioma_391IAU = @Idioma,
+                             Activo_391IAU = @Activo,
+                             Bloqueado_391IAU = @Bloqueado,
+                             Intentos_391IAU = @Intentos,
+                             IDRol_391IAU = @Rol
+                         WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Nombre", u.Nombre_391IAU);
+                cmd.Parameters.AddWithValue("@Apellido", u.Apellido_391IAU);
+                cmd.Parameters.AddWithValue("@Email", u.eMail_391IAU);
+                cmd.Parameters.AddWithValue("@Idioma", u.Idioma_391IAU);
+                cmd.Parameters.AddWithValue("@Activo", u.Activo_391IAU);
+                cmd.Parameters.AddWithValue("@Bloqueado", u.Bloqueado_391IAU);
+                cmd.Parameters.AddWithValue("@Intentos", u.Intentos_391IAU);
+
+                cmd.Parameters.AddWithValue("@Rol",
+                    u.IDRol_391IAU.HasValue ? (object)u.IDRol_391IAU.Value : DBNull.Value);
+
+                cmd.Parameters.AddWithValue("@DNI", u.DNI_391IAU);
+
+                con.Open();
+                return cmd.ExecuteNonQuery() > 0;
+            }
+        }
+
+
+        public static int EjecutarInsert(string query, SqlParameter[] parametros)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddRange(parametros);
+                return cmd.ExecuteNonQuery();
+            }
+        }
+        public static int EjecutarScalar(string query, SqlParameter[] parametros)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddRange(parametros);
+                    object result = cmd.ExecuteScalar();
+                    return (result != null && int.TryParse(result.ToString(), out int valor)) ? valor : 0;
+                }
+            }
+        }
+        public static List<string> ObtenerNombresEventos()
+        {
+            List<string> nombres = new List<string>();
+            string query = "SELECT DISTINCT NombreArtista_391IAU FROM Eventos_391IAU";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        nombres.Add(reader.GetString(0));
+                    }
+                }
+            }
+
+            return nombres;
+        }
+
+        public static List<DateTime> ObtenerFechasPorArtista(string nombreArtista)
+        {
+            List<DateTime> fechas = new List<DateTime>();
+            string query = "SELECT DISTINCT Fecha_391IAU FROM Eventos_391IAU WHERE NombreArtista_391IAU = @nombre";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nombre", nombreArtista);
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            fechas.Add(reader.GetDateTime(0));
+                        }
+                    }
+                }
+            }
+
+            return fechas;
+        }
+
+        public static List<BESector> ObtenerSectoresPorEvento(string nombreArtista, DateTime fecha)
+        {
+            List<BESector> sectores = new List<BESector>();
+
+            string query = @"SELECT DISTINCT S.CodigoDeSector_391IAU, S.NombreSector_391IAU, S.PrecioDeSector_391IAU
+                                FROM Eventos_391IAU E
+                                INNER JOIN Estadios_391IAU ES ON E.CodigoDeEstadio_391IAU = ES.CodigoDeEstadio_391IAU
+                                INNER JOIN Sectores_391IAU S ON ES.CodigoDeEstadio_391IAU = S.CodigoDeEstadio_391IAU
+                                WHERE E.NombreArtista_391IAU = @nombreArtista AND E.Fecha_391IAU = @fecha";
+
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nombreArtista", nombreArtista);
+                    cmd.Parameters.AddWithValue("@fecha", fecha);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            int codigo = reader.GetInt32(0);
+                            string nombre = reader.GetString(1);
+                            decimal precio = reader.GetDecimal(2);
+
+                            sectores.Add(new BESector(codigo, nombre, precio));
+                        }
+                    }
+                }
+            }
+
+            return sectores;
+        }
+
+        public static (string, string) ObtenerEstadioYDireccion(string nombreArtista)
+        {
+            string query = @"SELECT TOP 1 ES.NombreEstadio_391IAU, ES.DireccionEstadio_391IAU
+                             FROM Eventos_391IAU E
+                             INNER JOIN Estadios_391IAU ES ON E.CodigoDeEstadio_391IAU = ES.CodigoDeEstadio_391IAU
+                             WHERE E.NombreArtista_391IAU = @nombreArtista";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nombreArtista", nombreArtista);
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            string estadio = reader.GetString(0);
+                            string direccion = reader.GetString(1);
+                            return (estadio, direccion);
+                        }
+                    }
+                }
+            }
+
+            return ("", "");
+        }
+        public static decimal ObtenerPrecioSector(string nombreSector)
+        {
+            string query = @"SELECT PrecioDeSector_391IAU FROM Sectores_391IAU WHERE NombreSector_391IAU = @nombreSector";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nombreSector", nombreSector);
+                    object result = cmd.ExecuteScalar();
+                    return result != null ? Convert.ToDecimal(result) : 0;
+                }
+            }
+        }
+        public static int ObtenerCapacidadPorSector(string nombreSector)
+        {
+            string query = "SELECT Capacidad_391IAU FROM Sectores_391IAU WHERE NombreSector_391IAU = @nombre";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nombre", nombreSector);
+                    object result = cmd.ExecuteScalar();
+                    return (result != null && int.TryParse(result.ToString(), out int capacidad)) ? capacidad : 0;
+                }
+            }
+        }
+
+        public static int InsertarEntrada(BEBoleto boleto)
+        {
+            string query = @"INSERT INTO Entradas_391IAU (Sector_391IAU, Fecha_391IAU, Precio_391IAU)
+                     VALUES (@Sector, @Fecha, @Precio);
+                     SELECT SCOPE_IDENTITY();";
+
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@Sector", boleto.Sector),
+                new SqlParameter("@Fecha", boleto.FechaEvento),
+                new SqlParameter("@Precio", boleto.Precio)
+            };
+
+            return EjecutarScalar(query, parameters);
+        }
+
+        public static bool InsertarClienteEntrada(int idCliente, int idEntrada)
+        {
+            string query = @"INSERT INTO ClientesEntradas_391IAU (IDCliente_391IAU, IDEntrada_391IAU)
+                     VALUES (@Cliente, @Entrada);";
+
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@Cliente", idCliente),
+                new SqlParameter("@Entrada", idEntrada)
+            };
+
+            return EjecutarInsert(query, parameters) > 0;
+        }
+
+        public static bool InsertarEventoCliente(int idEvento, int idCliente)
+        {
+            string query = @"INSERT INTO EventosClientes_391IAU (IDEvento_391IAU, IDCliente_391IAU)
+                     VALUES (@Evento, @Cliente);";
+
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@Evento", idEvento),
+                new SqlParameter("@Cliente", idCliente)
+            };
+
+            return EjecutarInsert(query, parameters) > 0;
+        }
+
+        public static bool GuardarEntradasYRelaciones(List<BEBoleto> lista)
+        {
+            bool exito = true;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                SqlTransaction transaccion = conn.BeginTransaction();
+
+                try
+                {
+                    foreach (BEBoleto boleto in lista)
+                    {
+                        SqlCommand cmdInsert = new SqlCommand(@"INSERT INTO Entradas_391IAU (CodigoDeEvento_391IAU, CodigoDeSector_391IAU, Precio_391IAU)
+                                                                VALUES (@CodigoEvento, @CodigoSector, @Precio);
+                                                                SELECT SCOPE_IDENTITY();", conn, transaccion);
+
+                        cmdInsert.Parameters.AddWithValue("@CodigoEvento", boleto.CodigoDeEvento);
+                        cmdInsert.Parameters.AddWithValue("@CodigoSector", boleto.Sector);
+                        cmdInsert.Parameters.AddWithValue("@Precio", boleto.Precio);
+
+                        int nuevoCodigoEntrada = Convert.ToInt32(cmdInsert.ExecuteScalar());
+
+                        SqlCommand cmdClienteEntrada = new SqlCommand(@"INSERT INTO ClientesEntradas_391IAU (CodigoEntrada_391IAU, DNI_391IAU)
+                                                                          VALUES (@CodigoEntrada, @DNI);", conn, transaccion);
+
+                        cmdClienteEntrada.Parameters.AddWithValue("@CodigoEntrada", nuevoCodigoEntrada);
+                        cmdClienteEntrada.Parameters.AddWithValue("@DNI", boleto.DNICliente);
+                        cmdClienteEntrada.ExecuteNonQuery();
+
+                        SqlCommand cmdEventoCliente = new SqlCommand(@"IF NOT EXISTS (
+                                                                        SELECT 1 FROM EventosClientes_391IAU 
+                                                                        WHERE CodigoDeEvento_391IAU = @CodigoEvento AND DNI_391IAU = @DNI)
+                                                                    BEGIN
+                                                                        INSERT INTO EventosClientes_391IAU (CodigoDeEvento_391IAU, DNI_391IAU)
+                                                                        VALUES (@CodigoEvento, @DNI);
+                                                                    END", conn, transaccion);
+                        cmdEventoCliente.Parameters.AddWithValue("@CodigoEvento", boleto.CodigoDeEvento);
+                        cmdEventoCliente.Parameters.AddWithValue("@DNI", boleto.DNICliente);
+                        cmdEventoCliente.ExecuteNonQuery();
+                    }
+                    transaccion.Commit();
+                }
+                catch
+                {
+                    transaccion.Rollback();
+                    exito = false;
+                }
+            }
+            return exito;
+        }
+        public static List<BECliente> ObtenerTodosLosClientes()
+        {
+            List<BECliente> lista = new List<BECliente>();
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"SELECT DNI_391IAU, Nombre_391IAU, Apellido_391IAU, Correo_391IAU 
+                         FROM Clientes_391IAU";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                con.Open();
+
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    BECliente c = new BECliente
+                    {
+                        DNI_391IAU = reader.GetInt32(0),
+                        Nombre_391IAU = reader.GetString(1),
+                        Apellido_391IAU = reader.GetString(2),
+                        Correo_391IAU = reader.GetString(3)
+                    };
+
+                    lista.Add(c);
+                }
+            }
+
+            return lista;
+        }
+
+        public static bool ModificarCliente(BECliente c)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Clientes_391IAU
+                         SET Nombre_391IAU = @Nombre,
+                             Apellido_391IAU = @Apellido
+                         WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Nombre", c.Nombre_391IAU);
+                cmd.Parameters.AddWithValue("@Apellido", c.Apellido_391IAU);
+                cmd.Parameters.AddWithValue("@DNI", c.DNI_391IAU);
+
+                con.Open();
+                return cmd.ExecuteNonQuery() > 0;
+            }
+        }
+        public static List<BEPerfil> ObtenerPerfiles()
+        {
+            List<BEPerfil> lista = new List<BEPerfil>();
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = "SELECT IDRol_391IAU, Nombre_391IAU FROM GestionDePerfiles.Perfil_391IAU";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                con.Open();
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        BEPerfil perfil = new BEPerfil
+                        {
+                            IDRol_391IAU = reader.GetInt32(0),
+                            Nombre_391IAU = reader.GetString(1)
+                        };
+
+                        lista.Add(perfil);
+                    }
+                }
+            }
+
+            return lista;
+        }
+
+        public static void ActualizarEmail(string dni, string emailEncriptado)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"UPDATE Usuario_391IAU
+                         SET eMail_391IAU = @Email
+                         WHERE DNI_391IAU = @DNI";
+
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@DNI", dni);
+                    cmd.Parameters.AddWithValue("@Email", emailEncriptado);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+        public static List<BEPermiso> ObtenerPermisosDePerfil(int idRol)
+        {
+            var lista = new List<BEPermiso>();
+
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(@"
+            SELECT P.IDPermiso_391IAU, P.Nombre_391IAU
+            FROM GestionDePerfiles.PerfilPermiso_391IAU PF
+            JOIN GestionDePerfiles.Permiso_391IAU P 
+                ON PF.IDPermiso_391IAU = P.IDPermiso_391IAU
+            WHERE PF.IDRol_391IAU = @Rol", cn);
+
+                cmd.Parameters.AddWithValue("@Rol", idRol);
+
+                cn.Open();
+                var dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    lista.Add(new BEPermiso
+                    {
+                        IDPermiso_391IAU = dr.GetInt32(0),
+                        NombrePermiso_391IAU = dr.GetString(1),
+                        EsFamilia_391IAU = false
+                    });
+                }
+            }
+
+            return lista;
+        }
+        public static List<BEPermiso> ObtenerTodosLosPermisosSimples()
+        {
+            List<BEPermiso> lista = new List<BEPermiso>();
+
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT IDPermiso_391IAU, Nombre_391IAU FROM GestionDePerfiles.Permiso_391IAU", cn);
+
+                cn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    lista.Add(new BEPermiso
+                    {
+                        IDPermiso_391IAU = Convert.ToInt32(reader["IDPermiso_391IAU"]),
+                        NombrePermiso_391IAU = reader["Nombre_391IAU"].ToString(),
+                        EsFamilia_391IAU = false
+                    });
+                }
+            }
+            return lista;
+        }
+
+        public static BEPermiso ObtenerPermisoPorID(int idPermiso)
+        {
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT IDPermiso_391IAU, Nombre_391IAU FROM GestionDePerfiles.Permiso_391IAU WHERE IDPermiso_391IAU = @ID", cn);
+
+                cmd.Parameters.AddWithValue("@ID", idPermiso);
+
+                cn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    return new BEPermiso
+                    {
+                        IDPermiso_391IAU = Convert.ToInt32(reader["IDPermiso_391IAU"]),
+                        NombrePermiso_391IAU = reader["Nombre_391IAU"].ToString(),
+                        EsFamilia_391IAU = false
+                    };
+                }
+
+                return null;
+            }
+        }
+        public static BEPerfil ObtenerPerfilPorID(int idPerfil)
+        {
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT IDRol_391IAU, Nombre_391IAU FROM GestionDePerfiles.Perfil_391IAU WHERE IDRol_391IAU = @ID", cn);
+
+                cmd.Parameters.AddWithValue("@ID", idPerfil);
+
+                cn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    return new BEPerfil
+                    {
+                        IDRol_391IAU = Convert.ToInt32(reader["IDRol_391IAU"]),
+                        Nombre_391IAU = reader["Nombre_391IAU"].ToString()
+                    };
+                }
+
+                return null;
+            }
+        }
+
+        public static List<int> ObtenerFamiliasDePerfil(int idRol)
+        {
+            List<int> lista = new List<int>();
+
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(@"
+                        SELECT IDFamilia_391IAU
+                        FROM GestionDePerfiles.PerfilFamilia_391IAU
+                        WHERE IDRol_391IAU = @Rol", cn);
+
+                cmd.Parameters.AddWithValue("@Rol", idRol);
+
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    lista.Add(dr.GetInt32(0));
+                }
+            }
+            return lista;
+        }
+        public static List<BEPermiso> ObtenerPermisosDeFamilia(int idFamilia)
+        {
+            List<BEPermiso> lista = new List<BEPermiso>();
+
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(@"
+                    SELECT P.IDPermiso_391IAU, P.Nombre_391IAU
+                    FROM GestionDePerfiles.PermisosFamilia_391IAU PF
+                    JOIN GestionDePerfiles.Permiso_391IAU P
+                        ON PF.IDPermiso_391IAU = P.IDPermiso_391IAU
+                    WHERE PF.IDFamilia_391IAU = @Fam", cn);
+
+                cmd.Parameters.AddWithValue("@Fam", idFamilia);
+
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    lista.Add(new BEPermiso
+                    {
+                        IDPermiso_391IAU = dr.GetInt32(0),
+                        NombrePermiso_391IAU = dr.GetString(1),
+                        EsFamilia_391IAU = false
+                    });
+                }
+            }
+
+            return lista;
+        }
+        public static string ObtenerNombreFamilia(int idFamilia)
+        {
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT NombreFamilia_391IAU FROM GestionDePerfiles.Familia_391IAU WHERE IDFamilia_391IAU = @ID",
+                    cn);
+
+                cmd.Parameters.AddWithValue("@ID", idFamilia);
+
+                cn.Open();
+                return cmd.ExecuteScalar()?.ToString();
+            }
+        }
+
+        public static List<int> ObtenerSubfamilias(int idFamilia)
+        {
+            List<int> lista = new List<int>();
+
+            using (SqlConnection cn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(@"
+                        SELECT IDCompuesto_391IAU
+                        FROM GestionDePerfiles.FamiliaFamilia_391IAU
+                        WHERE IDFamiliaPadre_391IAU = @ID", cn);
+
+                cmd.Parameters.AddWithValue("@ID", idFamilia);
+
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    lista.Add(dr.GetInt32(0));
+                }
+            }
+
+            return lista;
+        }
+
+    }
+}
+
+
+GUI_391IAU:
+	AgregarEventos.cs:
+using BE_391IAU;
+using BLL_391IAU;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class AgregarEventos : Form
+    {
+        public AgregarEventos()
+        {
+            InitializeComponent();
+        }
+
+        private void BTNConfirmar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(TXTNombreDelArtista.Text))
+                {
+                    MessageBox.Show("Por favor ingrese el nombre del artista.");
+                    return;
+                }
+
+                if (CBSeleccionEsatio.SelectedItem == null)
+                {
+                    MessageBox.Show("Por favor seleccione un estadio.");
+                    return;
+                }
+
+                DateTime fechaEvento = DTPFechaEvento.Value.Date;
+                string nombreArtista = TXTNombreDelArtista.Text.Trim();
+                string nombreEstadio = CBSeleccionEsatio.SelectedItem.ToString();
+
+                if (fechaEvento <= DateTime.Today)
+                {
+                    MessageBox.Show("La fecha ya pasó, elegir una fecha válida.");
+                    return;
+                }
+
+                int codigoEstadio;
+                switch (nombreEstadio)
+                {
+                    case "Monumental River Plate":
+                        codigoEstadio = 1;
+                        break;
+                    case "Complejo Art Media":
+                        codigoEstadio = 2;
+                        break;
+                    case "Estadio Huracan":
+                        codigoEstadio = 3;
+                        break;
+                    default:
+                        throw new Exception("Estadio inválido.");
+                }
+
+                BLL_Evento bll = new BLL_Evento();
+                if (bll.EventoExiste(fechaEvento, codigoEstadio))
+                {
+                    MessageBox.Show("Ya hay un evento cargado para este estadio en esta fecha. Elegir otra fecha u otro estadio.");
+                    return;
+                }
+
+                var evento = new BEEvento_391IAU(fechaEvento, codigoEstadio, nombreArtista);
+
+                if (bll.InsertarEvento(evento))
+                {
+                    MessageBox.Show("Evento agregado correctamente.");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error al agregar el evento.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void AgregarEventos_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+	CambiarContraseña.cs:
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using BLL_391IAU;
+
+namespace StageLink
+{
+    public partial class CambiarContraseña : Form
+    {
+        public CambiarContraseña()
+        {
+            InitializeComponent();
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTNCambiarContraseña_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                string actual = TXTContraseñaActual.Text;
+                string nueva = TXTContraseñaNueva.Text;
+                string confirmacion = TXTContraseñaConfirmacion.Text;
+
+                if (string.IsNullOrWhiteSpace(actual) || string.IsNullOrWhiteSpace(nueva) || string.IsNullOrWhiteSpace(confirmacion))
+                {
+                    MessageBox.Show("Todos los campos son obligatorios.");
+                    return;
+                }
+
+                if (nueva != confirmacion)
+                {
+                    MessageBox.Show("La nueva contraseña y su confirmación no coinciden.");
+                    return;
+                }
+
+                BLLUsuario bll = new BLLUsuario();
+
+                if (!bll.ValidarContraseñaActual(actual))
+                {
+                    MessageBox.Show("La contraseña actual no es correcta.");
+                    return;
+                }
+
+                if (bll.ContraseñaYaFueUsada(nueva))
+                {
+                    MessageBox.Show("No puede reutilizar una contraseña anterior.");
+                    return;
+                }
+
+                bll.CambiarContraseña(nueva);
+                MessageBox.Show("Contraseña actualizada correctamente.");
+                this.Close();
+
+                bll.Logout();
+                MessageBox.Show("Sesión cerrada por seguridad.", "Logout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                PantallaPrincipal.ResetMenuStripLogout();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cambiar la contraseña: " + ex.Message);
+            }
+        }
+
+        private void CambiarContraseña_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+	CambiarIdioma.cs:
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class CambiarIdioma : Form
+    {
+        public CambiarIdioma()
+        {
+            InitializeComponent();
+        }
+
+        private void CambiarIdioma_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+	CobrarBoleto.cs:
+using BLL_391IAU;
+using System;
+using System.Windows.Forms;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+
+namespace StageLink
+{
+    public partial class CobrarBoleto : Form
+    {
+        private string artista;
+        private DateTime fecha;
+        private int sectorCodigo;
+        private decimal precioSector;
+        private int cantidad;
+        private int dniCliente;
+        private int codigoEvento;
+
+        public CobrarBoleto(int dniCliente, int codigoEvento, string artista, DateTime fecha, int sectorCodigo, decimal precio, int cantidad)
+        {
+            InitializeComponent();
+
+            this.dniCliente = dniCliente;
+            this.codigoEvento = codigoEvento;
+            this.artista = artista;
+            this.fecha = fecha;
+            this.sectorCodigo = sectorCodigo;
+            this.precioSector = precio;
+            this.cantidad = cantidad;
+        }
+
+        private void CobrarBoleto_Load(object sender, EventArgs e)
+        {
+            CargarRecibo();
+            CBMedioDePago.SelectedIndex = 0;
+            TXTNumeroDeTarjeta.Enabled = false;
+            CBCantCuotas.Enabled = false;
+            CBMedioDePago.SelectedIndexChanged += CBMedioDePago_SelectedIndexChanged;
+        }
+
+        private void CargarRecibo()
+        {
+            LVMostrarRecibo.Items.Clear();
+            LVMostrarRecibo.View = View.Details;
+            LVMostrarRecibo.Columns.Clear();
+
+            LVMostrarRecibo.Columns.Add("Campo", 150);
+            LVMostrarRecibo.Columns.Add("Detalle", 250);
+
+            LVMostrarRecibo.Items.Add(new ListViewItem(new string[] { "Artista", artista }));
+            LVMostrarRecibo.Items.Add(new ListViewItem(new string[] { "Fecha", fecha.ToShortDateString() }));
+            LVMostrarRecibo.Items.Add(new ListViewItem(new string[] { "Sector", sectorCodigo.ToString() }));
+            LVMostrarRecibo.Items.Add(new ListViewItem(new string[] { "Cantidad de Entradas", cantidad.ToString() }));
+            LVMostrarRecibo.Items.Add(new ListViewItem(new string[] { "Precio por Entrada", precioSector.ToString("C") }));
+            LVMostrarRecibo.Items.Add(new ListViewItem(new string[] { "Total", (precioSector * cantidad).ToString("C") }));
+        }
+
+        private void CBMedioDePago_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string medioPago = CBMedioDePago.SelectedItem?.ToString();
+
+            if (medioPago == "Tarjeta Debito")
+            {
+                TXTNumeroDeTarjeta.Enabled = true;
+                CBCantCuotas.Enabled = false;
+                CBCantCuotas.SelectedIndex = -1;
+            }
+            else if (medioPago == "Tarjeta Credito")
+            {
+                TXTNumeroDeTarjeta.Enabled = true;
+                CBCantCuotas.Enabled = true;
+            }
+            else
+            {
+                TXTNumeroDeTarjeta.Enabled = false;
+                TXTNumeroDeTarjeta.Text = string.Empty;
+                CBCantCuotas.Enabled = false;
+                CBCantCuotas.SelectedIndex = -1;
+            }
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTNConfirmarCobro_Click(object sender, EventArgs e)
+        {
+            string medioPago = CBMedioDePago.SelectedItem?.ToString();
+            string nroTarjeta = TXTNumeroDeTarjeta.Text.Trim();
+            string cuotas = CBCantCuotas.SelectedItem?.ToString();
+
+            if (string.IsNullOrEmpty(medioPago) ||
+               ((medioPago == "Tarjeta Debito" || medioPago == "Tarjeta Credito") && string.IsNullOrEmpty(nroTarjeta)) ||
+               (medioPago == "Tarjeta Credito" && string.IsNullOrEmpty(cuotas)))
+            {
+                MessageBox.Show("Completar todos los campos obligatorios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if ((medioPago == "Tarjeta Debito" || medioPago == "Tarjeta Credito") &&
+                !System.Text.RegularExpressions.Regex.IsMatch(nroTarjeta, @"^\d{4}-\d{4}-\d{4}-\d{4}$"))
+            {
+                MessageBox.Show("El número de tarjeta debe tener el formato XXXX-XXXX-XXXX-XXXX.", "Formato inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            DialogResult result = MessageBox.Show("¿Está seguro de que quiere finalizar la compra?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                BLLBoleto bll = new BLLBoleto();
+                bool exito = bll.RegistrarCompra(artista, fecha, sectorCodigo, precioSector, cantidad, dniCliente, codigoEvento);
+                MessageBox.Show("¡Compra realizada con éxito!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                GenerarReciboPDF();
+
+                this.Close();
+            }
+        }
+
+        private void GenerarReciboPDF()
+        {
+            try
+            {
+                string ruta = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                    $"Recibo_{dniCliente}_{DateTime.Now:yyyyMMdd_HHmmss}.pdf");
+
+                Document doc = new Document(PageSize.A4, 40, 40, 40, 40);
+                PdfWriter.GetInstance(doc, new FileStream(ruta, FileMode.Create));
+
+                doc.Open();
+
+                iTextSharp.text.Font tituloFont = FontFactory.GetFont("Helvetica", 20, iTextSharp.text.Font.BOLD);
+                iTextSharp.text.Font textoItalica = FontFactory.GetFont("Helvetica", 12, iTextSharp.text.Font.ITALIC);
+
+                Paragraph titulo = new Paragraph("Recibo de Compra - StageLink", tituloFont);
+                titulo.Alignment = Element.ALIGN_CENTER;
+                doc.Add(titulo);
+
+                doc.Add(new Paragraph("\n"));
+
+                PdfPTable tabla = new PdfPTable(2);
+                tabla.WidthPercentage = 100;
+
+                void AddFila(string campo, string valor)
+                {
+                    tabla.AddCell(new PdfPCell(new Phrase(campo)) { BackgroundColor = BaseColor.LIGHT_GRAY });
+                    tabla.AddCell(new PdfPCell(new Phrase(valor)));
+                }
+
+                AddFila("Artista", artista);
+                AddFila("Fecha", fecha.ToShortDateString());
+                AddFila("Sector", sectorCodigo.ToString());
+                AddFila("Cantidad de Entradas", cantidad.ToString());
+                AddFila("Precio por Entrada", precioSector.ToString("C"));
+                AddFila("Total", (precioSector * cantidad).ToString("C"));
+                AddFila("DNI Cliente", dniCliente.ToString());
+                AddFila("Código Evento", codigoEvento.ToString());
+
+                doc.Add(tabla);
+
+                doc.Add(new Paragraph("\n\nGracias por su compra en StageLink.", textoItalica));
+
+                doc.Close();
+
+                MessageBox.Show($"PDF generado correctamente en:\n{ruta}",
+                    "PDF creado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al generar PDF: " + ex.Message,
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
+}
+	CrearClientes.cs:
+using BE_391IAU;
+using BLL_391IAU;
+using System;
+using System.Text.RegularExpressions;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class CrearClientes : Form
+    {
+        public CrearClientes()
+        {
+            InitializeComponent();
+        }
+
+        private void BTNCrearCliente_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string dni = TXTDNICliente.Text.Trim();
+                string nombre = TXTNombreCliente.Text.Trim();
+                string apellido = TXTApellidoCliente.Text.Trim();
+                string correo = TXTCorreoCliente.Text.Trim();
+
+                if (!Regex.IsMatch(dni, @"^\d{8}$"))
+                {
+                    MessageBox.Show("El DNI debe tener exactamente 8 dígitos numéricos. En caso de tener 7, agregar un 0 al principio de este.");
+                    return;
+                }
+
+                if (!Regex.IsMatch(nombre, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                {
+                    MessageBox.Show("El nombre solo puede contener letras.");
+                    return;
+                }
+
+                if (!Regex.IsMatch(apellido, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                {
+                    MessageBox.Show("El apellido solo puede contener letras.");
+                    return;
+                }
+
+                if (!Regex.IsMatch(correo, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                {
+                    MessageBox.Show("El e-Mail no tiene un formato válido.");
+                    return;
+                }
+
+                int dniInt = int.Parse(dni);
+                BECliente cliente = new BECliente(dniInt, nombre, apellido, correo);
+                BLLCliente bll = new BLLCliente();
+
+                if (bll.InsertarCliente(cliente))
+                {
+                    MessageBox.Show("Cliente creado correctamente.");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error al crear el cliente.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CrearClientes_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void LBLTitulo_Click(object sender, EventArgs e)
+        {
+        }
+    }
+}
+
+	CrearUsuario.cs:
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+using System.Windows.Forms;
+using BLL_391IAU;
+using BE_391IAU;
+
+namespace StageLink
+{
+    public partial class CrearUsuario : Form
+    {
+        public CrearUsuario()
+        {
+            InitializeComponent();
+        }
+
+        private void LBLExplicacionContraseña_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTNCrearUsuario_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string dni = TXTDNI.Text.Trim();
+                string nombre = TXTNombre.Text.Trim();
+                string apellido = TXTApellido.Text.Trim();
+                string email = TXTeMail.Text.Trim();
+
+                if (!Regex.IsMatch(dni, @"^\d{8}$"))
+                    throw new ArgumentException("El DNI debe tener exactamente 8 dígitos numéricos. En caso de tener 7, agregar un 0 al principio de este.");
+
+                if (!Regex.IsMatch(nombre, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                    throw new ArgumentException("El nombre solo puede contener letras.");
+
+                if (!Regex.IsMatch(apellido, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
+                    throw new ArgumentException("El apellido solo puede contener letras.");
+
+                if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                    throw new ArgumentException("El e-Mail no tiene un formato válido.");
+
+                int? rolSeleccionado = null;
+                if (CBMListadoRoles.SelectedValue != null &&
+                    Convert.ToInt32(CBMListadoRoles.SelectedValue) != 0)
+                {
+                    rolSeleccionado = Convert.ToInt32(CBMListadoRoles.SelectedValue);
+                }
+
+                BLLUsuario bll = new BLLUsuario();
+                string contraseñaGenerada = dni + nombre;
+
+                bool resultado = bll.CrearUsuario(
+                    dni, nombre, apellido, email, contraseñaGenerada, rolSeleccionado
+                );
+
+                if (resultado)
+                {
+                    MessageBox.Show("Usuario creado correctamente.\nLa contraseña inicial es DNI + Nombre.", "Éxito");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo crear el usuario.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Excepción", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void CrearUsuario_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                BLLPerfil bllPerfil = new BLLPerfil();
+                List<BEPerfil> lista = bllPerfil.TraerPerfiles();
+
+                lista.Insert(0, new BEPerfil
+                {
+                    IDRol_391IAU = 0,
+                    Nombre_391IAU = "<Sin Rol>"
+                });
+
+                CBMListadoRoles.DataSource = lista;
+                CBMListadoRoles.DisplayMember = "Nombre_391IAU";
+                CBMListadoRoles.ValueMember = "IDRol_391IAU";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error cargando roles: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
+}
+
+	GestionDeClientes.cs:
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Drawing;
+using System.Windows.Forms;
+using BLL_391IAU;
+using BE_391IAU;
+
+namespace StageLink
+{
+    public partial class GestionDeClientes : Form
+    {
+        private DataTable dtClientes;
+        private bool hayCambios = false;
+
+        public GestionDeClientes()
+        {
+            InitializeComponent();
+
+            DGVMuestraClientes.CellValueChanged += DGVMuestraClientes_CellValueChanged;
+            DGVMuestraClientes.CurrentCellDirtyStateChanged += DGVMuestraClientes_CurrentCellDirtyStateChanged;
+
+            CargarClientes();
+        }
+        private void GestionDeClientes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DGVMuestraClientes_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        {
+            if (DGVMuestraClientes.IsCurrentCellDirty)
+                DGVMuestraClientes.CommitEdit(DataGridViewDataErrorContexts.Commit);
+        }
+
+        private void DGVMuestraClientes_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            hayCambios = true;
+        }
+
+        private void CargarClientes()
+        {
+            try
+            {
+                BLLCliente bll = new BLLCliente();
+                var lista = bll.ObtenerTodosLosClientes();
+
+                dtClientes = new DataTable();
+                dtClientes.Columns.Add("DNI", typeof(int));
+                dtClientes.Columns.Add("Nombre");
+                dtClientes.Columns.Add("Apellido");
+                dtClientes.Columns.Add("Correo");
+
+                dtClientes.PrimaryKey = new DataColumn[] { dtClientes.Columns["DNI"] };
+
+                foreach (var c in lista)
+                {
+                    dtClientes.Rows.Add(
+                        c.DNI_391IAU,
+                        c.Nombre_391IAU,
+                        c.Apellido_391IAU,
+                        c.Correo_391IAU
+                    );
+                }
+
+                DGVMuestraClientes.DataSource = dtClientes;
+
+                DGVMuestraClientes.Columns["DNI"].ReadOnly = true;
+                DGVMuestraClientes.Columns["Correo"].ReadOnly = true;
+
+                DGVMuestraClientes.Columns["DNI"].DefaultCellStyle.BackColor = Color.LightGray;
+                DGVMuestraClientes.Columns["Correo"].DefaultCellStyle.BackColor = Color.LightGray;
+
+                hayCambios = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar clientes: " + ex.Message);
+            }
+        }
+
+        private void BTNAplicar_Click(object sender, EventArgs e)
+        {
+            int cambios = 0;
+            BLLCliente bll = new BLLCliente();
+
+            foreach (DataGridViewRow fila in DGVMuestraClientes.Rows)
+            {
+                if (fila.IsNewRow) continue;
+
+                try
+                {
+                    BECliente cli = new BECliente
+                    {
+                        DNI_391IAU = Convert.ToInt32(fila.Cells["DNI"].Value),
+                        Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString()?.Trim(),
+                        Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString()?.Trim(),
+                        Correo_391IAU = fila.Cells["Correo"].Value?.ToString()?.Trim()
+                    };
+
+                    if (bll.ModificarCliente(cli))
+                        cambios++;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al modificar cliente DNI "
+                        + fila.Cells["DNI"].Value + ": " + ex.Message);
+                }
+            }
+
+            if (cambios > 0)
+            {
+                MessageBox.Show($"Se aplicaron cambios a {cambios} cliente(s).");
+                CargarClientes();
+            }
+            else
+            {
+                MessageBox.Show("No hay cambios para aplicar.");
+            }
+        }
+
+        private void BTNBuscar_Click(object sender, EventArgs e)
+        {
+            List<string> filtros = new List<string>();
+
+            if (!string.IsNullOrWhiteSpace(TXTDNI.Text))
+                filtros.Add($"Convert(DNI, 'System.String') LIKE '%{TXTDNI.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTNombre.Text))
+                filtros.Add($"Nombre LIKE '%{TXTNombre.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTApellido.Text))
+                filtros.Add($"Apellido LIKE '%{TXTApellido.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTCorreo.Text))
+                filtros.Add($"Correo LIKE '%{TXTCorreo.Text.Trim()}%'");
+
+            string filtroFinal = string.Join(" AND ", filtros);
+
+            DataView vista = new DataView(dtClientes);
+            vista.RowFilter = filtroFinal;
+
+            if (vista.Count == 0)
+                MessageBox.Show("No se encontraron clientes.");
+
+            DGVMuestraClientes.DataSource = vista;
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            if (hayCambios)
+            {
+                var result = MessageBox.Show(
+                    "Hay cambios sin guardar. ¿Cancelar igual?",
+                    "Cancelar",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning);
+
+                if (result == DialogResult.No)
+                    return;
+            }
+
+            this.Close();
+        }
+
+        private void BTNAplicar_Click_1(object sender, EventArgs e)
+        {
+            int cambiosAplicados = 0;
+
+            BLLCliente bll = new BLLCliente();
+
+            foreach (DataGridViewRow fila in DGVMuestraClientes.Rows)
+            {
+                if (fila.IsNewRow) continue;
+
+                try
+                {
+                    BECliente cli = new BECliente
+                    {
+                        DNI_391IAU = Convert.ToInt32(fila.Cells["DNI"].Value),
+                        Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString().Trim(),
+                        Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString().Trim(),
+                        Correo_391IAU = fila.Cells["Correo"].Value?.ToString().Trim()
+                    };
+
+                    if (bll.ModificarCliente(cli))
+                        cambiosAplicados++;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al actualizar el cliente con DNI {fila.Cells["DNI"].Value}: {ex.Message}");
+                }
+            }
+
+            if (cambiosAplicados > 0)
+            {
+                MessageBox.Show($"Se aplicaron los cambios a {cambiosAplicados} cliente(s).");
+                CargarClientes();
+            }
+            else
+            {
+                MessageBox.Show("No se aplicaron cambios.");
+            }
+        }
+        private void BTNCancelar_Click_1(object sender, EventArgs e)
+        {
+            if (hayCambios)
+            {
+                DialogResult result = MessageBox.Show(
+                    "Hay cambios sin guardar. Si cancelás ahora, se perderán.\n\n" +
+                    "Para guardar los cambios presioná el botón \"Aplicar\".\n\n" +
+                    "¿Desea cancelar?",
+                    "Cancelar operación",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                );
+
+                if (result == DialogResult.No)
+                    return;
+            }
+
+            this.Close();
+        }
+        private void BTNBuscar_Click_1(object sender, EventArgs e)
+        {
+            if (dtClientes == null)
+                return;
+
+            List<string> filtros = new List<string>();
+
+            if (!string.IsNullOrWhiteSpace(TXTDNI.Text))
+                filtros.Add($"Convert(DNI, 'System.String') LIKE '%{TXTDNI.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTNombre.Text))
+                filtros.Add($"Nombre LIKE '%{TXTNombre.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTApellido.Text))
+                filtros.Add($"Apellido LIKE '%{TXTApellido.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTCorreo.Text))
+                filtros.Add($"Correo LIKE '%{TXTCorreo.Text.Trim()}%'");
+
+            if (filtros.Count == 0)
+            {
+                MessageBox.Show("Completar al menos uno de los campos para poder buscar al cliente deseado.");
+                return;
+            }
+
+            string filtroFinal = string.Join(" AND ", filtros);
+
+            DataView vista = new DataView(dtClientes);
+            vista.RowFilter = filtroFinal;
+
+            if (vista.Count == 0)
+            {
+                MessageBox.Show("No se encontró ningún cliente en la búsqueda.");
+            }
+
+            DGVMuestraClientes.DataSource = vista;
+        }
+
+    }
+}
+
+	GestionDePerfiles.cs:
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class GestionDePerfiles : Form
+    {
+        public GestionDePerfiles()
+        {
+            InitializeComponent();
+        }
+
+        private void GestionDePerfiles_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
+
+
+	GestionDeUsuarios.cs:
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using BLL_391IAU;
+using BE_391IAU;
+
+namespace StageLink
+{
+    public partial class GestionDeUsuarios : Form
+    {
+        public GestionDeUsuarios()
+        {
+            InitializeComponent();
+
+            DGVMuestraUsuarios.CellValueChanged += DGVMuestraUsuarios_CellValueChanged;
+            DGVMuestraUsuarios.CurrentCellDirtyStateChanged += DGVMuestraUsuarios_CurrentCellDirtyStateChanged;
+            DGVMuestraUsuarios.SelectionChanged += DGVMuestraUsuarios_SelectionChanged;
+
+            CMBRolesEdicion.SelectedIndexChanged += CMBRolesEdicion_SelectedIndexChanged;
+
+            CargarUsuarios();
+
+            CargarRolesEnCombos();
+            
+            DGVMuestraUsuarios.Columns["DNI"].ReadOnly = true;
+            DGVMuestraUsuarios.Columns["DNI"].DefaultCellStyle.BackColor = Color.LightGray;
+
+            DGVMuestraUsuarios.Columns["Activo"].ReadOnly = true;
+            DGVMuestraUsuarios.Columns["Activo"].DefaultCellStyle.BackColor = Color.LightGray;
+
+            DGVMuestraUsuarios.Columns["Bloqueado"].ReadOnly = true;
+            DGVMuestraUsuarios.Columns["Bloqueado"].DefaultCellStyle.BackColor = Color.LightGray;
+
+            DGVMuestraUsuarios.Columns["Intentos"].ReadOnly = true;
+            DGVMuestraUsuarios.Columns["Intentos"].DefaultCellStyle.BackColor = Color.LightGray;
+
+            DGVMuestraUsuarios.Columns["IDRol"].Visible = false;
+            DGVMuestraUsuarios.Columns["IDRol"].DefaultCellStyle.BackColor = Color.LightGray;
+        }
+
+        private DataTable dtUsuarios;
+        private bool hayCambios = false;
+        private bool emailsDesencriptados = false;
+
+        private void GestionDeUsuarios_Load(object sender, EventArgs e)
+        {
+            //BLLUsuario bll = new BLLUsuario();
+            //bll.ReencriptarTodosLosEmails();
+
+            //MessageBox.Show("Correos reencriptados correctamente.");
+        }
+
+        private void DGVMuestraUsuarios_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            hayCambios = true;
+        }
+        private void DGVMuestraUsuarios_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.IsCurrentCellDirty)
+            {
+                DGVMuestraUsuarios.CommitEdit(DataGridViewDataErrorContexts.Commit);
+            }
+        }
+        private void CargarUsuarios()
+        {
+            try
+            {
+                BLLUsuario bll = new BLLUsuario();
+                var lista = bll.ObtenerTodosLosUsuarios();
+
+                dtUsuarios = new DataTable();
+                dtUsuarios.Columns.Add("DNI", typeof(int));
+                dtUsuarios.Columns.Add("Nombre");
+                dtUsuarios.Columns.Add("Apellido");
+                dtUsuarios.Columns.Add("Email");
+                dtUsuarios.Columns.Add("Activo", typeof(bool));
+                dtUsuarios.Columns.Add("Bloqueado", typeof(bool));
+                dtUsuarios.Columns.Add("Intentos", typeof(int));
+                dtUsuarios.Columns.Add("Idioma");
+                dtUsuarios.Columns.Add("Contraseña");
+                dtUsuarios.Columns.Add("Rol");
+                dtUsuarios.Columns.Add("IDRol", typeof(int));
+
+                dtUsuarios.PrimaryKey = new DataColumn[] { dtUsuarios.Columns["DNI"] };
+
+                foreach (var u in lista)
+                {
+                    dtUsuarios.Rows.Add(
+                        u.DNI_391IAU,
+                        u.Nombre_391IAU,
+                        u.Apellido_391IAU,
+                        u.eMail_391IAU, u.Activo_391IAU,
+                        u.Bloqueado_391IAU,
+                        u.Intentos_391IAU,
+                        u.Idioma_391IAU,
+                        u.Contraseña_391IAU,
+                        u.RolNombre,
+                        u.IDRol_391IAU
+                    );
+
+                }
+                DGVMuestraUsuarios.DataSource = dtUsuarios;
+                DGVMuestraUsuarios.Columns["Contraseña"].Visible = false;
+                hayCambios = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar los usuarios: " + ex.Message);
+            }
+        }
+
+        private void BTNModificar_Click(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccioná un usuario para modificar.");
+                return;
+            }
+
+            DataGridViewRow fila = DGVMuestraUsuarios.SelectedRows[0];
+
+            try
+            {
+                string emailPlano = fila.Cells["Email"].Value?.ToString().Trim();
+
+                BEUsuario u = new BEUsuario
+                {
+                    DNI_391IAU = Convert.ToInt32(fila.Cells["DNI"].Value),
+                    Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString().Trim(),
+                    Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString().Trim(),
+                    eMail_391IAU = BLLUsuario.EncriptarAES(emailPlano),
+                    Idioma_391IAU = fila.Cells["Idioma"].Value?.ToString().Trim(),
+                    Activo_391IAU = Convert.ToBoolean(fila.Cells["Activo"].Value),
+                    Bloqueado_391IAU = Convert.ToBoolean(fila.Cells["Bloqueado"].Value),
+                    Intentos_391IAU = Convert.ToInt32(fila.Cells["Intentos"].Value),
+                    IDRol_391IAU = fila.Cells["IDRol"].Value != DBNull.Value ? Convert.ToInt32(fila.Cells["IDRol"].Value) : (int?)null
+                };
+
+                BLLUsuario bll = new BLLUsuario();
+                if (bll.ModificarUsuario(u))
+                {
+                    MessageBox.Show("Usuario modificado con éxito.");
+                    CargarUsuarios();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo modificar el usuario.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al modificar usuario: " + ex.Message);
+            }
+        }
+
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            if (hayCambios)
+            {
+                DialogResult result = MessageBox.Show(
+                    "Esta seguro de cancelar? Los cambios no fueron guardados.\n\nPara guardar, presione el botón \"Aplicar\".",
+                    "Confirmar cancelación",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                );
+
+                if (result == DialogResult.No)
+                    return;
+            }
+
+            this.Close();
+        }
+
+
+        private void BTNActivar_Click(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccioná un usuario.");
+                return;
+            }
+
+            DataGridViewRow fila = DGVMuestraUsuarios.SelectedRows[0];
+            int dni = Convert.ToInt32(fila.Cells["DNI"].Value);
+
+            if (Convert.ToBoolean(fila.Cells["Activo"].Value))
+            {
+                MessageBox.Show("El usuario ya está activo.");
+                return;
+            }
+
+            fila.Cells["Activo"].Value = true;
+
+            string emailPlano = fila.Cells["Email"].Value?.ToString().Trim();
+
+            BEUsuario u = new BEUsuario
+            {
+                DNI_391IAU = dni,
+                Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString().Trim(),
+                Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString().Trim(),
+                eMail_391IAU = BLLUsuario.EncriptarAES(emailPlano),
+                Idioma_391IAU = fila.Cells["Idioma"].Value?.ToString().Trim(),
+                Activo_391IAU = true,
+                Bloqueado_391IAU = Convert.ToBoolean(fila.Cells["Bloqueado"].Value),
+                Intentos_391IAU = Convert.ToInt32(fila.Cells["Intentos"].Value),
+                IDRol_391IAU = fila.Cells["IDRol"].Value != DBNull.Value ? Convert.ToInt32(fila.Cells["IDRol"].Value) : (int?)null
+            };
+
+            BLLUsuario bll = new BLLUsuario();
+            if (bll.ModificarUsuario(u))
+            {
+                MessageBox.Show($"Usuario activado con éxito.");
+                CargarUsuarios();
+            }
+        }
+
+
+        private void BTNDesactivar_Click(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccioná un usuario.");
+                return;
+            }
+
+            DataGridViewRow fila = DGVMuestraUsuarios.SelectedRows[0];
+            int dni = Convert.ToInt32(fila.Cells["DNI"].Value);
+
+            if (!Convert.ToBoolean(fila.Cells["Activo"].Value))
+            {
+                MessageBox.Show("El usuario ya está desactivado.");
+                return;
+            }
+
+            fila.Cells["Activo"].Value = false;
+
+            string emailPlano = fila.Cells["Email"].Value?.ToString().Trim();
+
+            BEUsuario u = new BEUsuario
+            {
+                DNI_391IAU = dni,
+                Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString().Trim(),
+                Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString().Trim(),
+                eMail_391IAU = BLLUsuario.EncriptarAES(emailPlano),
+                Idioma_391IAU = fila.Cells["Idioma"].Value?.ToString().Trim(),
+                Activo_391IAU = false,
+                Bloqueado_391IAU = Convert.ToBoolean(fila.Cells["Bloqueado"].Value),
+                Intentos_391IAU = Convert.ToInt32(fila.Cells["Intentos"].Value),
+                IDRol_391IAU = fila.Cells["IDRol"].Value != DBNull.Value ? Convert.ToInt32(fila.Cells["IDRol"].Value) : (int?)null
+            };
+
+            BLLUsuario bll = new BLLUsuario();
+            if (bll.ModificarUsuario(u))
+            {
+                MessageBox.Show($"Usuario desactivado con éxito.");
+                CargarUsuarios();
+            }
+        }
+
+        private void BTNDesbloquear_Click(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccioná un usuario.");
+                return;
+            }
+
+            DataGridViewRow fila = DGVMuestraUsuarios.SelectedRows[0];
+
+            if (!Convert.ToBoolean(fila.Cells["Bloqueado"].Value))
+            {
+                MessageBox.Show("El usuario no está bloqueado.");
+                return;
+            }
+
+            fila.Cells["Bloqueado"].Value = false;
+            fila.Cells["Intentos"].Value = 0;
+
+            string emailPlano = fila.Cells["Email"].Value?.ToString().Trim();
+
+            BEUsuario u = new BEUsuario
+            {
+                DNI_391IAU = Convert.ToInt32(fila.Cells["DNI"].Value),
+                Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString().Trim(),
+                Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString().Trim(),
+                eMail_391IAU = BLLUsuario.EncriptarAES(emailPlano),
+                Idioma_391IAU = fila.Cells["Idioma"].Value?.ToString().Trim(),
+                Activo_391IAU = Convert.ToBoolean(fila.Cells["Activo"].Value),
+                Bloqueado_391IAU = false,
+                Intentos_391IAU = 0,
+                IDRol_391IAU = fila.Cells["IDRol"].Value != DBNull.Value ? Convert.ToInt32(fila.Cells["IDRol"].Value) : (int?)null
+            };
+
+            BLLUsuario bll = new BLLUsuario();
+
+            if (bll.ModificarUsuario(u))
+            {
+                MessageBox.Show("Usuario desbloqueado con éxito.");
+                CargarUsuarios();
+            }
+        }
+        private void BTNAplicar_Click(object sender, EventArgs e)
+        {
+            int cambiosAplicados = 0;
+            BLLUsuario bll = new BLLUsuario();
+
+            foreach (DataGridViewRow fila in DGVMuestraUsuarios.Rows)
+            {
+                if (fila.IsNewRow) continue;
+
+                try
+                {
+                    string emailCelda = fila.Cells["Email"].Value?.ToString().Trim();
+                    string emailAEnviar;
+
+                    if (!BLLUsuario.EsBase64(emailCelda))
+                    {
+                        emailAEnviar = BLLUsuario.EncriptarAES(emailCelda);
+                    }
+                    else
+                    {
+                        emailAEnviar = emailCelda;
+                    }
+
+                    BEUsuario u = new BEUsuario
+                    {
+                        DNI_391IAU = Convert.ToInt32(fila.Cells["DNI"].Value),
+                        Nombre_391IAU = fila.Cells["Nombre"].Value?.ToString().Trim(),
+                        Apellido_391IAU = fila.Cells["Apellido"].Value?.ToString().Trim(),
+                        eMail_391IAU = emailAEnviar,
+                        Idioma_391IAU = fila.Cells["Idioma"].Value?.ToString().Trim(),
+                        Activo_391IAU = Convert.ToBoolean(fila.Cells["Activo"].Value),
+                        Bloqueado_391IAU = Convert.ToBoolean(fila.Cells["Bloqueado"].Value),
+                        Intentos_391IAU = Convert.ToInt32(fila.Cells["Intentos"].Value),
+                        IDRol_391IAU = fila.Cells["IDRol"].Value != DBNull.Value
+                            ? Convert.ToInt32(fila.Cells["IDRol"].Value)
+                            : (int?)null
+                    };
+
+                    if (bll.ModificarUsuario(u))
+                        cambiosAplicados++;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al actualizar al usuario con DNI {fila.Cells["DNI"].Value}: {ex.Message}");
+                }
+            }
+
+            if (cambiosAplicados > 0)
+            {
+                MessageBox.Show($"Se aplicaron los cambios a {cambiosAplicados} usuario(s).");
+                CargarUsuarios();
+            }
+            else
+            {
+                MessageBox.Show("No se aplicaron cambios.");
+            }
+        }
+        private void BTNFiltrar_Click(object sender, EventArgs e)
+        {
+            if (dtUsuarios == null)
+                return;
+
+            List<string> filtros = new List<string>();
+
+            if (CBActivoNoActivo.SelectedItem != null)
+            {
+                if (CBActivoNoActivo.SelectedItem.ToString() == "Activo")
+                    filtros.Add("Activo = true");
+                else if (CBActivoNoActivo.SelectedItem.ToString() == "No Activo")
+                    filtros.Add("Activo = false");
+            }
+
+            if (CBUsuariosBloqueados.SelectedItem != null)
+            {
+                if (CBUsuariosBloqueados.SelectedItem.ToString() == "Bloqueado")
+                    filtros.Add("Bloqueado = true");
+                else if (CBUsuariosBloqueados.SelectedItem.ToString() == "Desbloqueado")
+                    filtros.Add("Bloqueado = false");
+            }
+
+            if (CMBRolesFiltro.SelectedItem != null)
+            {
+                string nombreRol = CMBRolesFiltro.Text;
+                if (nombreRol != "")
+                    filtros.Add($"Rol = '{nombreRol}'");
+            }
+
+            string filtroFinal = string.Join(" AND ", filtros);
+
+            DataView vistaFiltrada = new DataView(dtUsuarios);
+            vistaFiltrada.RowFilter = filtroFinal;
+
+            DGVMuestraUsuarios.DataSource = vistaFiltrada;
+        }
+
+
+        private void BTNLimpiarFiltros_Click(object sender, EventArgs e)
+        {
+            CBActivoNoActivo.SelectedIndex = -1;
+            CBUsuariosBloqueados.SelectedIndex = -1;
+            DGVMuestraUsuarios.DataSource = dtUsuarios;
+        }
+
+        private void BTNBuscar_Click(object sender, EventArgs e)
+        {
+            if (dtUsuarios == null)
+                return;
+
+            List<string> filtros = new List<string>();
+
+            if (!string.IsNullOrWhiteSpace(TXTDNI.Text))
+                filtros.Add($"Convert(DNI, 'System.String') LIKE '%{TXTDNI.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTNombre.Text))
+                filtros.Add($"Nombre LIKE '%{TXTNombre.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTApellido.Text))
+                filtros.Add($"Apellido LIKE '%{TXTApellido.Text.Trim()}%'");
+
+            if (!string.IsNullOrWhiteSpace(TXTCorreo.Text))
+                filtros.Add($"Email LIKE '%{TXTCorreo.Text.Trim()}%'");
+
+            if (CBIdioma.SelectedItem != null)
+                filtros.Add($"Idioma = '{CBIdioma.SelectedItem.ToString()}'");
+
+            string filtroFinal = string.Join(" AND ", filtros);
+
+            DataView vistaFiltrada = new DataView(dtUsuarios);
+            vistaFiltrada.RowFilter = filtroFinal;
+
+            if (vistaFiltrada.Count == 0)
+            {
+                MessageBox.Show("No se encontró ningún usuario en la búsqueda.");
+            }
+
+            DGVMuestraUsuarios.DataSource = vistaFiltrada;
+        }
+
+        private void BTNLimpiarBusqueda_Click(object sender, EventArgs e)
+        {
+            TXTDNI.Clear();
+            TXTNombre.Clear();
+            TXTApellido.Clear();
+            TXTCorreo.Clear();
+            CBIdioma.SelectedIndex = -1;
+
+            DGVMuestraUsuarios.DataSource = dtUsuarios;
+        }
+
+        private void BTNEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DGVMuestraUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void DesencriptarEmails()
+        {
+            try
+            {
+                foreach (DataRow row in dtUsuarios.Rows)
+                {
+                    string correoEncriptado = row["Email"].ToString();
+                    string correoDesencriptado = BLLUsuario.DesencriptarAES(correoEncriptado);
+                    row["Email"] = correoDesencriptado;
+                }
+
+                DGVMuestraUsuarios.Refresh();
+                MessageBox.Show("Correos desencriptados correctamente.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al desencriptar correos: " + ex.Message);
+            }
+        }
+
+        private void BTNDesencriptar_Click(object sender, EventArgs e)
+        {
+            if (!emailsDesencriptados)
+            {
+                DesencriptarEmails();
+                BTNDesencriptar.Text = "Encriptar Emails";
+                emailsDesencriptados = true;
+            }
+            else
+            {
+                CargarUsuarios();
+                BTNDesencriptar.Text = "Desencriptar Emails";
+                emailsDesencriptados = false;
+            }
+        }
+        private void CargarRolesEnCombos()
+        {
+            try
+            {
+                BLLPerfil bllPerfil = new BLLPerfil();
+                List<BEPerfil> roles = bllPerfil.TraerPerfiles();
+
+                CMBRolesFiltro.DataSource = roles.ToList();
+                CMBRolesFiltro.DisplayMember = "Nombre_391IAU";
+                CMBRolesFiltro.ValueMember = "IDRol_391IAU";
+                CMBRolesFiltro.SelectedIndex = -1;
+
+                CMBRolesEdicion.DataSource = roles.ToList();
+                CMBRolesEdicion.DisplayMember = "Nombre_391IAU";
+                CMBRolesEdicion.ValueMember = "IDRol_391IAU";
+                CMBRolesEdicion.SelectedIndex = -1;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar roles: " + ex.Message);
+            }
+        }
+        private void DGVMuestraUsuarios_SelectionChanged(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.SelectedRows.Count == 0)
+                return;
+
+            DataGridViewRow fila = DGVMuestraUsuarios.SelectedRows[0];
+
+            if (fila.Cells["IDRol"].Value == DBNull.Value)
+            {
+                CMBRolesEdicion.SelectedIndex = -1;
+                return;
+            }
+
+            int idRol = Convert.ToInt32(fila.Cells["IDRol"].Value);
+
+            CMBRolesEdicion.SelectedValue = idRol;
+        }
+        private void CMBRolesEdicion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (DGVMuestraUsuarios.SelectedRows.Count == 0)
+                return;
+
+            if (CMBRolesEdicion.SelectedValue == null)
+                return;
+
+            int nuevoRolID = Convert.ToInt32(CMBRolesEdicion.SelectedValue);
+
+            DataGridViewRow fila = DGVMuestraUsuarios.SelectedRows[0];
+            fila.Cells["IDRol"].Value = nuevoRolID;
+
+            fila.Cells["Rol"].Value = CMBRolesEdicion.Text;
+
+            hayCambios = true;
+        }
+    }
+}
+
+	Login.cs:
+using BLL_391IAU;
+using System;
+using System.Text.RegularExpressions;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class Login : Form
+    {
+        public Login()
+        {
+            InitializeComponent();
+            TXTDNI.Text = "45679391";
+            TXTContraseña.Text = "ivaburug1525a";
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void BTNLogin_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string dni = TXTDNI.Text.Trim();
+                string contrasenia = TXTContraseña.Text;
+
+                if (!Regex.IsMatch(dni, @"^\d{8}$"))
+                {
+                    MessageBox.Show("El DNI debe tener exactamente 8 dígitos numéricos.");
+                    return;
+                }
+
+                BLLUsuario bll = new BLLUsuario();
+                bool loginExitoso = bll.Login(dni, contrasenia);
+
+                if (loginExitoso)
+                {
+                    string nombreCompleto = bll.ObtenerNombreUsuarioLogueado();
+                    MessageBox.Show($"Bienvenido {nombreCompleto}", "Login exitoso");
+
+                    PantallaPrincipal.ResetMenuStripLogout();
+                    PantallaPrincipal.Instancia.ActivarPermisosDeSesion();
+
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo iniciar sesión.", "Error");
+                }
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                MessageBox.Show("Credenciales inválidas. " + ex.Message, "Error de autenticación");
+            }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show("No se puede iniciar sesión. " + ex.Message, "Sesión activa");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error inesperado: " + ex.Message, "Error");
+            }
+        }
+
+
+        private void BTNMostrarContraseña_Click(object sender, EventArgs e)
+        {
+            TXTContraseña.UseSystemPasswordChar = !TXTContraseña.UseSystemPasswordChar;
+
+            if (TXTContraseña.UseSystemPasswordChar)
+            {
+                BTNMostrarContraseña.Text = "Mostrar Contraseña";
+            }
+            else
+            {
+                BTNMostrarContraseña.Text = "Ocultar";
+            }
+        }
+
+        private void TXTContraseña_TextChanged(object sender, EventArgs e)
+        {
+        }
+    }
+}
+
+	PantallaPrincipal.cs:
+using BLL_391IAU;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Servicios_391IAU.Composite;
+using SessionManager_391IAU;
+
+namespace StageLink
+{
+    public partial class PantallaPrincipal : Form
+    {
+        public static PantallaPrincipal Instancia { get; private set; }
+
+        public PantallaPrincipal()
+        {
+            InitializeComponent();
+            Instancia = this;
+            ResetMenuStripLogout();
+        }
+
+        public void ActivarControlPorNombre(string nombre)
+        {
+            Control[] controles = this.Controls.Find(nombre, true);
+            foreach (Control c in controles)
+            {
+                c.Enabled = true;
+                c.Visible = true;
+            }
+
+            foreach (var control in this.Controls)
+            {
+                if (control is MenuStrip menu)
+                {
+                    foreach (ToolStripItem item in menu.Items)
+                        ActivarItemMenu(item, nombre);
+                }
+            }
+        }
+
+        private void ActivarItemMenu(ToolStripItem item, string nombre)
+        {
+            if (item.Name == nombre)
+            {
+                item.Enabled = true;
+                item.Visible = true;
+            }
+
+            if (item is ToolStripMenuItem menuItem)
+            {
+                foreach (ToolStripItem subItem in menuItem.DropDownItems)
+                    ActivarItemMenu(subItem, nombre);
+            }
+        }
+
+        private void ActivarPermisoUsuario(IComponentePermiso_391IAU comp)
+        {
+            if (comp is PermisoSimple_391IAU permiso)
+            {
+                ActivarControlPorNombre(permiso.Nombre);
+            }
+            else if (comp is Familia_391IAU familia)
+            {
+                ActivarControlPorNombre(familia.Nombre);
+
+                foreach (var hijo in familia.ObtenerHijos())
+                    ActivarPermisoUsuario(hijo);
+            }
+        }
+
+        public void ActivarPermisosDeSesion()
+        {
+            var sesion = BLL_391IAU.SessionManager_391IAU.ObtenerInstancia();
+            foreach (var comp in sesion.Permisos)
+                ActivarPermisoUsuario(comp);
+
+            cambiarContraseñaToolStripMenuItem.Enabled = true;
+            logoutToolStripMenuItem.Enabled = true;
+            loginToolStripMenuItem.Enabled = false;
+        }
+
+
+        public static void ResetMenuStripLogout()
+        {
+            if (Instancia == null) return;
+
+            Instancia.administradorToolStripMenuItem.Enabled = false;
+            Instancia.maestrosToolStripMenuItem.Enabled = false;
+            Instancia.vendedorToolStripMenuItem.Enabled = false;
+            Instancia.ayudaToolStripMenuItem.Enabled = true;
+
+            Instancia.gestionDeUsuariosToolStripMenuItem.Enabled = false;
+            Instancia.gestionDeUsuariosToolStripMenuItem1.Enabled = false;
+            Instancia.agregarConciertosToolStripMenuItem.Enabled = false;
+            Instancia.crearClientesToolStripMenuItem.Enabled = false;
+            Instancia.gestionDeClientesToolStripMenuItem.Enabled = false;
+            Instancia.venderBoletoToolStripMenuItem.Enabled = false;
+
+            Instancia.logoutToolStripMenuItem.Enabled = false;
+            Instancia.cambiarContraseñaToolStripMenuItem.Enabled = false;
+
+            Instancia.loginToolStripMenuItem.Enabled = true;
+        }
+
+
+        private void PantallaPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.MdiParent = this;
+            login.StartPosition = FormStartPosition.CenterScreen;
+            login.Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show(
+                "¿Está seguro de que quiere cerrar la sesión?",
+                "Confirmar logout",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (resultado == DialogResult.Yes)
+            {
+                try
+                {
+                    BLLUsuario bll = new BLLUsuario();
+                    bll.Logout();
+
+                    MessageBox.Show("Sesión cerrada correctamente.", "Logout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ResetMenuStripLogout();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cerrar la sesión: " + ex.Message);
+                }
+            }
+        }
+
+        private void gestionDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearUsuario crearUsuario = new CrearUsuario();
+            crearUsuario.ShowDialog();
+        }
+
+        private void cambiarContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CambiarContraseña cambiarContraseña = new CambiarContraseña();
+            cambiarContraseña.MdiParent = this;
+            cambiarContraseña.Show();
+        }
+
+        private void gestionDeUsuariosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            GestionDeUsuarios gestionDeUsuarios = new GestionDeUsuarios();
+            gestionDeUsuarios.ShowDialog();
+        }
+
+        private void aToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDeUsuarios gestionDeUsuarios = new GestionDeUsuarios();
+            gestionDeUsuarios.ShowDialog();
+        }
+
+        private void agregarConciertosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgregarEventos agregarEventos = new AgregarEventos();
+            agregarEventos.ShowDialog();
+        }
+
+        private void crearClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearClientes crearClietnes = new CrearClientes();
+            crearClietnes.ShowDialog();
+        }
+
+        private void venderBoletoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VenderBoleto venderBoleto = new VenderBoleto();
+            venderBoleto.ShowDialog();
+        }
+
+        private void administradorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maestrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gestionDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDeClientes gestionDeClientes = new GestionDeClientes();
+            gestionDeClientes.ShowDialog();
+        }
+
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        public void ActivarMenuPostLogin()
+        {
+            administradorToolStripMenuItem.Enabled = true;
+            maestrosToolStripMenuItem.Enabled = true;
+            vendedorToolStripMenuItem.Enabled = true;
+            ayudaToolStripMenuItem.Enabled = true;
+
+            gestionDeUsuariosToolStripMenuItem.Enabled = true;
+            gestionDeUsuariosToolStripMenuItem1.Enabled = true;
+
+            agregarConciertosToolStripMenuItem.Enabled = true;
+            crearClientesToolStripMenuItem.Enabled = true;
+            gestionDeClientesToolStripMenuItem.Enabled = true;
+
+            venderBoletoToolStripMenuItem.Enabled = true;
+
+            cambiarContraseñaToolStripMenuItem.Enabled = true;
+
+            logoutToolStripMenuItem.Enabled = true;
+            loginToolStripMenuItem.Enabled = false;
+        }
+
+        private void gestionDePerfilesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDePerfiles gestionDePerfiles = new GestionDePerfiles();
+            gestionDePerfiles.ShowDialog();
+        }
+    }
+}
+
+
+	Program.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    internal static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new PantallaPrincipal());
+        }
+    }
+}
+
+	SeleccionarEvento.cs:
+using BE_391IAU;
+using BLL_391IAU;
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class SeleccionarEvento : Form
+    {
+        private int dniCliente;
+
+        public SeleccionarEvento(int dni)
+        {
+            InitializeComponent();
+            dniCliente = dni;
+        }
+
+        private void SeleccionarEvento_Load(object sender, EventArgs e)
+        {
+            BLL_Evento bllEvento = new BLL_Evento();
+            var eventos = bllEvento.ObtenerEventos();
+
+            CBSeleccionarEvento.DataSource = eventos;
+            CBSeleccionarEvento.SelectedIndex = -1;
+            CBSeleccionarFecha.DataSource = null;
+            CBSeleccionarSector.DataSource = null;
+
+            LBLNotasEstadio.Text = "Estadio:";
+            LBLNotasDireccion.Text = "Dirección:";
+            LBLNotasSector.Text = "Sector:";
+
+            CBSeleccionarEvento.SelectedIndexChanged += CBSeleccionarEvento_SelectedIndexChanged;
+            CBSeleccionarFecha.SelectedIndexChanged += CBSeleccionarFecha_SelectedIndexChanged;
+            CBSeleccionarSector.SelectedIndexChanged += CBSeleccionarSector_SelectedIndexChanged;
+        }
+
+        private void CBSeleccionarEvento_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string artistaSeleccionado = CBSeleccionarEvento.SelectedItem?.ToString();
+            if (string.IsNullOrEmpty(artistaSeleccionado)) return;
+
+            BLL_Evento bll = new BLL_Evento();
+            var fechas = bll.ObtenerFechasPorArtista(artistaSeleccionado);
+            CBSeleccionarFecha.DataSource = fechas;
+
+            var (estadio, direccion) = bll.ObtenerEstadioYDireccion(artistaSeleccionado);
+            LBLNotasEstadio.Text = $"Estadio: El estadio es {estadio}.";
+            LBLNotasDireccion.Text = $"Dirección: La dirección del estadio es {direccion}.";
+        }
+
+        private void CBSeleccionarFecha_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CBSeleccionarEvento.SelectedItem == null || CBSeleccionarFecha.SelectedItem == null)
+                return;
+
+            string artista = CBSeleccionarEvento.SelectedItem.ToString();
+            DateTime fecha = (DateTime)CBSeleccionarFecha.SelectedItem;
+
+            BLLSector bllSector = new BLLSector();
+            var sectores = bllSector.ObtenerSectoresPorEvento(artista, fecha);
+
+            CBSeleccionarSector.DataSource = sectores;
+            CBSeleccionarSector.DisplayMember = "Nombre";
+            CBSeleccionarSector.ValueMember = "Codigo";
+        }
+
+
+        private void BTNCobrarBoleto_Click(object sender, EventArgs e)
+        {
+            if (CBSeleccionarEvento.SelectedItem == null ||
+                CBSeleccionarFecha.SelectedItem == null ||
+                CBSeleccionarSector.SelectedItem == null ||
+                CBCantEntradas.SelectedItem == null)
+            {
+                MessageBox.Show("Completar todos los campos antes de continuar.");
+                return;
+            }
+
+            string artista = CBSeleccionarEvento.SelectedItem.ToString();
+            DateTime fecha = (DateTime)CBSeleccionarFecha.SelectedItem;
+
+            var sector = CBSeleccionarSector.SelectedItem as BESector;
+            if (sector == null)
+            {
+                MessageBox.Show("Error al obtener el sector.");
+                return;
+            }
+
+            int sectorCodigo = sector.Codigo;
+            decimal precio = sector.Precio;
+
+            int cantidad = int.Parse(CBCantEntradas.SelectedItem.ToString());
+
+            BLL_Evento bllEvento = new BLL_Evento();
+            int codigoEvento = bllEvento.ObtenerCodigoEvento(artista, fecha);
+
+            CobrarBoleto cobrarBoleto = new CobrarBoleto(dniCliente, codigoEvento, artista, fecha, sectorCodigo, precio, cantidad);
+            cobrarBoleto.Show();
+            this.Close();
+        }
+
+        private void CBSeleccionarSector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CBSeleccionarSector.SelectedItem is BESector sector)
+            {
+                LBLNotasSector.Text = $"El Sector seleccionado tiene un precio de {sector.Precio:C}.";
+            }
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
+	VenderBoleto.cs:
+using BLL_391IAU;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace StageLink
+{
+    public partial class VenderBoleto : Form
+    {
+        public VenderBoleto()
+        {
+            InitializeComponent();
+        }
+        private void VenderBoleto_Load(object sender, EventArgs e)
+        {
+            TXTDNICliente.Text = "46198686";
+        }
+
+        private void BTNSeleccionarEvento_Click(object sender, EventArgs e)
+        {
+            string dniTexto = TXTDNICliente.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(dniTexto))
+            {
+                MessageBox.Show("Debe ingresar un DNI para continuar.");
+                return;
+            }
+
+            if (!int.TryParse(dniTexto, out int dni))
+            {
+                MessageBox.Show("El DNI ingresado no es válido.");
+                return;
+            }
+
+            bool existe = BLLCliente.ExisteClientePorDNI(dni);
+
+            if (!existe)
+            {
+                DialogResult respuesta = MessageBox.Show(
+                    "El cliente seleccionado no tiene cuenta. ¿Desea crear uno nuevo?",
+                    "Cliente no encontrado",
+                    MessageBoxButtons.YesNo);
+
+                if (respuesta == DialogResult.Yes)
+                {
+                    CrearClientes crearClientes = new CrearClientes();
+                    crearClientes.ShowDialog();
+                }
+                return;
+            }
+
+            this.Close();
+            SeleccionarEvento seleccionarEvento = new SeleccionarEvento(dni);
+            seleccionarEvento.ShowDialog();
+        }
+
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
+
+
+Servicios_391IAU:
+	Composite.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Servicios_391IAU.Composite
+{
+    public interface IComponentePermiso_391IAU
+    {
+        string Nombre { get; set; }
+
+        void Agregar(IComponentePermiso_391IAU c);
+        void Quitar(IComponentePermiso_391IAU c);
+        List<IComponentePermiso_391IAU> ObtenerHijos();
+    }
+}
+
+
+	CriptoManager.cs:
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SessionManager_391IAU
+{
+    public static class CriptoManager
+    {
+        private static readonly byte[] Key = Encoding.UTF8.GetBytes("clave391IAUclave");
+        private static readonly byte[] IV = Encoding.UTF8.GetBytes("vector391IAUvec1");
+
+        public static string EncriptarAES(string textoPlano)
+        {
+            using (Aes aes = Aes.Create())
+            {
+                aes.Key = Key;
+                aes.IV = IV;
+
+                ICryptoTransform encryptor = aes.CreateEncryptor();
+                using (MemoryStream ms = new MemoryStream())
+                using (CryptoStream cs = new CryptoStream(ms, encryptor, CryptoStreamMode.Write))
+                using (StreamWriter sw = new StreamWriter(cs))
+                {
+                    sw.Write(textoPlano);
+                    sw.Close();
+                    return Convert.ToBase64String(ms.ToArray());
+                }
+            }
+        }
+
+        public static string DesencriptarAES(string textoEncriptado)
+        {
+            using (Aes aes = Aes.Create())
+            {
+                aes.Key = Key;
+                aes.IV = IV;
+
+                ICryptoTransform decryptor = aes.CreateDecryptor();
+                using (MemoryStream ms = new MemoryStream(Convert.FromBase64String(textoEncriptado)))
+                using (CryptoStream cs = new CryptoStream(ms, decryptor, CryptoStreamMode.Read))
+                using (StreamReader sr = new StreamReader(cs))
+                {
+                    return sr.ReadToEnd();
+                }
+            }
+        }
+
+        public static string EncriptarSHA256(string texto)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = Encoding.UTF8.GetBytes(texto);
+                byte[] hash = sha256.ComputeHash(bytes);
+                return BitConverter.ToString(hash).Replace("-", "").ToLower();
+            }
+        }
+
+        public static bool EsBase64(string texto)
+        {
+            if (string.IsNullOrWhiteSpace(texto))
+                return false;
+
+            texto = texto.Trim();
+
+            if (texto.Length % 4 != 0)
+                return false;
+
+            return System.Text.RegularExpressions.Regex
+                .IsMatch(texto, @"^[a-zA-Z0-9\+/]*={0,2}$");
+        }
+
+    }
+}
+
+	Familia_391IAU.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace Servicios_391IAU.Composite
+{
+    public class Familia_391IAU : IComponentePermiso_391IAU
+    {
+        public int IDFamilia { get; private set; }
+        public string Nombre { get; set; }
+
+        private readonly List<IComponentePermiso_391IAU> hijos = new List<IComponentePermiso_391IAU>();
+
+        public Familia_391IAU(int idFamilia, string nombre)
+        {
+            IDFamilia = idFamilia;
+            Nombre = nombre;
+        }
+
+        public void Agregar(IComponentePermiso_391IAU c)
+        {
+            if (!hijos.Contains(c))
+                hijos.Add(c);
+        }
+
+        public void Quitar(IComponentePermiso_391IAU c)
+        {
+            if (hijos.Contains(c))
+                hijos.Remove(c);
+        }
+
+        public List<IComponentePermiso_391IAU> ObtenerHijos()
+        {
+            return hijos.ToList();
+        }
+
+        public override string ToString() => Nombre;
+    }
+}
+
+	PerfilComposite_391IAU.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Servicios_391IAU.Composite
+{
+    public class PerfilComposite_391IAU
+    {
+        public int IDRol { get; set; }
+        public string Nombre { get; set; }
+        public List<IComponentePermiso_391IAU> Permisos { get; set; } = new List<IComponentePermiso_391IAU>();
+    }
+}
+
+	PermisoSimple_391IAU.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Servicios_391IAU.Composite
+{
+    public class PermisoSimple_391IAU : IComponentePermiso_391IAU
+    {
+        public int IDPermiso { get; private set; }
+        public string Nombre { get; set; }
+
+        public PermisoSimple_391IAU(int id, string nombre)
+        {
+            IDPermiso = id;
+            Nombre = nombre;
+        }
+
+        public void Agregar(IComponentePermiso_391IAU c)
+        {
+            throw new NotSupportedException("Un permiso simple no puede tener hijos.");
+        }
+
+        public void Quitar(IComponentePermiso_391IAU c)
+        {
+            throw new NotSupportedException("Un permiso simple no puede tener hijos.");
+        }
+
+        public List<IComponentePermiso_391IAU> ObtenerHijos()
+        {
+            return new List<IComponentePermiso_391IAU>();
+        }
+
+        public override string ToString() => Nombre;
+    }
+}
+
+	SessionManager_391IAU.cs:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BE_391IAU;
+using Servicios_391IAU.Composite;
+
+namespace BLL_391IAU
+{
+    public class SessionManager_391IAU
+    {
+        private static SessionManager_391IAU instancia;
+        private static readonly object candado = new object();
+
+        public BEUsuario UsuarioActual { get; private set; }
+
+        public List<IComponentePermiso_391IAU> Permisos { get; set; }
+            = new List<IComponentePermiso_391IAU>();
+
+        private SessionManager_391IAU() { }
+
+        public static SessionManager_391IAU ObtenerInstancia()
+        {
+            if (instancia == null)
+            {
+                lock (candado)
+                {
+                    if (instancia == null)
+                        instancia = new SessionManager_391IAU();
+                }
+            }
+            return instancia;
+        }
+        public static SessionManager_391IAU Instancia => ObtenerInstancia();
+
+        public static SessionManager_391IAU ObtenerSesion()
+        {
+            return ObtenerInstancia();
+        }
+        public bool HaySesionActiva()
+        {
+            return UsuarioActual != null;
+        }
+
+        public void IniciarSesion(BEUsuario usuario)
+        {
+            UsuarioActual = usuario;
+        }
+
+        public void CerrarSesion()
+        {
+            UsuarioActual = null;
+            Permisos.Clear();
+        }
+    }
+}
