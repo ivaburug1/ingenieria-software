@@ -1,0 +1,10 @@
+{
+  "LBLCrearUsuarioTitulo": "Créer un utilisateur",
+  "LBLDNI": "DNI",
+  "LBLNombre": "Prénom",
+  "LBLApellido": "Nom",
+  "LBLeMail": "E-mail",
+  "LBLRol": "Rôle",
+  "BTNCrearUsuario": "Créer l'utilisateur",
+  "BTNCancelar": "Annuler"
+}

@@ -1,0 +1,8 @@
+{
+  "LBLTitulo": "Pagare il biglietto",
+  "LBLMedioDePago": "Seleziona un metodo di pagamento",
+  "LBLNumeroDeTajeta": "Inserisci il numero della tua carta nel formato XXXX-XXXX-XXXX-XXXX",
+  "LBLCantCuotas": "Inserisci il numero di rate desiderate",
+  "BTNCancelar": "Annulla",
+  "BTNConfirmarCobro": "Conferma pagamento"
+}

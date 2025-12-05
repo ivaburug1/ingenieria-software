@@ -1,0 +1,12 @@
+{
+  "LBLTitulo": "イベントを選択",
+  "LBLNotasEstadio": "スタジアム:",
+  "LBLNotasDireccion": "住所:",
+  "LBLNotasSector": "セクター:",
+  "LBLSeleccionarEvento": "イベントを選択してください",
+  "LBLSeleccionarFecha": "イベントの日付を選択してください",
+  "LBLSeleccionarSector": "販売するセクターを選択してください",
+  "LBLCantEntradas": "購入したいチケット枚数を選択してください",
+  "BTNCancelar": "キャンセル",
+  "BTNCobrarBoleto": "チケットの支払い"
+}

@@ -1,0 +1,74 @@
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.AssemblyReference.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.AgregarEventos.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CambiarContraseña.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CobrarBoleto.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CrearClientes.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CrearUsuario.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.GestionDeUsuarios.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.Login.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.PantallaPrincipal.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.Properties.Resources.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.SeleccionarEvento.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.VenderBoleto.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.GenerateResource.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\StageLink.exe.config
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\StageLink.exe
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\StageLink.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\BE_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\BLL_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\SessionManager_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\DAL_391IAU.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\BE_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\BLL_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\SessionManager_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\DAL_391IAU.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\GUI_391IAU.csproj.Up2Date
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.exe
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.pdb
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.CambiarIdioma.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.GestionDePerfiles.resources
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\itextsharp.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\itextsharp.xml
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.GestionDeClientes.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\GUI_391IAU.csproj.AssemblyReference.cache
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.exe.config
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.AgregarEventos.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.CambiarContraseña.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.CambiarIdioma.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.CobrarBoleto.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.CrearClientes.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.CrearUsuario.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.GestionDeClientes.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.GestionDePerfiles.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.GestionDeUsuarios.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.Login.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.PantallaPrincipal.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.Properties.Resources.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.SeleccionarEvento.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.VenderBoleto.resources
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\GUI_391IAU.csproj.GenerateResource.cache
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\GUI_391IAU.csproj.CoreCompileInputs.cache
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.exe
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\StageLink.pdb
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\StageLink.exe.config
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\StageLink.exe
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\StageLink.pdb
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\BE_391IAU.dll
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\BLL_391IAU.dll
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\BouncyCastle.Cryptography.dll
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\itextsharp.dll
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\SessionManager_391IAU.dll
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\DAL_391IAU.dll
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\BE_391IAU.pdb
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\BLL_391IAU.pdb
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\SessionManager_391IAU.pdb
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\BouncyCastle.Cryptography.xml
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\itextsharp.xml
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\bin\Debug\DAL_391IAU.pdb
+D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\StageLink\obj\Debug\GUI_391IAU.csproj.Up2Date
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ivan Alejandro Urso\source\repos\StageLink\StageLink\obj\Debug\StageLink.Reportes.resources

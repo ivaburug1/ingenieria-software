@@ -1,0 +1,22 @@
+{
+  "LBLGestorDePerfiles": "プロファイル管理",
+  "LBLFamilias": "ファミリー",
+  "LBLPerfiles": "プロファイル",
+  "LBLPermisos": "権限",
+  "TXTNuevaFamiliaNombre": "新しいファミリー",
+  "BTNAplicarFamilias": "ファミリーを適用",
+  "TXTNuevoPerfilNombre": "新しいプロファイル",
+  "BTNAplicar": "プロファイルを適用",
+  "BTNAgregarFamilia": "ファミリーを追加",
+  "BTNAgregarFamiliaAPerfil": "ファミリーをプロファイルへ追加",
+  "BTNEliminarFamilia": "ファミリーを削除",
+  "BTNAgregarPerfil": "プロファイルを追加",
+  "BTNEliminarPerfil": "プロファイルを削除",
+  "BTNAgregarPermiso": "権限をプロファイルへ追加",
+  "BTNAgregarPermisosFamilias": "権限をファミリーへ追加",
+  "BTNEliminarFamiliaDeFamilia": "ファミリーからファミリーを削除",
+  "BTNEliminarFamiliaDePerfil": "プロファイルからファミリーを削除",
+  "BTNEliminarPermisoDeFamilia": "ファミリーから権限を削除",
+  "BTNEliminarPermisoDePerfil": "プロファイルから権限を削除",
+  "BTNCancelar": "終了"
+}

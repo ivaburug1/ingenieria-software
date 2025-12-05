@@ -1,0 +1,8 @@
+{
+  "LBLTitulo": "チケットの支払い",
+  "LBLMedioDePago": "支払い方法を選択してください",
+  "LBLNumeroDeTajeta": "カード番号を XXXX-XXXX-XXXX-XXXX の形式で入力してください",
+  "LBLCantCuotas": "希望する分割回数を入力してください",
+  "BTNCancelar": "キャンセル",
+  "BTNConfirmarCobro": "支払いを確定"
+}

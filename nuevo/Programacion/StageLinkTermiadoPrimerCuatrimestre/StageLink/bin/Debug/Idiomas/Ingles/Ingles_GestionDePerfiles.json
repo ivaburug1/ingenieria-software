@@ -1,0 +1,22 @@
+{
+  "LBLGestorDePerfiles": "Profile Manager",
+  "LBLFamilias": "Families",
+  "LBLPerfiles": "Profiles",
+  "LBLPermisos": "Permissions",
+  "TXTNuevaFamiliaNombre": "New Family",
+  "BTNAplicarFamilias": "Apply Families",
+  "TXTNuevoPerfilNombre": "New Profile",
+  "BTNAplicar": "Apply Profiles",
+  "BTNAgregarFamilia": "Add Family",
+  "BTNAgregarFamiliaAPerfil": "Add Family to Profile",
+  "BTNEliminarFamilia": "Delete Family",
+  "BTNAgregarPerfil": "Add Profile",
+  "BTNEliminarPerfil": "Delete Profile",
+  "BTNAgregarPermiso": "Add Permission to Profile",
+  "BTNAgregarPermisosFamilias": "Add Permission to Family",
+  "BTNEliminarFamiliaDeFamilia": "Remove Family from Family",
+  "BTNEliminarFamiliaDePerfil": "Remove Family from Profile",
+  "BTNEliminarPermisoDeFamilia": "Remove Permission from Family",
+  "BTNEliminarPermisoDePerfil": "Remove Permission from Profile",
+  "BTNCancelar": "Exit"
+}

@@ -1,0 +1,22 @@
+{
+  "LBLGestorDePerfiles": "Gestionnaire de profils",
+  "LBLFamilias": "Familles",
+  "LBLPerfiles": "Profils",
+  "LBLPermisos": "Autorisations",
+  "TXTNuevaFamiliaNombre": "Nouvelle famille",
+  "BTNAplicarFamilias": "Appliquer familles",
+  "TXTNuevoPerfilNombre": "Nouveau profil",
+  "BTNAplicar": "Appliquer profils",
+  "BTNAgregarFamilia": "Ajouter famille",
+  "BTNAgregarFamiliaAPerfil": "Famille au profil",
+  "BTNEliminarFamilia": "Supprimer famille",
+  "BTNAgregarPerfil": "Ajouter profil",
+  "BTNEliminarPerfil": "Supprimer profil",
+  "BTNAgregarPermiso": "Ajouter autorisation au profil",
+  "BTNAgregarPermisosFamilias": "Ajouter autorisation à la famille",
+  "BTNEliminarFamiliaDeFamilia": "Retirer famille de famille",
+  "BTNEliminarFamiliaDePerfil": "Retirer famille du profil",
+  "BTNEliminarPermisoDeFamilia": "Retirer autorisation de la famille",
+  "BTNEliminarPermisoDePerfil": "Retirer autorisation du profil",
+  "BTNCancelar": "Quitter"
+}

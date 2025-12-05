@@ -1,0 +1,8 @@
+{
+    "LBLTitulo":"Cobrar Boleto",
+    "LBLMedioDePago":"Seleccionar un Medio de Pago",
+    "LBLNumeroDeTajeta":"Ingrese el numero de su Tarjeta en formato XXXX-XXXX-XXXX-XXXX",
+    "LBLCantCuotas":"Ingrese la cantidad de cuotas en las que le gustaria pagar",
+    "BTNCancelar":"Cancelar",
+    "BTNConfirmarCobro":"Confirmar Cobro"
+}

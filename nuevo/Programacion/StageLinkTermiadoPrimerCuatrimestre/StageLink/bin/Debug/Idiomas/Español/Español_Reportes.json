@@ -1,0 +1,11 @@
+{
+    "LBLReportes": "Reportes",
+    "LBLFiltros":"Filtros",
+    "LBLFechaDelEvento":"Fecha del Evento",
+    "LBLNombreComprador":"Nombre Comprador",
+    "LBLListaArtistas":"Lista de Artistas",
+    "BTNAplicarFiltro": "Aplicar Filtro al Reporte",
+    "BTNLimpiarFiltros": "Limpiar Filtros",
+    "BTNPDFReporte": "Imprimir Reporte",
+    "BTNSalir": "Salir"
+}

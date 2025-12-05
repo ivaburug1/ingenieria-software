@@ -1,0 +1,6 @@
+{
+    "LBLTitulo":"Vender Boleto",
+    "LBLDNICliente":"Ingresar el DNI del cliente al que le va a vender el Boleto",
+    "BTNCancelar":"Cancelar",
+    "BTNSeleccionarEvento":"Seleccionar Evento"
+}

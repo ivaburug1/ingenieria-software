@@ -1,0 +1,9 @@
+{
+  "TituloForm": "AjouterÉvénements",
+  "LBLTitulo": "Ajouter un événement",
+  "LBLFecha": "Date à laquelle l'événement aura lieu",
+  "LBLArtista": "Nom de l'artiste qui se produira",
+  "LBLEstadio": "Sélectionnez le stade où l'artiste se produira",
+  "BTNCancelar": "Annuler",
+  "BTNConfirmar": "Ajouter l'événement"
+}

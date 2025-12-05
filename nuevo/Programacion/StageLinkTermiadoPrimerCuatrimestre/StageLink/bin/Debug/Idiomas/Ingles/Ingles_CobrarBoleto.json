@@ -1,0 +1,8 @@
+{
+  "LBLTitulo": "Charge Ticket",
+  "LBLMedioDePago": "Select a payment method",
+  "LBLNumeroDeTajeta": "Enter your card number in the format XXXX-XXXX-XXXX-XXXX",
+  "LBLCantCuotas": "Enter the number of installments you would like to use",
+  "BTNCancelar": "Cancel",
+  "BTNConfirmarCobro": "Confirm Charge"
+}

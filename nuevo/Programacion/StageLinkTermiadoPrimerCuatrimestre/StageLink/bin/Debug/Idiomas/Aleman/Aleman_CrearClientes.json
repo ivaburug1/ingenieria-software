@@ -1,0 +1,9 @@
+{
+  "LBLTitulo": "Kunden erstellen",
+  "LBLDNI": "Geben Sie die DNI des zu erstellenden Kunden ein",
+  "LBLNombre": "Geben Sie den Namen des zu erstellenden Kunden ein",
+  "LBLApellido": "Geben Sie den Nachnamen des zu erstellenden Kunden ein",
+  "LBLCorreo": "Geben Sie die E-Mail des zu erstellenden Kunden ein",
+  "BTNCrearCliente": "Kunden erstellen",
+  "BTNCancelar": "Abbrechen"
+}

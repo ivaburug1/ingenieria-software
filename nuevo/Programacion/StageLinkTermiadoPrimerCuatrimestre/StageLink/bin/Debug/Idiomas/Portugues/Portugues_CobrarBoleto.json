@@ -1,0 +1,8 @@
+{
+  "LBLTitulo": "Cobrar ingresso",
+  "LBLMedioDePago": "Selecione um método de pagamento",
+  "LBLNumeroDeTajeta": "Digite o número do seu cartão no formato XXXX-XXXX-XXXX-XXXX",
+  "LBLCantCuotas": "Digite a quantidade de parcelas desejadas",
+  "BTNCancelar": "Cancelar",
+  "BTNConfirmarCobro": "Confirmar cobrança"
+}

@@ -1,0 +1,9 @@
+{
+  "LBLTitulo": "Creare cliente",
+  "LBLDNI": "Inserisci il DNI del cliente da creare",
+  "LBLNombre": "Inserisci il nome del cliente da creare",
+  "LBLApellido": "Inserisci il cognome del cliente da creare",
+  "LBLCorreo": "Inserisci l'e-mail del cliente da creare",
+  "BTNCrearCliente": "Creare cliente",
+  "BTNCancelar": "Annulla"
+}

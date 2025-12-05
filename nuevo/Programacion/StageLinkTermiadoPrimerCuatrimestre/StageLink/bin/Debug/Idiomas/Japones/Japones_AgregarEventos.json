@@ -1,0 +1,9 @@
+{
+  "TituloForm": "イベント追加",
+  "LBLTitulo": "イベントを追加",
+  "LBLFecha": "イベントが開催される日付",
+  "LBLArtista": "出演するアーティストの名前を入力してください",
+  "LBLEstadio": "アーティストが出演するスタジアムを選択してください",
+  "BTNCancelar": "キャンセル",
+  "BTNConfirmar": "イベントを追加"
+}

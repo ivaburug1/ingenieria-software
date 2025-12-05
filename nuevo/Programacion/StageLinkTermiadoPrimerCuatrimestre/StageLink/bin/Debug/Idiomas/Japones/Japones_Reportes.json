@@ -1,0 +1,11 @@
+{
+    "LBLReportes": "レポート",
+    "LBLFiltros": "フィルター",
+    "LBLFechaDelEvento": "イベント日",
+    "LBLNombreComprador": "購入者名",
+    "LBLListaArtistas": "アーティスト一覧",
+    "BTNAplicarFiltro": "レポートにフィルターを適用",
+    "BTNLimpiarFiltros": "フィルターをクリア",
+    "BTNPDFReporte": "レポートを印刷",
+    "BTNSalir": "終了"
+}

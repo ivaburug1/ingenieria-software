@@ -1,0 +1,12 @@
+{
+  "LBLTitulo": "Selecionar evento",
+  "LBLNotasEstadio": "Estádio:",
+  "LBLNotasDireccion": "Endereço:",
+  "LBLNotasSector": "Setor:",
+  "LBLSeleccionarEvento": "Selecionar um evento",
+  "LBLSeleccionarFecha": "Selecione uma data para o evento",
+  "LBLSeleccionarSector": "Selecione um setor para vender",
+  "LBLCantEntradas": "Selecione a quantidade de ingressos que deseja comprar",
+  "BTNCancelar": "Cancelar",
+  "BTNCobrarBoleto": "Cobrar ingresso"
+}

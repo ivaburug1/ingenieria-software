@@ -1,0 +1,12 @@
+{
+  "LBLTitulo": "Select Event",
+  "LBLNotasEstadio": "Stadium:",
+  "LBLNotasDireccion": "Address:",
+  "LBLNotasSector": "Sector:",
+  "LBLSeleccionarEvento": "Select an Event",
+  "LBLSeleccionarFecha": "Select a date for the event",
+  "LBLSeleccionarSector": "Select a sector to sell",
+  "LBLCantEntradas": "Select the number of tickets you want to purchase",
+  "BTNCancelar": "Cancel",
+  "BTNCobrarBoleto": "Charge Ticket"
+}

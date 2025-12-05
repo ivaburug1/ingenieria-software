@@ -1,0 +1,25 @@
+{
+  "MSAdministrador": "Administrator",
+  "MSAdministrador_CrearUsuarios": "Benutzer Erstellen",
+  "MSAdministrador_GestionDeUsuarios": "Benutzerverwaltung",
+  "MSAdministrador_GestionDePerfiles": "Profilverwaltung",
+
+  "MSMaestros": "Stammdaten",
+  "MSMaestros_AgregarEventos": "Ereignisse Hinzufügen",
+  "MSMaestros_CrearClientes": "Kunden Erstellen",
+  "MSMaestros_GestionDeClientes": "Kundenverwaltung",
+  
+  "MSUsuario": "Benutzer",
+  "MSUsuario_Login": "Anmelden",
+  "MSUsuario_Logout": "Abmelden",
+  "MSUsuario_CambiarContrasenia": "Passwort Ändern",
+
+  "MSVendedor": "Verkäufer",
+  "MSVendedor_VenderBoleto": "Ticket Verkaufen",
+
+  "MSAyuda": "Hilfe",
+
+  "MSCambiarIdioma": "Sprache Ändern",
+
+  "MSReportes": "Berichte"
+}

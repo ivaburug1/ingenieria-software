@@ -1,0 +1,8 @@
+{
+  "LBLTitulo": "Ereignis hinzufügen",
+  "LBLFecha": "Datum, an dem die Veranstaltung stattfinden wird",
+  "LBLArtista": "Name des Künstlers, der auftreten wird",
+  "LBLEstadio": "Wählen Sie das Stadion aus, in dem der Künstler auftreten wird",
+  "BTNCancelar": "Abbrechen",
+  "BTNConfirmar": "Ereignis hinzufügen"
+}

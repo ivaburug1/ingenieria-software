@@ -1,0 +1,10 @@
+{
+  "LBLCrearUsuarioTitulo": "ユーザー作成",
+  "LBLDNI": "DNI",
+  "LBLNombre": "名",
+  "LBLApellido": "姓",
+  "LBLeMail": "メール",
+  "LBLRol": "役割",
+  "BTNCrearUsuario": "ユーザーを作成",
+  "BTNCancelar": "キャンセル"
+}

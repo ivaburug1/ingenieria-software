@@ -1,0 +1,26 @@
+{
+  "MSAdministrador": "Administrateur",
+  "MSAdministrador_CrearUsuarios": "Créer Utilisateur",
+  "MSAdministrador_GestionDeUsuarios": "Gestion des Utilisateurs",
+  "MSAdministrador_GestionDePerfiles": "Gestion des Profils",
+
+  "MSMaestros": "Maître",
+  "MSMaestros_AgregarEventos": "Ajouter Événements",
+  "MSMaestros_CrearClientes": "Créer Client",
+  "MSMaestros_GestionDeClientes": "Gestion des Clients",
+  
+  "MSUsuario": "Utilisateur",
+  "MSUsuario_Login": "Connexion",
+  "MSUsuario_Logout": "Déconnexion",
+  "MSUsuario_CambiarContrasenia": "Changer Mot de Passe",
+
+  "MSVendedor": "Vendeur",
+  "MSVendedor_VenderBoleto": "Vendre Billet",
+
+  "MSAyuda": "Aide",
+
+  "MSCambiarIdioma": "Changer Langue",
+
+  "MSReportes": "Rapports"
+
+}

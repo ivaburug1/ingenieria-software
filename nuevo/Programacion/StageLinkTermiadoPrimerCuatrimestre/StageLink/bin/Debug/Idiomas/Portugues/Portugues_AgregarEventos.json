@@ -1,0 +1,9 @@
+{
+  "TituloForm": "AdicionarEventos",
+  "LBLTitulo": "Adicionar evento",
+  "LBLFecha": "Data em que o evento ocorrerá",
+  "LBLArtista": "Nome do artista que irá se apresentar",
+  "LBLEstadio": "Selecione o estádio onde o artista irá se apresentar",
+  "BTNCancelar": "Cancelar",
+  "BTNConfirmar": "Adicionar evento"
+}

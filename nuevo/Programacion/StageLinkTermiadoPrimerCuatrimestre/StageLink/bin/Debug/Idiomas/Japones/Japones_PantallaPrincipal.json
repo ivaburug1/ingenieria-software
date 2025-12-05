@@ -1,0 +1,26 @@
+{
+  "MSAdministrador": "管理者",
+  "MSAdministrador_CrearUsuarios": "ユーザー作成",
+  "MSAdministrador_GestionDeUsuarios": "ユーザー管理",
+  "MSAdministrador_GestionDePerfiles": "プロファイル管理",
+
+  "MSMaestros": "マスター",
+  "MSMaestros_AgregarEventos": "イベント追加",
+  "MSMaestros_CrearClientes": "顧客作成",
+  "MSMaestros_GestionDeClientes": "顧客管理",
+  
+  "MSUsuario": "ユーザー",
+  "MSUsuario_Login": "ログイン",
+  "MSUsuario_Logout": "ログアウト",
+  "MSUsuario_CambiarContrasenia": "パスワード変更",
+
+  "MSVendedor": "販売員",
+  "MSVendedor_VenderBoleto": "チケット販売",
+
+  "MSAyuda": "ヘルプ",
+
+  "MSCambiarIdioma": "言語変更",
+
+  "MSReportes": "レポート"
+
+}

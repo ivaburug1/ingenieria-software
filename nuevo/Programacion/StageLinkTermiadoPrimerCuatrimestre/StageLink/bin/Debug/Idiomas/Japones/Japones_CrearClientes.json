@@ -1,0 +1,9 @@
+{
+  "LBLTitulo": "顧客を作成",
+  "LBLDNI": "作成する顧客のDNIを入力してください",
+  "LBLNombre": "作成する顧客の名前を入力してください",
+  "LBLApellido": "作成する顧客の姓を入力してください",
+  "LBLCorreo": "作成する顧客のメールアドレスを入力してください",
+  "BTNCrearCliente": "顧客を作成",
+  "BTNCancelar": "キャンセル"
+}

@@ -1,0 +1,8 @@
+{
+  "LBLTitulo": "Ticket bezahlen",
+  "LBLMedioDePago": "Wählen Sie eine Zahlungsmethode",
+  "LBLNumeroDeTajeta": "Geben Sie Ihre Kartennummer im Format XXXX-XXXX-XXXX-XXXX ein",
+  "LBLCantCuotas": "Geben Sie die Anzahl der gewünschten Raten ein",
+  "BTNCancelar": "Abbrechen",
+  "BTNConfirmarCobro": "Zahlung bestätigen"
+}
