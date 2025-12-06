@@ -98,15 +98,16 @@ namespace SessionManager_391IAU
                 FormsRegistrados.Add(form);
             }
         }
-
         public void CambiarIdioma(string nuevoIdioma)
         {
             IdiomaActual = nuevoIdioma;
 
-            NotificarObservadores();
             CargarMensajes(nuevoIdioma);
+
             foreach (var form in FormsRegistrados)
                 TraducirFormulario(form, nuevoIdioma);
+
+            NotificarObservadores();
         }
 
         private void TraducirFormulario(Form form, string idioma)
@@ -229,6 +230,5 @@ namespace SessionManager_391IAU
         {
             TraducirFormulario(form, IdiomaActual);
         }
-
     }
 }

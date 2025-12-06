@@ -1,4 +1,5 @@
-﻿using BLL_391IAU;
+﻿using BE_391IAU;
+using BLL_391IAU;
 using SessionManager_391IAU;
 using System;
 using System.Text.RegularExpressions;
@@ -64,6 +65,13 @@ namespace StageLink
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information
                     );
+
+                    string idioma = sm.UsuarioActual.Idioma_391IAU;
+
+                    if (string.IsNullOrWhiteSpace(idioma))
+                        idioma = "Español";
+
+                    sm.CambiarIdioma(idioma); 
 
                     PantallaPrincipal.ResetMenuStripLogout();
                     PantallaPrincipal.Instancia.ActivarPermisosDeSesion();

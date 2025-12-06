@@ -163,16 +163,19 @@ namespace BLL_391IAU
             DAL.ActualizarContraseña(sesion.UsuarioActual.DNI_391IAU, hash);
             DAL.GuardarContraseñaHistorial(sesion.UsuarioActual.DNI_391IAU, hash);
         }
-
         public void Logout()
         {
             var sesion = SessionManager_391IAU.SessionManager_391IAU.ObtenerInstancia();
+
             if (!sesion.HaySesionActiva())
                 throw new InvalidOperationException("No hay sesión activa.");
 
+            var sm = SessionManager_391IAU.SessionManager_391IAU.Instancia;
+
+            DAL.ActualizarIdioma(sesion.UsuarioActual.DNI_391IAU, sm.IdiomaActual);
+
             sesion.CerrarSesion();
         }
-
 
         public List<BEUsuario> ObtenerUsuariosConRol()
         {

@@ -1292,6 +1292,24 @@ namespace DAL_391IAU
             }
             return lista;
         }
+        public static bool ActualizarIdioma(int dni, string idioma)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string query = @"
+                    UPDATE Usuario_391IAU
+                    SET Idioma_391IAU = @Idioma
+                    WHERE DNI_391IAU = @DNI";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Idioma", idioma);
+                cmd.Parameters.AddWithValue("@DNI", dni);
+
+                con.Open();
+                return cmd.ExecuteNonQuery() > 0;
+            }
+        }
 
     }
 }
