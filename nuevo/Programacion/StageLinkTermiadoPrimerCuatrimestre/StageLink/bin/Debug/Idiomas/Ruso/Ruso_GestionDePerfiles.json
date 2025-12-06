@@ -1,0 +1,22 @@
+{
+    "LBLGestorDePerfiles": "Управление Профилями",
+    "LBLFamilias": "Семьи",
+    "LBLPerfiles": "Профили",
+    "LBLPermisos": "Разрешения",
+    "TXTNuevaFamiliaNombre": "Новая Семья",
+    "BTNAplicarFamilias": "Применить Семьи",
+    "TXTNuevoPerfilNombre": "Новый Профиль",
+    "BTNAplicar": "Применить Профили",
+    "BTNAgregarFamilia": "Добавить Семью",
+    "BTNAgregarFamiliaAPerfil": "Добавить Семью к Профилю",
+    "BTNEliminarFamilia": "Удалить Семью",
+    "BTNAgregarPerfil": "Добавить Профиль",
+    "BTNEliminarPerfil": "Удалить Профиль",
+    "BTNAgregarPermiso": "Добавить Разрешение к Профилю",
+    "BTNAgregarPermisosFamilias": "Добавить Разрешение к Семье",
+    "BTNEliminarFamiliaDeFamilia": "Удалить Семью из Семьи",
+    "BTNEliminarFamiliaDePerfil": "Удалить Семью из Профиля",
+    "BTNEliminarPermisoDeFamilia": "Удалить Разрешение из Семьи",
+    "BTNEliminarPermisoDePerfil": "Удалить Разрешение из Профиля",
+    "BTNCancelar": "Выйти"
+}

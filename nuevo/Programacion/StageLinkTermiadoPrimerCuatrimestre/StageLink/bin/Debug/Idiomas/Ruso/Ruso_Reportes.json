@@ -1,0 +1,11 @@
+{
+    "LBLReportes": "Отчёты",
+    "LBLFiltros": "Фильтры",
+    "LBLFechaDelEvento": "Дата события",
+    "LBLNombreComprador": "Имя покупателя",
+    "LBLListaArtistas": "Список артистов",
+    "BTNAplicarFiltro": "Применить фильтр",
+    "BTNLimpiarFiltros": "Очистить фильтры",
+    "BTNPDFReporte": "Печать отчёта",
+    "BTNSalir": "Выйти"
+}

@@ -1,0 +1,25 @@
+{
+  "MSAdministrador": "Администратор",
+  "MSAdministrador_CrearUsuarios": "Создать Пользователя",
+  "MSAdministrador_GestionDeUsuarios": "Управление Пользователями",
+  "MSAdministrador_GestionDePerfiles": "Управление Профилями",
+
+  "MSMaestros": "Мастер",
+  "MSMaestros_AgregarEventos": "Добавить События",
+  "MSMaestros_CrearClientes": "Создать Клиента",
+  "MSMaestros_GestionDeClientes": "Управление Клиентами",
+  
+  "MSUsuario": "Пользователь",
+  "MSUsuario_Login": "Вход",
+  "MSUsuario_Logout": "Выход",
+  "MSUsuario_CambiarContrasenia": "Изменить Пароль",
+
+  "MSVendedor": "Продавец",
+  "MSVendedor_VenderBoleto": "Продать Билет",
+
+  "MSAyuda": "Помощь",
+
+  "MSCambiarIdioma": "Изменить Язык",
+
+  "MSReportes": "Отчёты"
+}

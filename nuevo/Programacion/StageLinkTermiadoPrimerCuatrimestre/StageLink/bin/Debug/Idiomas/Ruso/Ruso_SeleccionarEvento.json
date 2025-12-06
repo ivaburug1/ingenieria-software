@@ -1,0 +1,12 @@
+{
+    "LBLTitulo": "Выбрать Событие",
+    "LBLNotasEstadio": "Стадион:",
+    "LBLNotasDireccion": "Адрес:",
+    "LBLNotasSector": "Сектор:",
+    "LBLSeleccionarEvento": "Выберите событие",
+    "LBLSeleccionarFecha": "Выберите дату события",
+    "LBLSeleccionarSector": "Выберите сектор для продажи",
+    "LBLCantEntradas": "Выберите количество билетов для покупки",
+    "BTNCancelar": "Отмена",
+    "BTNCobrarBoleto": "Оплатить Билет"
+}

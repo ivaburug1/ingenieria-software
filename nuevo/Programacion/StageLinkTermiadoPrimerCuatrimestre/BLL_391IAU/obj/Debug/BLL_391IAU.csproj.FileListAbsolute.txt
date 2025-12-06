@@ -26,3 +26,18 @@ D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\BLL_391IAU\obj\Debug\BLL
 D:\ingenieria-software\nuevo\Programacion\StageLinkROTO\BLL_391IAU\obj\Debug\BLL_391IAU.pdb
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BLL_391IAU\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Ivan Alejandro Urso\source\repos\StageLink\BLL_391IAU\bin\Debug\Newtonsoft.Json.xml
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\BLL_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\BLL_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\BE_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\DAL_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\Newtonsoft.Json.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\SessionManager_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\BE_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\DAL_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\SessionManager_391IAU.pdb
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\bin\Debug\Newtonsoft.Json.xml
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\obj\Debug\BLL_391IAU.csproj.AssemblyReference.cache
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\obj\Debug\BLL_391IAU.csproj.CoreCompileInputs.cache
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\obj\Debug\BLL_391IAU.csproj.Up2Date
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\obj\Debug\BLL_391IAU.dll
+D:\Estudios\2025\UAI Tercer Año\Materias primer cuatrimestre, Tercer año\Ingenieria de Software\nuevo\Programacion\StageLinkTermiadoPrimerCuatrimestre\BLL_391IAU\obj\Debug\BLL_391IAU.pdb

@@ -1,0 +1,8 @@
+{
+    "LBLTitulo": "Оплата Билета",
+    "LBLMedioDePago": "Выберите способ оплаты",
+    "LBLNumeroDeTajeta": "Введите номер карты в формате XXXX-XXXX-XXXX-XXXX",
+    "LBLCantCuotas": "Введите количество платежей",
+    "BTNCancelar": "Отмена",
+    "BTNConfirmarCobro": "Подтвердить Оплату"
+}

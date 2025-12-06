@@ -1,0 +1,10 @@
+{
+    "LBLCrearUsuarioTitulo": "Создать Пользователя",
+    "LBLDNI": "DNI",
+    "LBLNombre": "Имя",
+    "LBLApellido": "Фамилия",
+    "LBLeMail": "Электронная почта",
+    "LBLRol": "Роль",
+    "BTNCrearUsuario": "Создать Пользователя",
+    "BTNCancelar": "Отмена"
+}
