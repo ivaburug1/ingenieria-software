@@ -46,12 +46,7 @@ namespace DAL_391IAU
                         cmd.Parameters.AddWithValue("@Bloqueado", usuario.Bloqueado_391IAU);
                         cmd.Parameters.AddWithValue("@Intentos", usuario.Intentos_391IAU);
                         cmd.Parameters.AddWithValue("@Rol",
-                                 usuario.IDRol_391IAU.HasValue ? (object)usuario.IDRol_391IAU.Value : DBNull.Value);
-
-
-
-                        cmd.Parameters.AddWithValue("@Rol",
-                            usuario.IDRol_391IAU.HasValue ? (object)usuario.IDRol_391IAU.Value : DBNull.Value
+                                 usuario.IDRol_391IAU.HasValue ? (object)usuario.IDRol_391IAU.Value : DBNull.Value
                         );
 
                         cmd.ExecuteNonQuery();

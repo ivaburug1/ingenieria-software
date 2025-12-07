@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Recomendación de Aumento</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>📈 Ayuda - Recomendación de Aumento</header>
+
+  <div class="container">
+    <h2>1. Propósito de este formulario</h2>
+    <p>
+      El formulario <strong>Recomendación de Aumento</strong> permite analizar clientes 
+      con una alta cantidad de siniestros y, si corresponde, aplicar un 
+      <strong>aumento porcentual</strong> en la cuota mensual de su póliza.  
+      También permite filtrar datos y generar un reporte en PDF con los resultados visibles.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li>
+        <strong>Área de filtros (parte superior):</strong>
+        <ul>
+          <li><strong>DNI:</strong> filtra por número de documento del cliente.</li>
+          <li><strong>Cuota Desde / Cuota Hasta:</strong> define un rango de valores para la cuota mensual.</li>
+          <li><strong>Cantidad de Siniestros:</strong> número mínimo de siniestros para mostrar un cliente.</li>
+          <li><strong>Botones “Filtrar” y “Limpiar Filtro”:</strong> aplican o restablecen los filtros.</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Grilla principal:</strong>  
+        Muestra los resultados. Las columnas suelen ser:
+        <ul>
+          <li>DNI</li>
+          <li>Nombre del cliente</li>
+          <li>Número de póliza</li>
+          <li>Cuota mensual actual</li>
+          <li>Cantidad de siniestros</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Botones de acción (parte inferior):</strong>
+        <ul>
+          <li><strong>Aumentar Cuota:</strong> aplica un aumento porcentual a la póliza seleccionada.</li>
+          <li><strong>Imprimir:</strong> genera un archivo PDF con los datos visibles en pantalla.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="tip">
+      💡 Consejo: combiná los filtros para encontrar clientes con mayor riesgo 
+      (alta cuota + muchos siniestros) antes de aplicar un aumento.
+    </div>
+
+    <h2>3. Cómo aplicar un aumento en la cuota</h2>
+    <ul>
+      <li>Seleccioná un cliente de la grilla principal.</li>
+      <li>Hacé clic en <strong>“Aumentar Cuota”</strong>.</li>
+      <li>El sistema solicitará un <strong>porcentaje</strong> para el aumento (por ejemplo, 10%).</li>
+      <li>Si el valor no es numérico, el sistema mostrará un mensaje de error.</li>
+      <li>
+        Si ingresás un valor válido, se mostrará una ventana con:
+        <ul>
+          <li>DNI del cliente</li>
+          <li>Número de póliza</li>
+          <li>Cuota actual</li>
+          <li>Porcentaje aplicado</li>
+          <li>Nueva cuota resultante</li>
+        </ul>
+      </li>
+      <li>
+        Si confirmás, el sistema actualizará la cuota de la póliza en la base de datos 
+        y recalculará los dígitos verificadores (DVH/DVV).
+      </li>
+      <li>La grilla se actualizará automáticamente.</li>
+    </ul>
+
+    <div class="tip">
+      ⚠️ Si no seleccionás ninguna fila, el sistema pedirá que elijas un cliente antes de continuar.
+    </div>
+
+    <h2>4. Filtrar y limpiar resultados</h2>
+    <ul>
+      <li>Usá <strong>DNI</strong> para buscar un cliente en particular.</li>
+      <li>Utilizá <strong>Cuota Desde / Hasta</strong> para acotar el rango de cuotas.</li>
+      <li>Definí una <strong>Cantidad mínima de siniestros</strong> para ver sólo los clientes más riesgosos.</li>
+      <li>Hacé clic en <strong>“Filtrar”</strong> para aplicar todos los criterios.</li>
+      <li>Hacé clic en <strong>“Limpiar Filtro”</strong> para volver a ver la lista completa.</li>
+    </ul>
+
+    <h2>5. Exportar el reporte a PDF</h2>
+    <p>
+      Al presionar <strong>“Imprimir”</strong>, el sistema genera un archivo PDF 
+      en tu Escritorio con todos los registros visibles en la pantalla.  
+      El reporte incluye:
+    </p>
+    <ul>
+      <li>El nombre del sistema (AseguraYa)</li>
+      <li>Fecha y hora de generación</li>
+      <li>Una tabla con la misma información que muestra la grilla</li>
+    </ul>
+
+    <div class="tip">
+      📂 El nombre del archivo contiene la fecha y hora, lo que facilita su archivado.
+    </div>
+
+    <h2>6. Validaciones y mensajes del sistema</h2>
+    <ul>
+      <li>
+        DNI, Cuota Desde, Cuota Hasta y Cantidad de Siniestros aceptan solo números.
+        Si ingresás letras o símbolos, el sistema limpiará el campo y mostrará una advertencia.
+      </li>
+      <li>
+        Si ingresás un porcentaje no válido, se mostrará un mensaje de error.
+      </li>
+      <li>
+        Si ocurre un error al generar el PDF, se mostrará un detalle técnico.
+      </li>
+    </ul>
+
+    <footer>
+      © 2025 AseguraYa | Motor de Recomendaciones — 
+      <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

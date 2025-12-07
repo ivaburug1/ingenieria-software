@@ -1,0 +1,19 @@
+{
+  "Filtros": "Filters",
+  "Act": "Enabled/Disabled",
+  "Bloqueados": "Blocked Users",
+  "Rol": "Role",
+  "Filtrar": "Filter",
+  "Crear": "Create",
+  "Desbloquear": "Unblock",
+  "Modificar": "Modify",
+  "Activar": "Enable/Delete",
+  "Aplicar": "Apply",
+  "Cancelar": "Cancel",
+  "Salir": "Exit",
+  "DNI": "ID",
+  "Apellido": "Surname",
+  "Nombre": "Name",
+  "Email": "Email",
+  "Gestion de usuarios":"User management"
+}

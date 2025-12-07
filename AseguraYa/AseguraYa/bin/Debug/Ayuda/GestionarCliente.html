@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda - Gestión de Clientes</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #007991, #53a88f);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #f1faff;
+      border-left: 4px solid #00c6ff;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #00c6ff;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #ddd;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #00c6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>👥 Ayuda - Gestión de Clientes</header>
+
+  <div class="container">
+    <h2>1. Objetivo del formulario</h2>
+    <p>
+      Este módulo permite <strong>gestionar los clientes</strong> registrados en el sistema
+      <strong>AseguraYa</strong>. Desde aquí podrás crear nuevos clientes, modificarlos, eliminarlos,
+      encriptar sus correos electrónicos y realizar copias XML de respaldo.
+    </p>
+
+    <h2>2. Registrar Cliente</h2>
+    <ul>
+      <li>Presioná <strong>“Registrar Cliente”</strong> para ingresar en modo creación.</li>
+      <li>Completá todos los campos obligatorios:
+        <ul>
+          <li><strong>DNI</strong> – solo números.</li>
+          <li><strong>Nombre</strong> y <strong>Apellido</strong> – solo letras.</li>
+          <li><strong>Email</strong> – debe tener formato válido.</li>
+          <li><strong>Domicilio</strong> – dirección del cliente.</li>
+          <li><strong>Código Postal</strong> – solo números.</li>
+        </ul>
+      </li>
+      <li>Hacé clic en <strong>Aplicar</strong> para guardar el nuevo cliente.</li>
+    </ul>
+    <div class="tip">
+      💡 El sistema validará automáticamente que el cliente no exista y calculará su DVH/DVV.
+    </div>
+
+    <h2>3. Modificar Cliente</h2>
+    <ul>
+      <li>Seleccioná un cliente en la grilla superior.</li>
+      <li>Presioná <strong>“Modificar Cliente”</strong> para activar el modo edición.</li>
+      <li>Actualizá los datos deseados y hacé clic en <strong>Aplicar</strong>.</li>
+    </ul>
+    <div class="tip">
+      ⚙️ El campo DNI no se puede editar para evitar duplicados. Todos los cambios quedan registrados
+      en el historial de eventos.
+    </div>
+
+    <h2>4. Eliminar Cliente</h2>
+    <ul>
+      <li>Seleccioná un cliente activo en la tabla.</li>
+      <li>Presioná <strong>“Eliminar Cliente”</strong> y luego <strong>Aplicar</strong>.</li>
+      <li>El sistema realiza una <em>eliminación lógica</em> (el cliente no se borra físicamente, solo
+        se desactiva).</li>
+    </ul>
+
+    <h2>5. Encriptar/Desencriptar Emails</h2>
+    <p>
+      El botón <strong>“Mostrar Mails”</strong> alterna entre mostrar los correos
+      <em>encriptados o desencriptados</em> mediante el algoritmo AES-256.  
+      Esto protege los datos sensibles de los clientes almacenados en la base.
+    </p>
+
+    <h2>6. Serialización / Deserialización</h2>
+    <ul>
+      <li><strong>Serializar:</strong> Guarda los clientes seleccionados en un archivo XML local.</li>
+      <li><strong>Deserializar:</strong> Carga y visualiza los datos desde un archivo XML.</li>
+    </ul>
+    <div class="tip">
+      📁 Ideal para generar respaldos o intercambiar datos con otros sistemas.
+    </div>
+
+    <h2>7. Validaciones automáticas</h2>
+    <ul>
+      <li>Campos alfabéticos (nombre, apellido, domicilio) solo permiten letras.</li>
+      <li>Campos numéricos (DNI, código postal) solo aceptan números.</li>
+      <li>El email se valida al salir del campo o al guardar.</li>
+    </ul>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Gestión de Clientes — <a href="#">Volver al inicio</a>
+    </footer>
+  </div>
+</body>
+</html>

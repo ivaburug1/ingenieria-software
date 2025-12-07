@@ -64,6 +64,9 @@ namespace StageLink
                     rolSeleccionado = Convert.ToInt32(CBMListadoRoles.SelectedValue);
                 }
 
+                if (rolSeleccionado == null || rolSeleccionado == 0)
+                    throw new ArgumentException(sm.Traducir("CrearUsuario_RolInvalido"));
+
                 BLLUsuario bll = new BLLUsuario();
                 string contraseñaGenerada = dni + nombre;
 

@@ -1,0 +1,20 @@
+{
+    "GesestionSeguros": "Insurance Management",
+    "Productos": "Products",
+    "CrearProducto": "Create Product",
+    "AsociarPlan": "Link Plan",
+    "GestionPlan": "Plan Management",
+    "Franquicia": "Deductible",
+    "Prima": "Premium",
+    "CrearPlan": "Create Plan",
+    "AsociarCobertura": "Link Coverage",
+    "GestionCobertura": "Coverage Management",
+    "Descripcion": "Description",
+    "SumaAsegurada": "Insured Sum",
+    "CrearCobertura": "Create Coverage",
+    "crearproducto": "create product",
+    "AgruparSeguro": "Group Insurance",
+    "Planes": "Plans",
+    "Coberturas": "Coverages",
+    "_686DP_frmCrearProducto":"Create Insurance"
+}

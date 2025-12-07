@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Bitácora de eventos</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>📊 Ayuda - Bitácora de eventos</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      La <strong>Bitácora de eventos</strong> registra todas las acciones realizadas dentro del sistema 
+      <strong>AseguraYa</strong>.  
+      Permite visualizar qué usuarios ejecutaron operaciones, en qué módulo, cuándo y con qué nivel de criticidad.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>Cuadro principal:</strong> muestra los registros de eventos con su fecha, usuario, módulo y criticidad.</li>
+      <li><strong>Fechas desde/hasta:</strong> acotan el rango temporal de los eventos mostrados.</li>
+      <li><strong>Módulo:</strong> filtra por la parte del sistema donde ocurrió la acción (por ejemplo, Login, Perfiles, Clientes, etc.).</li>
+      <li><strong>Criticidad:</strong> filtra los eventos según su nivel de importancia o gravedad (1 = baja, 3 = alta).</li>
+      <li><strong>DNI / Nombre / Apellido:</strong> permiten identificar al usuario responsable del evento seleccionado.</li>
+      <li><strong>Botones:</strong>
+        <ul>
+          <li><strong>Filtrar:</strong> aplica los filtros seleccionados.</li>
+          <li><strong>Limpiar Filtro:</strong> muestra nuevamente todos los registros sin restricciones.</li>
+          <li><strong>Imprimir:</strong> exporta la bitácora actual en formato PDF.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="tip">
+      💡 Consejo: podés combinar los filtros de <em>fecha</em>, <em>módulo</em> y <em>criticidad</em> para encontrar rápidamente eventos específicos.
+    </div>
+
+    <h2>3. Filtro por criterios</h2>
+    <ul>
+      <li>Usá las fechas <strong>Desde</strong> y <strong>Hasta</strong> para acotar el período de búsqueda.</li>
+      <li>Seleccioná un <strong>módulo</strong> o nivel de <strong>criticidad</strong> para refinar los resultados.</li>
+      <li>Ingresá un <strong>DNI</strong> si querés ver los eventos realizados por un usuario en particular.</li>
+    </ul>
+
+    <h2>4. Exportación a PDF</h2>
+    <p>
+      Al presionar <strong>“Imprimir”</strong>, el sistema genera un archivo PDF con todos los registros visibles.  
+      Este documento puede usarse para auditorías o reportes.
+    </p>
+
+    <div class="tip">
+      ⚙️ Cada exportación a PDF queda registrada en la bitácora de auditoría con el usuario y fecha de generación.
+    </div>
+
+    <h2>5. Integridad y trazabilidad</h2>
+    <p>
+      Cada evento se guarda automáticamente con un nivel de criticidad y se asocia al usuario logueado.  
+      De esta manera, el sistema garantiza la trazabilidad completa de las acciones realizadas en todas las capas.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Auditoría — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

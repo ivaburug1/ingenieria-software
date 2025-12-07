@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Generar Contratación</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    p, li {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🧾 Ayuda - Generar Contratación de Pólizas</header>
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Generar Contratación</strong> permite crear una nueva póliza para un cliente, seleccionando el producto, plan y coberturas correspondientes.
+      Si el cliente no existe, el sistema ofrece registrarlo. Si existen datos faltantes (como dirección o tarjeta), se solicitarán antes de finalizar.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>DNI:</strong> identifica al cliente. Si no existe, se abrirá la ventana de registro básico.</li>
+      <li><strong>Producto:</strong> lista de seguros disponibles.</li>
+      <li><strong>Planes:</strong> muestra los planes asociados al producto seleccionado.</li>
+      <li><strong>Coberturas:</strong> detalla las coberturas que ofrece cada plan.</li>
+      <li><strong>Botones:</strong>
+        <ul>
+          <li><strong>Aceptar:</strong> confirma la contratación y genera la póliza.</li>
+          <li><strong>Cancelar:</strong> cierra la ventana sin guardar cambios.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Flujo completo de contratación</h2>
+    <ul>
+      <li>1️⃣ Ingresá el <strong>DNI</strong> del cliente.</li>
+      <li>2️⃣ Si el cliente no existe, se abrirá <strong>Registrar Cliente</strong> (DNI, Nombre, Apellido).</li>
+      <li>3️⃣ Seleccioná el <strong>Producto</strong> deseado y luego un <strong>Plan</strong>.</li>
+      <li>4️⃣ Verificá las <strong>Coberturas</strong> asociadas al plan.</li>
+      <li>5️⃣ Si faltan datos del cliente, se abrirá <strong>Datos Extra</strong> (Email, Domicilio, Código Postal, Medio de pago, Tarjeta).</li>
+      <li>6️⃣ Al presionar <strong>Aceptar</strong>, se genera la póliza y se imprime automáticamente.</li>
+    </ul>
+
+    <div class="tip">
+      💡 Consejo: verificá que el cliente tenga email y domicilio cargados antes de aceptar, para evitar interrupciones.
+    </div>
+
+    <h2>4. Ventana “Registrar Cliente”</h2>
+    <p>
+      Si el cliente no existe, se abre una ventana para registrar su información básica.  
+      Solo se requiere DNI, nombre y apellido. Luego se puede continuar con la contratación.
+    </p>
+
+    <h2>5. Ventana “Datos Extra”</h2>
+    <p>
+      Si el cliente ya existe pero le faltan datos (email, dirección, medio de pago o tarjeta), el sistema abrirá esta pantalla para completarlos antes de generar la póliza.
+    </p>
+
+    <h2>6. Resultado final</h2>
+    <p>
+      Una vez confirmada la operación, se genera un registro de la póliza en la base de datos, se imprime el documento en formato PDF y el evento se registra automáticamente en la bitácora del sistema.
+    </p>
+
+    <footer>© 2025 AseguraYa | Sistema de Gestión de Pólizas — <a href="#">Volver al menú principal</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "Nombre": "Name",
+  "Apellido": "Surname",
+  "DNI": "ID Number",
+  "Registrar": "Register Client",
+  "Modificar": "Edit Client",
+  "Eliminar": "Delete Client",
+  "Mostrar": "Show Emails",
+  "Email": "Email",
+  "Domicilio": "Address",
+  "CodigoPostal": "Postal Code",
+  "MedioPago": "Payment Method",
+  "NTarjeta": "Card Number",
+  "Aplicar": "Apply",
+  "Crear":"Create",
+  "_686DPfrmGestionarClientes":"Client Management"
+}

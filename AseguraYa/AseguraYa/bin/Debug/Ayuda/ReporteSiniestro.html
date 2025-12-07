@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda - Reporte de Siniestros</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>📄 Ayuda - Reporte de Siniestros</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Reporte de Siniestros</strong> permite consultar, filtrar e imprimir reportes con todos los siniestros registrados en el sistema <strong>AseguraYa</strong>.  
+      Incluye opciones para generar informes detallados en formato PDF, útiles para auditoría o análisis mensual.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>Tabla principal:</strong> muestra todos los siniestros registrados, con información como código, fecha, descripción y valor.</li>
+      <li><strong>Fecha:</strong> permite filtrar los siniestros ocurridos en una fecha específica.</li>
+      <li><strong>Descripción:</strong> lista desplegable que permite seleccionar el tipo de siniestro (por ejemplo, robo, incendio, choque, etc.).</li>
+      <li><strong>Filtrar:</strong> aplica los filtros seleccionados sin necesidad de consultar la base de datos nuevamente.</li>
+      <li><strong>Limpiar Filtros:</strong> restablece la grilla y muestra todos los registros nuevamente.</li>
+      <li><strong>Imprimir:</strong> genera un reporte PDF con los resultados filtrados y un resumen general.</li>
+    </ul>
+
+    <h2>3. Proceso de filtrado</h2>
+    <ol>
+      <li>Seleccionar una <strong>fecha</strong> y/o una <strong>descripción</strong> desde el menú desplegable.</li>
+      <li>Presionar el botón <strong>Filtrar</strong> para ver los resultados en pantalla.</li>
+      <li>Si se desea volver a ver todos los siniestros, presionar <strong>Limpiar Filtros</strong>.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Consejo: el filtrado se realiza en memoria, sin consultar la base de datos, por lo que es rápido y eficiente.
+    </div>
+
+    <h2>4. Generación del PDF</h2>
+    <p>
+      Al presionar <strong>Imprimir</strong>, el sistema genera automáticamente un archivo <em>ReporteSiniestros.pdf</em> con:
+    </p>
+    <ul>
+      <li>Encabezado con título y fecha de generación.</li>
+      <li>Tabla con todas las columnas visibles en el formulario.</li>
+      <li>Resumen al final con el total de siniestros y el valor promedio.</li>
+    </ul>
+
+    <h2>5. Validaciones y seguridad</h2>
+    <ul>
+      <li>Si no hay registros cargados, el sistema no permite generar el PDF.</li>
+      <li>El archivo se guarda en la ubicación seleccionada por el usuario.</li>
+      <li>Cada generación de reporte se registra en la bitácora de eventos.</li>
+    </ul>
+
+    <h2>6. Auditoría</h2>
+    <p>
+      El sistema registra cada vez que un usuario genera un reporte, incluyendo su DNI, el nombre del formulario y la fecha de acción.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Módulo de Siniestros — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

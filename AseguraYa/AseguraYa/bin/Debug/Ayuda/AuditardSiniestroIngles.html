@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda - Auditar Siniestro</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 950px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🔍 Ayuda - Auditar Siniestro</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Auditar Siniestro</strong> permite al auditor revisar los siniestros registrados en el sistema 
+      <strong>AseguraYa</strong>, evaluar su validez y aprobar o rechazar aquellos que cumplan o no con los criterios del sistema.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>Grilla principal:</strong> muestra todos los siniestros cargados en el sistema con su estado de evaluación.</li>
+      <li><strong>Columna “EvaluaciónSistema”:</strong> indica si el siniestro califica (“CALIFICA”) o no (“NO CALIFICA”) según las reglas de negocio.</li>
+      <li><strong>Check “Califican”:</strong> filtra la vista para mostrar solo los siniestros que cumplen las condiciones para pago.</li>
+      <li><strong>Botón Aprobar:</strong> aprueba el siniestro seleccionado y abre el formulario de pago correspondiente.</li>
+    </ul>
+
+    <h2>3. Proceso de auditoría</h2>
+    <ol>
+      <li>Revisar los siniestros listados en la grilla.</li>
+      <li>Usar el filtro “Califican” para visualizar solo los que cumplen las condiciones.</li>
+      <li>Seleccionar un siniestro y presionar <strong>Aprobar</strong>.</li>
+      <li>El sistema abrirá el formulario <strong>Pagar</strong> para registrar el pago correspondiente.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Consejo: los siniestros aprobados se muestran en verde, los rechazados en rojo y los pendientes en blanco.
+    </div>
+
+    <h2>4. Validaciones y seguridad</h2>
+    <ul>
+      <li>Solo se puede aprobar un siniestro si fue previamente evaluado por el sistema.</li>
+      <li>El botón Aprobar requiere una fila seleccionada.</li>
+      <li>El sistema recalcula los dígitos verificadores (DVH/DVV) tras cada aprobación.</li>
+    </ul>
+
+    <h2>5. Auditoría del proceso</h2>
+    <p>
+      Todas las acciones de auditoría quedan registradas en la bitácora del sistema, incluyendo el usuario que aprobó o rechazó el siniestro y la fecha de la acción.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Módulo de Siniestros — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

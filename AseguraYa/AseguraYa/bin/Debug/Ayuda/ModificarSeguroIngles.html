@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Modify Insurance Policy</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🛠️ Help - Modify Insurance Policy</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Modify Insurance</strong> form allows users to update existing insurance policies in the <strong>AseguraYa</strong> system.  
+      It enables the user to review current coverage, change the associated plan, and extend the policy’s validity.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>Policy Number:</strong> field to enter the policy number to be modified.</li>
+      <li><strong>Eye button:</strong> loads and displays the current policy data.</li>
+      <li><strong>Product:</strong> shows the type of insurance associated with the policy (life, auto, home, etc.).</li>
+      <li><strong>Plans:</strong> displays the available plans and their related coverages for the selected product.</li>
+      <li><strong>Buttons:</strong>
+        <ul>
+          <li><strong>Accept:</strong> saves all modifications to the policy.</li>
+          <li><strong>Cancel:</strong> closes the form without saving changes.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Modification process</h2>
+    <ol>
+      <li>Enter the <strong>Policy Number</strong> and click the eye button 👁️.</li>
+      <li>The system will display the current policy data, including product, plan, and coverages.</li>
+      <li>Select a new <strong>Plan</strong> if you wish to modify it.</li>
+      <li>Review the available coverages and confirm by clicking <strong>Accept</strong>.</li>
+      <li>The policy will be updated and recorded in the system’s event log.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Tip: the system automatically recalculates the verification digit (DVH/DVV) after every modification, ensuring data integrity.
+    </div>
+
+    <h2>4. Validations and common errors</h2>
+    <ul>
+      <li>The policy number must be numeric and valid.</li>
+      <li>The system will not modify non-existent policies.</li>
+      <li>The <strong>Product</strong> field cannot be left empty.</li>
+    </ul>
+
+    <h2>5. Logging and traceability</h2>
+    <p>
+      Every modification is automatically logged with the user, date, and updated details.  
+      This ensures full traceability and accountability for all policy changes.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Insurance Module — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

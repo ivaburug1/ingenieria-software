@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Crear Producto</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>🛡️ Ayuda - Crear Producto de Seguro</header>
+
+  <div class="container">
+    <h2>1. Objetivo del formulario</h2>
+    <p>
+      Este módulo permite gestionar los productos, planes y coberturas del sistema
+      <strong>AseguraYa</strong>. Desde aquí podés crear nuevos seguros, asociar planes a productos y definir coberturas específicas.
+    </p>
+
+    <h2>2. Modo <em>“Crear producto”</em></h2>
+    <ul>
+      <li>Activá el radio botón <strong>“Crear producto”</strong>.</li>
+      <li>Completá el campo <strong>Productos</strong> con un nombre válido (solo letras).</li>
+      <li>Presioná <strong>Crear producto</strong> para guardarlo.</li>
+    </ul>
+    <div class="tip">
+      💡 Consejo: El sistema validará automáticamente que el producto no exista y registrará el evento en el historial.
+    </div>
+
+    <h2>3. Modo <em>“Agrupar seguro”</em></h2>
+    <ul>
+      <li>Seleccioná un producto existente en el combo <strong>Productos</strong>.</li>
+      <li>Ingresá los datos del plan:
+        <ul>
+          <li><strong>Franquicia:</strong> monto deducible.</li>
+          <li><strong>Prima:</strong> costo del plan.</li>
+        </ul>
+      </li>
+      <li>Usá <strong>Crear plan</strong> para generar uno nuevo o <strong>Asociar cobertura</strong> para vincularlo.</li>
+    </ul>
+
+    <div class="tip">
+      ⚙️ Al seleccionar un plan en la lista, se mostrarán sus coberturas en el panel derecho.
+    </div>
+
+    <h2>4. Gestión de coberturas</h2>
+    <ul>
+      <li>Completá la <strong>Descripción</strong> y la <strong>Suma asegurada</strong>.</li>
+      <li>Presioná <strong>Crear cobertura</strong> para agregarla al plan seleccionado.</li>
+    </ul>
+    <div class="tip">
+      ⚠️ No se permite duplicar coberturas con la misma descripción y suma asegurada.
+    </div>
+
+    <h2>5. Validaciones automáticas</h2>
+    <p>El sistema realiza validaciones en tiempo real:</p>
+    <ul>
+      <li>Campos de texto: solo letras.</li>
+      <li>Campos numéricos: solo números.</li>
+      <li>Verificación de duplicados en productos, planes y coberturas.</li>
+    </ul>
+
+    <h2>6. Seguridad e integridad</h2>
+    <p>
+      Cada acción de creación o modificación recalcula el <strong>DVH/DVV</strong> (Dígito Verificador)
+      y genera un evento de auditoría para asegurar la integridad de los datos.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Gestión de Seguros — <a href="#">Volver al inicio</a>
+    </footer>
+  </div>
+</body>
+</html>

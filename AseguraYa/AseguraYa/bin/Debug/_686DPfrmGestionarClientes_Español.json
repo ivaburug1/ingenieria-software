@@ -1,0 +1,16 @@
+{
+  "Nombre": "Nombre",
+  "Apellido": "Apellido",
+  "DNI": "DNI",
+  "Registrar": "Registrar cliente",
+  "Modificar": "Modificar cliente",
+  "Eliminar": "Eliminar cliente",
+  "Mostrar": "Mostrar Mails",
+  "Email": "Email",
+  "Domicilio": "Domicilio",
+  "CodigoPostal": "Código Postal",
+  "MedioPago": "Medio de pago",
+  "NTarjeta": "Número de tarjeta",
+  "Aplicar": "Aplicar",
+  "_686DPfrmGestionarClientes":"Gestionar clientes"
+}

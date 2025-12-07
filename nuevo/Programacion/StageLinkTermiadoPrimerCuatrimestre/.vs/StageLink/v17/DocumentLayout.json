@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|d:\\estudios\\2025\\uai tercer a\u00F1o\\materias primer cuatrimestre, tercer a\u00F1o\\ingenieria de software\\nuevo\\programacion\\stagelinktermiadoprimercuatrimestre\\bll_391iau\\bllevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|d:\\estudios\\2025\\uai tercer a\u00F1o\\materias primer cuatrimestre, tercer a\u00F1o\\ingenieria de software\\nuevo\\programacion\\stagelinktermiadoprimercuatrimestre\\stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\be_391iau\\beevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|solutionrelative:be_391iau\\beevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\bll_391iau\\bllfamilia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllfamilia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\bll_391iau\\bllcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\bll_391iau\\bllboleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05448B44-AA1B-478E-AB31-101F3C4DE64B}|BLL_391IAU\\BLL_391IAU.csproj|solutionrelative:bll_391iau\\bllboleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\be_391iau\\bepermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|solutionrelative:be_391iau\\bepermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\be_391iau\\beperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|solutionrelative:be_391iau\\beperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\be_391iau\\becliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620214AB-6A89-4C78-9881-8630774F1DEA}|BE_391IAU\\BE_391IAU.csproj|solutionrelative:be_391iau\\becliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|d:\\estudios\\2025\\uai tercer a\u00F1o\\materias primer cuatrimestre, tercer a\u00F1o\\ingenieria de software\\nuevo\\programacion\\stagelinktermiadoprimercuatrimestre\\stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBC36803-CA47-4BAC-8AF9-7089ACD9BF2A}|StageLink\\GUI_391IAU.csproj|solutionrelative:stagelink\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,100 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BLLFamilia.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLFamilia.cs",
-              "RelativeDocumentMoniker": "BLL_391IAU\\BLLFamilia.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLFamilia.cs",
-              "RelativeToolTip": "BLL_391IAU\\BLLFamilia.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:42:40.609Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BLLEvento.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLEvento.cs",
-              "RelativeDocumentMoniker": "BLL_391IAU\\BLLEvento.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLEvento.cs",
-              "RelativeToolTip": "BLL_391IAU\\BLLEvento.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswEwAAAAAAAAAAAAAAA==",
+              "Title": "GestionDeUsuarios.cs",
+              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDeUsuarios.cs",
+              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeToolTip": "StageLink\\GestionDeUsuarios.cs",
+              "ViewState": "AgIAAFECAAAAAAAAAAAiwG8CAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:42:36.618Z",
+              "WhenOpened": "2025-12-06T20:42:41.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BLLCliente.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLCliente.cs",
-              "RelativeDocumentMoniker": "BLL_391IAU\\BLLCliente.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLCliente.cs",
-              "RelativeToolTip": "BLL_391IAU\\BLLCliente.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:42:31.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BLLBoleto.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLBoleto.cs",
-              "RelativeDocumentMoniker": "BLL_391IAU\\BLLBoleto.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BLL_391IAU\\BLLBoleto.cs",
-              "RelativeToolTip": "BLL_391IAU\\BLLBoleto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:42:24.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BEPermiso.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BEPermiso.cs",
-              "RelativeDocumentMoniker": "BE_391IAU\\BEPermiso.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BEPermiso.cs",
-              "RelativeToolTip": "BE_391IAU\\BEPermiso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:41:47.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BEPerfil.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BEPerfil.cs",
-              "RelativeDocumentMoniker": "BE_391IAU\\BEPerfil.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BEPerfil.cs",
-              "RelativeToolTip": "BE_391IAU\\BEPerfil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:41:43.113Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BEEvento.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BEEvento.cs",
-              "RelativeDocumentMoniker": "BE_391IAU\\BEEvento.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BEEvento.cs",
-              "RelativeToolTip": "BE_391IAU\\BEEvento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Title": "GestionDeUsuarios.cs [Design]",
+              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\StageLink\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "StageLink\\GestionDeUsuarios.cs",
+              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\StageLink\\GestionDeUsuarios.cs [Design]",
+              "RelativeToolTip": "StageLink\\GestionDeUsuarios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:41:38.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BECliente.cs",
-              "DocumentMoniker": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BECliente.cs",
-              "RelativeDocumentMoniker": "BE_391IAU\\BECliente.cs",
-              "ToolTip": "D:\\Estudios\\2025\\UAI Tercer A\u00F1o\\Materias primer cuatrimestre, Tercer a\u00F1o\\Ingenieria de Software\\nuevo\\Programacion\\StageLinkTermiadoPrimerCuatrimestre\\BE_391IAU\\BECliente.cs",
-              "RelativeToolTip": "BE_391IAU\\BECliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T00:41:33.843Z"
+              "WhenOpened": "2025-12-06T20:42:36.804Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

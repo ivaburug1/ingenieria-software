@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Generate Contract</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🧾 Help - Generate Contract</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Generate Contract</strong> form allows users to create new insurance policies in the <strong>AseguraYa</strong> system.  
+      The process validates the client’s information, selected product, available plans, and their related coverages.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>DNI:</strong> identifies the client. If the client doesn’t exist, the system will open the “Register Client” window.</li>
+      <li><strong>Product:</strong> dropdown menu with available insurance types (auto, home, life, etc.).</li>
+      <li><strong>Plans:</strong> displays the plans and coverages related to the selected product.</li>
+      <li><strong>Buttons:</strong>
+        <ul>
+          <li><strong>Accept:</strong> generates the contract and policy.</li>
+          <li><strong>Cancel:</strong> closes the form without saving changes.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Registration flow</h2>
+    <ol>
+      <li>Enter the client’s <strong>DNI</strong>.</li>
+      <li>If the client doesn’t exist, the system will open the <strong>Register Client</strong> form to create one.</li>
+      <li>Select the <strong>Product</strong> and then the <strong>Plan</strong>.</li>
+      <li>If any client data is missing (address, email, etc.), the system will open the <strong>Extra Data</strong> window.</li>
+      <li>After confirmation, the policy will be generated and automatically printed.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Tip: missing data such as email or postal code may prevent the policy from being generated.  
+      Ensure the client’s information is complete before confirming.
+    </div>
+
+    <h2>4. Related forms</h2>
+    <ul>
+      <li><strong>Register Client:</strong> creates a new client record if the entered DNI does not exist.</li>
+      <li><strong>Extra Data:</strong> allows completing missing client information required for policy generation.</li>
+    </ul>
+
+    <h2>5. Logging and traceability</h2>
+    <p>
+      All actions performed (client creation, policy generation, printing) are automatically recorded in the system’s event log for auditing purposes.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Contract Management System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

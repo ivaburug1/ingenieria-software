@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Gestión de Usuarios</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.12);
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #b0d8ff;
+      border-left: 4px solid #00b4db;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #00b4db;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.18);
+      border-left: 5px solid #00b4db;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #00b4db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>👤 Ayuda - Gestión de Usuarios</header>
+
+  <div class="container">
+    <h2>1. Objetivo del formulario</h2>
+    <p>
+      Este módulo permite <strong>gestionar los usuarios del sistema AseguraYa</strong>:
+      creación, modificación, activación/desactivación, desbloqueo y asignación de roles.
+      También permite aplicar filtros para visualizar usuarios según su estado o rol.
+    </p>
+
+    <h2>2. Crear Usuario</h2>
+    <ul>
+      <li>Presioná <strong>“Crear”</strong> para entrar en modo creación.</li>
+      <li>Completá los campos:
+        <ul>
+          <li><strong>DNI</strong>: solo números.</li>
+          <li><strong>Apellido/s</strong> y <strong>Nombre/s</strong>: solo letras.</li>
+          <li><strong>Email</strong>: debe tener un formato válido.</li>
+          <li><strong>Rol</strong>: seleccioná uno del menú desplegable.</li>
+        </ul>
+      </li>
+      <li>Luego hacé clic en <strong>Aplicar</strong> para guardar el nuevo usuario.</li>
+    </ul>
+    <div class="tip">
+      💡 El sistema genera automáticamente el <strong>usuario</strong> (nombre.apellido)
+      y la <strong>contraseña inicial</strong> (dni.apellido), la cual se guarda encriptada con SHA-256.
+    </div>
+
+    <h2>3. Modificar Usuario</h2>
+    <ul>
+      <li>Seleccioná un usuario de la tabla.</li>
+      <li>Presioná <strong>“Modificar”</strong> y editá los datos habilitados.</li>
+      <li>Confirmá los cambios con <strong>Aplicar</strong>.</li>
+    </ul>
+    <div class="tip">
+      ⚙️ El campo DNI no puede editarse para mantener la integridad del registro.
+      Los cambios se registran automáticamente en los eventos del sistema.
+    </div>
+
+    <h2>4. Desbloquear Usuario</h2>
+    <ul>
+      <li>Seleccioná un usuario bloqueado (tras tres intentos fallidos de inicio de sesión).</li>
+      <li>Presioná <strong>“Desbloquear”</strong> y luego <strong>Aplicar</strong>.</li>
+      <li>El sistema reestablece la contraseña por defecto y permite el acceso nuevamente.</li>
+    </ul>
+    <div class="tip">
+      🔐 El usuario deberá cambiar su contraseña al ingresar la próxima vez.
+    </div>
+
+    <h2>5. Activar / Eliminar Usuario</h2>
+    <ul>
+      <li>Seleccioná el usuario deseado.</li>
+      <li>Presioná <strong>“Activar / Eliminar”</strong> y luego <strong>Aplicar</strong>.</li>
+      <li>El cambio es lógico: el usuario no se borra físicamente de la base, solo cambia su estado.</li>
+    </ul>
+    <div class="tip">
+      ⚠️ Los usuarios desactivados no pueden iniciar sesión hasta ser reactivados.
+    </div>
+
+    <h2>6. Filtrar Usuarios</h2>
+    <ul>
+      <li>Utilizá los menús superiores para aplicar filtros:
+        <ul>
+          <li><strong>Activados/Desactivados</strong> — muestra usuarios activos o inactivos.</li>
+          <li><strong>Usuarios bloqueados</strong> — muestra usuarios con acceso restringido.</li>
+          <li><strong>Rol</strong> — filtra por tipo de rol asignado.</li>
+        </ul>
+      </li>
+      <li>Presioná <strong>Filtrar</strong> para aplicar las condiciones.</li>
+    </ul>
+
+    <h2>7. Validaciones automáticas</h2>
+    <ul>
+      <li>Los campos <strong>DNI</strong>, <strong>Apellido</strong> y <strong>Nombre</strong> se validan en tiempo real.</li>
+      <li>El correo se valida con expresiones regulares al salir del campo.</li>
+      <li>No se permite duplicar usuarios con el mismo DNI.</li>
+    </ul>
+
+    <h2>8. Seguridad e integridad</h2>
+    <p>
+      Cada acción recalcula el <strong>DVH/DVV</strong> del módulo y genera un registro en la
+      bitácora de eventos.  
+      Además, las contraseñas se almacenan con <strong>encriptación SHA-256</strong> para
+      garantizar la seguridad.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Gestión de Usuarios — <a href="#">Volver al inicio</a>
+    </footer>
+  </div>
+</body>
+</html>

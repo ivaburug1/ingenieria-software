@@ -1,0 +1,19 @@
+{
+  "Filtros": "Filtros",
+  "Act": "Activados/Desactivados",
+  "Bloqueados": "Usuarios Bloqueados",
+  "Rol": "Rol",
+  "Filtrar": "Filtrar",
+  "Crear": "Crear",
+  "Desbloquear": "Desbloquear",
+  "Modificar": "Modificar",
+  "Activar": "Activar/Eliminar",
+  "Aplicar": "Aplicar",
+  "Cancelar": "Cancelar",
+  "Salir": "Salir",
+  "DNI": "DNI",
+  "Apellido": "Apellido",
+  "Nombre": "Nombre",
+  "Email": "Email",
+  "Gestion de usuarios":"Gestion de usuarios"
+}

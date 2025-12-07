@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Create Profile</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>👤 Help - Create User Profile</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      This section allows you to create and manage <strong>user profiles</strong> in the
+      <strong>AseguraYa</strong> system. A profile groups families and permissions that define what
+      each user can do in the platform.
+    </p>
+
+    <h2>2. Creating a new profile</h2>
+    <ul>
+      <li>Enter the profile name in the <strong>Name</strong> field (letters only).</li>
+      <li>Click <strong>Create Profile</strong> to initialize the creation.</li>
+      <li>The profile will appear in the middle panel as <em>"Profile to create"</em>.</li>
+    </ul>
+
+    <div class="tip">
+      💡 If the profile name already exists, the system will display a warning and block creation.
+    </div>
+
+    <h2>3. Adding families to the profile</h2>
+    <ul>
+      <li>Select one or more families from the <strong>Families</strong> panel.</li>
+      <li>Click <strong>Add Family</strong> to include them in the profile.</li>
+      <li>All permissions belonging to that family will be automatically added.</li>
+    </ul>
+    <div class="tip">
+      ⚙️ The system prevents duplicated families or repeated permissions.
+    </div>
+
+    <h2>4. Adding individual permissions</h2>
+    <ul>
+      <li>Select a permission from the right panel <strong>Permissions</strong>.</li>
+      <li>Click <strong>Add Permission</strong> to include it directly in the profile.</li>
+      <li>Permissions already included through a family cannot be added again.</li>
+    </ul>
+
+    <h2>5. Saving the profile</h2>
+    <ul>
+      <li>Once all desired families and permissions are added, click <strong>Create Profile</strong>.</li>
+      <li>The profile will be saved in the system and appear in the <strong>Profiles</strong> list.</li>
+      <li>The operation will be logged in the system event registry for traceability.</li>
+    </ul>
+
+    <h2>6. Editing or removing components</h2>
+    <p>
+      Existing profiles can be modified from the <strong>Profiles</strong> panel:
+    </p>
+    <ul>
+      <li><strong>Unassign Family</strong>: Removes a complete family from the selected profile.</li>
+      <li><strong>Unassign Permission</strong>: Removes an individual permission.</li>
+      <li>If the profile has no components left, it will be automatically deleted.</li>
+    </ul>
+
+    <h2>7. Data integrity and audit</h2>
+    <p>
+      Each modification triggers recalculation of <strong>DVH/DVV</strong> (verification digits) and
+      registers an audit event, ensuring consistency and security across the database.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Profile Management System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1028 @@
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+D:\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+D:\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+E:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+D:\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe.config
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmVerPolizas.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\Proyects-version_19_06\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+D:\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+D:\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+D:\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+D:\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+D:\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+D:\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+D:\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+D:\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+D:\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Form1.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\itextsharp.dll
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Dana Perelmuter\Desktop\Version9_7\Version9_7\Perelmuter Dana\AseguraYa\AseguraYa\bin\Debug\itextsharp.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmBitacoraCambio.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmBitacoraDeEventos.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.GestionDeRespaldo.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarSiniestro.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmAuditarSiniestro.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmPagar.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmReporteSiniestro.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRepararSistema.resources
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.manifest
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.application
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe.manifest
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.application
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.manifest
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.application
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe.config
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmAuditarSiniestro.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmBitacoraCambio.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmBitacoraDeEventos.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmPagar.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarSiniestro.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmReporteSiniestro.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.GestionDeRespaldo.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRepararSistema.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe.manifest
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.application
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRecomendacionDeAumento.resources
+D:\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.frmInputBox.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe.manifest
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.application
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\AseguraYa.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_BLL.dll.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_SERVICIOS.dll.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\itextsharp.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_MPP.dll.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\bin\Debug\686DP_Dal.dll.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmAuditarSiniestro.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmBitacoraCambio.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmBitacoraDeEventos.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCambiarContraseña.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCancelarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmCrearPerfil.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmDatosExtra.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmFamilias.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGenerarContratación.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionarClientes.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmGestionUsuarios.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmIdioma.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmInicio.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmLogIn.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmModificarSeguro.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmPagar.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRecomendacionDeAumento.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarCliente.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRegistrarSiniestro.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmCrearProducto.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmPolizas.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DP_frmReporteSiniestro.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.frmInputBox.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.GestionDeRespaldo.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.Properties.Resources.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa._686DPfrmRepararSistema.resources
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.GenerateResource.cache
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe.manifest
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.application
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\686DP_GUI.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.exe
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\AseguraYa\obj\Debug\AseguraYa.pdb

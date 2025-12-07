@@ -1,0 +1,216 @@
+D:\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+D:\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+D:\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+D:\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+D:\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+D:\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+D:\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+D:\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+D:\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+D:\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+D:\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+D:\ProyectosDana\Proyects\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Proyects\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Navegador\Desktop\Proyects-version_19_06\Proyects-version_19_06\Asegura YA\Ing. SW\Ing. SW\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.Up2Date
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll.config
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Buffers.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Memory.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Buffers.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Memory.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.xml
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.Up2Date
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\New folder\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana (2)\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll.config
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Buffers.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Memory.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Buffers.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Memory.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.xml
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.Up2Date
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\dpere\Escritorio\Version9_7\Perelmuter Dana\Perelmuter Dana\Perelmuter Dana\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\GIT\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll.config
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Buffers.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Memory.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Buffers.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Memory.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.xml
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.Up2Date
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+D:\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll.config
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\686DP_BE.pdb
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Buffers.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Memory.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Buffers.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Memory.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Text.Json.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\bin\Debug\System.ValueTuple.xml
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.AssemblyReference.cache
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.CoreCompileInputs.cache
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.csproj.Up2Date
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.dll
+C:\Users\Dana Perelmuter\Desktop\E3\Proyects\Entrega Final\AseguraYa\686DP_BE\obj\Debug\686DP_BE.pdb

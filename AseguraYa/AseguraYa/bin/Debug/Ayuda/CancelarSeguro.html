@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Cancelar Seguro</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>❌ Ayuda - Cancelar Seguro</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Cancelar Seguro</strong> permite eliminar una póliza activa del sistema <strong>AseguraYa</strong>.  
+      Esta operación debe realizarse solo cuando un cliente solicita la baja del servicio o la póliza ha expirado.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>Número de póliza:</strong> campo para ingresar el número de la póliza que se desea cancelar.</li>
+      <li><strong>Botón con ícono de ojo:</strong> muestra los datos de la póliza seleccionada antes de cancelarla.</li>
+      <li><strong>Motivo:</strong> campo de texto para indicar la razón de la cancelación (obligatorio).</li>
+      <li><strong>Poliza:</strong> grilla que muestra los datos de la póliza seleccionada.</li>
+      <li><strong>Botones:</strong>
+        <ul>
+          <li><strong>Cancelar seguro:</strong> confirma y elimina la póliza del sistema.</li>
+          <li><strong>Cancelar:</strong> cierra la ventana sin realizar cambios.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Proceso de cancelación</h2>
+    <ol>
+      <li>Ingresar el <strong>Número de póliza</strong> y presionar el botón del ojo 👁️.</li>
+      <li>Verificar que la información mostrada sea correcta.</li>
+      <li>Ingresar el <strong>Motivo</strong> de cancelación.</li>
+      <li>Presionar <strong>Cancelar seguro</strong> para confirmar.</li>
+      <li>El sistema eliminará la póliza, recalculará los dígitos verificadores (DVH/DVV) y registrará el evento.</li>
+    </ol>
+
+    <div class="tip">
+      ⚠️ Importante: Una vez cancelada, la póliza no puede recuperarse desde la interfaz.  
+      Solo un administrador puede restaurarla mediante el módulo de respaldo (BackUp/Restore).
+    </div>
+
+    <h2>4. Validaciones y errores comunes</h2>
+    <ul>
+      <li>El número de póliza debe ser numérico.</li>
+      <li>El motivo solo puede contener letras.</li>
+      <li>Debe existir una póliza válida para poder cancelarla.</li>
+      <li>No se permiten campos vacíos.</li>
+    </ul>
+
+    <h2>5. Auditoría y trazabilidad</h2>
+    <p>
+      Todas las cancelaciones quedan registradas en la bitácora de eventos del sistema,  
+      incluyendo el usuario que realizó la acción, la fecha, y el número de póliza afectado.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Módulo de Seguros — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

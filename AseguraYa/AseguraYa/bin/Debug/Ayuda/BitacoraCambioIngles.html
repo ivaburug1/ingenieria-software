@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Change Log</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>📘 Help - Change Log</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Change Log</strong> allows you to view, filter, and restore
+      records of clients that have been modified or deactivated in the system.  
+      It serves as a tool for auditing and version control of customer data.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>Main grid:</strong> displays all historical client records (version, status, date, and associated data).</li>
+      <li><strong>DNI:</strong> filters the records by client ID number.</li>
+      <li><strong>From / To dates:</strong> limits the search to a specific time range.</li>
+      <li><strong>Buttons:</strong>
+        <ul>
+          <li><strong>Filter:</strong> applies the selected filters.</li>
+          <li><strong>Clear filter:</strong> resets the grid to show all records again.</li>
+          <li><strong>Make active:</strong> restores a previous version of a client record and sets it as active.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="tip">
+      💡 Tip: you can combine <em>DNI</em> and <em>Date</em> filters to narrow down your search more precisely.
+    </div>
+
+    <h2>3. Filtering by criteria</h2>
+    <ul>
+      <li>Enter a valid <strong>DNI</strong> to display only the records of that client.</li>
+      <li>You can filter by date using the <strong>From</strong> and <strong>To</strong> fields.</li>
+      <li>Click <strong>Filter</strong> to update the grid according to the selected criteria.</li>
+    </ul>
+
+    <h2>4. Restoring a client</h2>
+    <p>
+      If a client has been modified or deleted, select it from the grid and click
+      <strong>“Make active”</strong>.  
+      The system will mark this version as active and deactivate any other previous copies.
+    </p>
+
+    <div class="tip">
+      ⚠️ Only one active version per client (DNI) can exist at a time.
+    </div>
+
+    <h2>5. Data integrity</h2>
+    <p>
+      Every restoration or modification is automatically recorded in the system’s event log.  
+      This ensures full traceability of changes and maintains data consistency across the database.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Data Audit System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

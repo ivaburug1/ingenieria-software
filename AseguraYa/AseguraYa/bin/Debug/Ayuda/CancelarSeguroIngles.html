@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Cancel Insurance Policy</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>❌ Help - Cancel Insurance Policy</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Cancel Insurance</strong> form allows users to delete an active insurance policy from the <strong>AseguraYa</strong> system.  
+      This action should only be performed when a client requests policy termination or the coverage period has ended.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>Policy Number:</strong> field where the user enters the policy number to cancel.</li>
+      <li><strong>Eye button:</strong> displays the policy’s current data before deletion.</li>
+      <li><strong>Reason:</strong> text field to specify the cancellation reason (mandatory).</li>
+      <li><strong>Policy:</strong> grid displaying the details of the selected policy.</li>
+      <li><strong>Buttons:</strong>
+        <ul>
+          <li><strong>Cancel Insurance:</strong> confirms and deletes the policy from the system.</li>
+          <li><strong>Cancel:</strong> closes the form without making any changes.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Cancellation process</h2>
+    <ol>
+      <li>Enter the <strong>Policy Number</strong> and click the eye button 👁️.</li>
+      <li>Verify that the displayed information is correct.</li>
+      <li>Type in the <strong>Reason</strong> for cancellation.</li>
+      <li>Click <strong>Cancel Insurance</strong> to confirm.</li>
+      <li>The system will delete the policy, recalculate verification digits (DVH/DVV), and log the event.</li>
+    </ol>
+
+    <div class="tip">
+      ⚠️ Important: Once deleted, a policy cannot be restored from the interface.  
+      Only an administrator can recover it via the Backup/Restore module.
+    </div>
+
+    <h2>4. Validations and common errors</h2>
+    <ul>
+      <li>The policy number must be numeric.</li>
+      <li>The reason must contain only letters.</li>
+      <li>A valid policy must exist to be canceled.</li>
+      <li>No empty fields are allowed.</li>
+    </ul>
+
+    <h2>5. Logging and traceability</h2>
+    <p>
+      All cancellations are automatically logged in the system’s event history,  
+      including the user who performed the action, the date, and the affected policy number.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Insurance Module — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

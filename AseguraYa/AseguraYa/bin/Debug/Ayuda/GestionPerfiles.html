@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Crear Perfil</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>👤 Ayuda - Crear Perfil de Usuario</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      Esta sección permite crear y gestionar <strong>perfiles de usuario</strong> en el sistema
+      <strong>AseguraYa</strong>. Un perfil agrupa familias y permisos que determinan qué puede hacer
+      cada usuario dentro de la plataforma.
+    </p>
+
+    <h2>2. Creación de un nuevo perfil</h2>
+    <ul>
+      <li>Ingresá el nombre del perfil en el campo <strong>Nombre</strong> (solo letras).</li>
+      <li>Presioná <strong>Crear Perfil</strong> para iniciar la creación.</li>
+      <li>El perfil aparecerá en el panel central como <em>“Perfil por crear”</em>.</li>
+    </ul>
+
+    <div class="tip">
+      💡 Si el nombre del perfil ya existe, el sistema mostrará una advertencia y no permitirá continuar.
+    </div>
+
+    <h2>3. Agregar familias al perfil</h2>
+    <ul>
+      <li>Seleccioná una o más familias desde el panel <strong>Familias</strong>.</li>
+      <li>Presioná <strong>Agregar Familia</strong> para incluirlas en el perfil.</li>
+      <li>Todos los permisos que pertenezcan a esa familia se agregarán automáticamente.</li>
+    </ul>
+
+    <div class="tip">
+      ⚙️ El sistema evita familias duplicadas o permisos repetidos.
+    </div>
+
+    <h2>4. Agregar permisos individuales</h2>
+    <ul>
+      <li>Seleccioná un permiso desde el panel derecho <strong>Permisos</strong>.</li>
+      <li>Presioná <strong>Agregar Permiso</strong> para incluirlo directamente en el perfil.</li>
+      <li>Los permisos ya incluidos mediante una familia no se pueden volver a agregar.</li>
+    </ul>
+
+    <h2>5. Guardar el perfil</h2>
+    <ul>
+      <li>Una vez agregadas todas las familias y permisos deseados, presioná <strong>Crear Perfil</strong>.</li>
+      <li>El perfil se guardará en el sistema y aparecerá en la lista de <strong>Perfiles</strong>.</li>
+      <li>La operación se registrará en el historial de eventos del sistema para trazabilidad.</li>
+    </ul>
+
+    <h2>6. Edición o eliminación de componentes</h2>
+    <p>
+      Los perfiles existentes pueden modificarse desde el panel <strong>Perfiles</strong>:
+    </p>
+    <ul>
+      <li><strong>Desasignar Familia:</strong> elimina una familia completa del perfil seleccionado.</li>
+      <li><strong>Desasignar Permiso:</strong> elimina un permiso individual.</li>
+      <li>Si el perfil queda sin componentes, se eliminará automáticamente.</li>
+    </ul>
+
+    <h2>7. Integridad y auditoría de datos</h2>
+    <p>
+      Cada modificación recalcula automáticamente los <strong>DVH/DVV</strong> (dígitos verificadores) y
+      registra un evento de auditoría, garantizando la integridad y seguridad de la base de datos.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Gestión de Perfiles — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "FechaDesde": "Start Date",
+    "FechaHasta": "End Date",
+    "Modulo": "Module",
+    "LBLCriticidad": "Criticality",
+    "LBLDNI": "ID",
+    "LBLNombre": "First Name",
+    "LBLApellido": "Last Name",
+    "BTNImprimir": "Print",
+    "BTNFiltrar": "Filter",
+    "BTNLimpiarFiltros": "Clear Filters"
+}

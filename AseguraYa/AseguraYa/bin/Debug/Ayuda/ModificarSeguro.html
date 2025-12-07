@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Modificar Seguro</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🛠️ Ayuda - Modificar Seguro</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Modificar Seguro</strong> permite actualizar los datos de una póliza ya existente en el sistema <strong>AseguraYa</strong>.  
+      A través de esta pantalla se pueden consultar las coberturas, cambiar el plan asociado y extender la vigencia de una póliza.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>Número de póliza:</strong> campo para ingresar el número de la póliza que se desea modificar.</li>
+      <li><strong>Botón con ícono de ojo:</strong> permite visualizar los datos actuales de la póliza seleccionada.</li>
+      <li><strong>Producto:</strong> muestra el tipo de seguro asociado a la póliza (vida, auto, hogar, etc.).</li>
+      <li><strong>Planes:</strong> muestra los planes y coberturas disponibles para el producto seleccionado.</li>
+      <li><strong>Botones:</strong>
+        <ul>
+          <li><strong>Aceptar:</strong> guarda los cambios realizados en la póliza.</li>
+          <li><strong>Cancelar:</strong> cierra el formulario sin realizar modificaciones.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Proceso de modificación</h2>
+    <ol>
+      <li>Ingresar el <strong>Número de póliza</strong> y presionar el botón del ojo 👁️.</li>
+      <li>El sistema mostrará los datos actuales de la póliza, incluyendo producto, plan y coberturas.</li>
+      <li>Seleccionar un nuevo <strong>Plan</strong> si se desea cambiarlo.</li>
+      <li>Verificar las coberturas disponibles y confirmar los cambios con <strong>Aceptar</strong>.</li>
+      <li>La póliza se actualizará y se registrará un evento en la bitácora del sistema.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Consejo: el sistema recalcula automáticamente el dígito verificador (DVH/DVV) al modificar una póliza, garantizando la integridad de los datos.
+    </div>
+
+    <h2>4. Validaciones y errores comunes</h2>
+    <ul>
+      <li>El número de póliza debe ser un valor numérico válido.</li>
+      <li>No se puede modificar una póliza inexistente.</li>
+      <li>El campo <strong>Producto</strong> no puede quedar vacío.</li>
+    </ul>
+
+    <h2>5. Auditoría y trazabilidad</h2>
+    <p>
+      Cada modificación de póliza queda registrada en la bitácora de eventos, incluyendo la fecha, el usuario y los datos actualizados.  
+      Esto garantiza la trazabilidad completa de los cambios realizados.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Módulo de Seguros — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

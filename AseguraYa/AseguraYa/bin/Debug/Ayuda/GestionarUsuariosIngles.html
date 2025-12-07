@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - User Management</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .container {
+      max-width: 950px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.12);
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #b0d8ff;
+      border-left: 4px solid #00b4db;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #00b4db;
+    }
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.18);
+      border-left: 5px solid #00b4db;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #00b4db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>👤 Help - User Management</header>
+
+  <div class="container">
+    <h2>1. Purpose</h2>
+    <p>
+      This module allows you to <strong>manage all system users</strong> in AseguraYa:
+      creation, edition, activation/deactivation, unlocking, and role assignment.
+      It also provides filtering options to display users by status or role.
+    </p>
+
+    <h2>2. Create User</h2>
+    <ul>
+      <li>Click <strong>“Create”</strong> to enter creation mode.</li>
+      <li>Fill in the required fields:
+        <ul>
+          <li><strong>DNI</strong> – numbers only.</li>
+          <li><strong>Name</strong> and <strong>Surname</strong> – letters only.</li>
+          <li><strong>Email</strong> – valid format required.</li>
+          <li><strong>Role</strong> – choose from dropdown.</li>
+        </ul>
+      </li>
+      <li>Press <strong>Apply</strong> to save.</li>
+    </ul>
+
+    <div class="tip">
+      💡 The system auto-generates <strong>username</strong> (name.surname)
+      and <strong>password</strong> (dni.surname), stored as a SHA-256 hash.
+    </div>
+
+    <h2>3. Modify User</h2>
+    <ul>
+      <li>Select a user from the grid.</li>
+      <li>Click <strong>“Modify”</strong>, edit the fields, and press <strong>Apply</strong>.</li>
+    </ul>
+
+    <h2>4. Unlock User</h2>
+    <ul>
+      <li>Select a blocked user.</li>
+      <li>Click <strong>“Unlock”</strong> then <strong>Apply</strong>.</li>
+      <li>The default password will be restored and login attempts reset.</li>
+    </ul>
+
+    <h2>5. Activate / Delete User</h2>
+    <ul>
+      <li>Click <strong>“Activate / Delete”</strong> to toggle the user’s active state.</li>
+      <li>This is a logical deletion – data remains in the system but the account is disabled.</li>
+    </ul>
+
+    <h2>6. Filter Users</h2>
+    <ul>
+      <li>Use dropdown filters:
+        <ul>
+          <li><strong>Activated/Deactivated</strong></li>
+          <li><strong>Blocked Users</strong></li>
+          <li><strong>Role</strong></li>
+        </ul>
+      </li>
+      <li>Click <strong>Filter</strong> to apply.</li>
+    </ul>
+
+    <h2>7. Automatic validations</h2>
+    <ul>
+      <li>Real-time validation for numeric and text fields.</li>
+      <li>Email checked automatically when leaving the field.</li>
+      <li>No duplicate DNIs are allowed.</li>
+    </ul>
+
+    <h2>8. Security & Integrity</h2>
+    <p>
+      Every operation updates the <strong>DVH/DVV</strong> and logs an event entry.
+      Passwords are stored as <strong>SHA-256 encrypted hashes</strong> for security.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | User Management System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

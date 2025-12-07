@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help - Claims Report</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>📄 Help - Claims Report</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Claims Report</strong> form allows users to view, filter, and print detailed reports of all registered claims in the <strong>AseguraYa</strong> system.  
+      Reports can be exported as PDF documents for audits, analytics, or monthly summaries.
+    </p>
+
+    <h2>2. Screen layout</h2>
+    <ul>
+      <li><strong>Main grid:</strong> displays all registered claims with date, description, and value information.</li>
+      <li><strong>Date filter:</strong> allows selecting claims by their occurrence date.</li>
+      <li><strong>Description:</strong> dropdown menu to filter claims by type (e.g., theft, fire, collision, etc.).</li>
+      <li><strong>Filter:</strong> applies the selected filters locally without querying the database.</li>
+      <li><strong>Clear Filters:</strong> restores the full list of claims.</li>
+      <li><strong>Print:</strong> generates a formatted PDF report including totals and averages.</li>
+    </ul>
+
+    <h2>3. Filtering process</h2>
+    <ol>
+      <li>Select a <strong>date</strong> and/or <strong>description</strong> to narrow down results.</li>
+      <li>Click <strong>Filter</strong> to display matching records.</li>
+      <li>Click <strong>Clear Filters</strong> to reset the view.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Tip: Filtering is performed in memory, which makes it fast and efficient.
+    </div>
+
+    <h2>4. PDF generation</h2>
+    <p>
+      When clicking <strong>Print</strong>, the system creates a <em>ClaimsReport.pdf</em> file containing:
+    </p>
+    <ul>
+      <li>A title and generation timestamp.</li>
+      <li>All visible data columns from the table.</li>
+      <li>A summary with total number of claims and average value.</li>
+    </ul>
+
+    <h2>5. Validations and security</h2>
+    <ul>
+      <li>No PDF is generated if there are no records loaded.</li>
+      <li>The report is saved in the location chosen by the user.</li>
+      <li>Each report generation is logged in the system’s audit trail.</li>
+    </ul>
+
+    <h2>6. Audit log</h2>
+    <p>
+      Every report creation is recorded, including the user ID, form name, and timestamp, ensuring full traceability.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Claims Module — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayuda - Gestión de Respaldo</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>💾 Ayuda - Gestión de Respaldo</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      La ventana de <strong>Gestión de Respaldo</strong> permite realizar copias de seguridad 
+      y restauraciones de la base de datos del sistema <strong>AseguraYa</strong>.  
+      Su objetivo es preservar la integridad de la información y garantizar la recuperación ante fallos.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>BackUP:</strong> crea un respaldo completo de la base de datos en un archivo <code>.bak</code>.</li>
+      <li><strong>Restore:</strong> permite restaurar un respaldo previo seleccionando el archivo correspondiente.</li>
+    </ul>
+
+    <h2>3. Proceso de Backup</h2>
+    <ul>
+      <li>Al presionar <strong>BackUP</strong>, se abre una ventana para elegir dónde guardar el archivo.</li>
+      <li>El sistema genera un archivo con el formato <code>BCK_AAAAmmdd_HHmmss.bak</code>.</li>
+      <li>El evento queda registrado automáticamente en la bitácora de auditoría.</li>
+    </ul>
+
+    <div class="tip">
+      💡 Consejo: guardá los respaldos en un directorio seguro o externo para mayor protección.
+    </div>
+
+    <h2>4. Proceso de Restore</h2>
+    <ul>
+      <li>Presioná <strong>Restore</strong> y seleccioná el archivo de respaldo <code>.bak</code> que deseas restaurar.</li>
+      <li>El sistema reemplazará los datos actuales con los del respaldo elegido.</li>
+      <li>Una vez finalizado, se mostrará un mensaje confirmando la restauración exitosa.</li>
+    </ul>
+
+    <div class="tip">
+      ⚠️ Advertencia: al restaurar, los datos actuales serán reemplazados por los del respaldo seleccionado.
+    </div>
+
+    <h2>5. Registro y trazabilidad</h2>
+    <p>
+      Cada operación de respaldo o restauración se registra automáticamente con la fecha, el usuario y el tipo de acción, 
+      garantizando la trazabilidad completa de las copias de seguridad del sistema.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Gestión de Respaldo — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

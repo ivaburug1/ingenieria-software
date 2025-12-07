@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Event Log</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>📊 Help - Event Log</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Event Log</strong> keeps a detailed record of every action performed within the 
+      <strong>AseguraYa</strong> system.  
+      It allows administrators to see which users executed operations, in which module, at what time, and with what level of severity.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>Main grid:</strong> displays all event records, including date, user, module, and severity.</li>
+      <li><strong>From / To dates:</strong> limit the time range of displayed events.</li>
+      <li><strong>Module:</strong> filters by the part of the system where the event occurred (e.g., Login, Profiles, Clients, etc.).</li>
+      <li><strong>Severity:</strong> filters events by their importance or level (1 = low, 3 = high).</li>
+      <li><strong>DNI / Name / Last name:</strong> identify the user responsible for a selected event.</li>
+      <li><strong>Buttons:</strong>
+        <ul>
+          <li><strong>Filter:</strong> applies the selected filters.</li>
+          <li><strong>Clear Filter:</strong> restores all records without restrictions.</li>
+          <li><strong>Print:</strong> exports the current log view to a PDF file.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="tip">
+      💡 Tip: combine <em>date</em>, <em>module</em>, and <em>severity</em> filters to quickly locate specific events.
+    </div>
+
+    <h2>3. Filtering by criteria</h2>
+    <ul>
+      <li>Use the <strong>From</strong> and <strong>To</strong> dates to narrow the search period.</li>
+      <li>Select a <strong>module</strong> or <strong>severity level</strong> to refine your results.</li>
+      <li>Enter a <strong>DNI</strong> to view only the events performed by a particular user.</li>
+    </ul>
+
+    <h2>4. Exporting to PDF</h2>
+    <p>
+      When pressing <strong>“Print”</strong>, the system generates a PDF file containing all currently visible records.  
+      This file can be used for audits or reporting.
+    </p>
+
+    <div class="tip">
+      ⚙️ Every PDF export is automatically recorded in the audit log, including the user and generation date.
+    </div>
+
+    <h2>5. Integrity and traceability</h2>
+    <p>
+      Each event is automatically stored with a severity level and linked to the logged-in user.  
+      This ensures full traceability of all actions performed across every module of the application.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Audit System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Recommendation of Increase</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>📈 Help - Recommendation of Increase</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Recommendation of Increase</strong> form is used to analyze clients
+      with a high number of claims and, when appropriate, apply a
+      <strong>percentage increase</strong> to their monthly policy premium.
+      It also allows filtering results and exporting the current view to a PDF report.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li>
+        <strong>Filters area (top):</strong>  
+        Allows you to narrow down the list of clients:
+        <ul>
+          <li><strong>DNI:</strong> filters by client ID number.</li>
+          <li><strong>Cuota Desde / Cuota Hasta:</strong> defines a range for the monthly premium.</li>
+          <li><strong>Cantidad de Siniestros:</strong> minimum number of claims for the client.</li>
+          <li><strong>Buttons “Filtrar” and “Limpiar Filtro”:</strong> apply or reset filters.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Main grid:</strong>  
+        Displays the result set returned by the system. Typical columns:
+        <ul>
+          <li>DNI</li>
+          <li>Client name</li>
+          <li>Policy number</li>
+          <li>Current monthly premium</li>
+          <li>Number of claims</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Action buttons (bottom):</strong>
+        <ul>
+          <li><strong>Aumentar Cuota:</strong> applies a percentage increase to the selected client’s premium.</li>
+          <li><strong>Imprimir:</strong> generates a PDF report with the current grid view.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="tip">
+      💡 Tip: Use the filters to focus on clients with the highest risk
+      (for example, higher premium and higher number of claims) before
+      applying any increase.
+    </div>
+
+    <h2>3. How to apply a premium increase</h2>
+    <ul>
+      <li>Select one row in the main grid (one client/policy).</li>
+      <li>Click <strong>“Aumentar Cuota”</strong>.</li>
+      <li>The system will ask for a <strong>percentage</strong> (e.g., 10 for a 10% increase).</li>
+      <li>If the value is not numeric, an error message will be shown.</li>
+      <li>
+        After entering a valid percentage, a confirmation window shows:
+        <ul>
+          <li>DNI</li>
+          <li>Policy number</li>
+          <li>Current premium</li>
+          <li>Increase percentage</li>
+          <li>New premium</li>
+        </ul>
+      </li>
+      <li>If you confirm, the system updates the policy premium and recalculates the verification digits (DVH/DVV) for the policy table.</li>
+      <li>The grid is refreshed automatically with the updated values.</li>
+    </ul>
+
+    <div class="tip">
+      ⚠️ If no row is selected, the system will show a message asking you
+      to select a client before applying an increase.
+    </div>
+
+    <h2>4. Filtering and clearing results</h2>
+    <ul>
+      <li>Use <strong>DNI</strong> to find a specific client.</li>
+      <li>Use <strong>Cuota Desde / Hasta</strong> to restrict the premium range.</li>
+      <li>Use <strong>Cantidad de Siniestros</strong> to focus on clients with more claims.</li>
+      <li>Click <strong>“Filtrar”</strong> to apply all criteria together.</li>
+      <li>Click <strong>“Limpiar Filtro”</strong> to reset all fields and reload the default data set.</li>
+    </ul>
+
+    <h2>5. Exporting the recommendation report to PDF</h2>
+    <p>
+      When pressing <strong>“Imprimir”</strong>, the system generates a PDF file on your Desktop,
+      including all rows currently displayed in the grid.  
+      The report contains:
+    </p>
+    <ul>
+      <li>A title and the name of the system (AseguraYa).</li>
+      <li>The generation date and time.</li>
+      <li>A table with the same columns and values shown on screen.</li>
+    </ul>
+
+    <div class="tip">
+      📂 The file name includes the current date and time, making it easy to
+      archive different reports over time.
+    </div>
+
+    <h2>6. Data validation and messages</h2>
+    <ul>
+      <li>
+        DNI, Cuota Desde, Cuota Hasta and Cantidad de Siniestros
+        only accept numeric values. If you type letters or symbols,
+        the system cleans the field and shows a warning message.
+      </li>
+      <li>
+        If the percentage entered for the increase is not valid,
+        the system shows an error and does not apply any change.
+      </li>
+      <li>
+        If an unexpected error occurs while generating the PDF,
+        an error message is displayed with technical details.
+      </li>
+    </ul>
+
+    <footer>
+      © 2025 AseguraYa | Recommendation Engine — 
+      <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

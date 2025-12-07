@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Create Product</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>🛡️ Help - Create Insurance Product</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      This module allows you to manage <strong>products, plans, and coverages</strong> in the
+      <strong>AseguraYa</strong> system. You can create new insurance products, link plans to them,
+      and define specific coverages.
+    </p>
+
+    <h2>2. Mode: <em>“Create product”</em></h2>
+    <ul>
+      <li>Select the <strong>“Create product”</strong> radio button.</li>
+      <li>Enter a valid name in the <strong>Product</strong> field (letters only).</li>
+      <li>Click <strong>Create product</strong> to save it.</li>
+    </ul>
+    <div class="tip">
+      💡 Tip: The system will automatically check if the product already exists and register the
+      action in the event log.
+    </div>
+
+    <h2>3. Mode: <em>“Group insurance”</em></h2>
+    <ul>
+      <li>Select an existing product from the <strong>Product</strong> dropdown list.</li>
+      <li>Enter the plan details:
+        <ul>
+          <li><strong>Franchise:</strong> deductible amount.</li>
+          <li><strong>Premium:</strong> cost of the plan.</li>
+        </ul>
+      </li>
+      <li>Use <strong>Create plan</strong> to generate a new one, or <strong>Associate coverage</strong> to link an existing one.</li>
+    </ul>
+
+    <div class="tip">
+      ⚙️ When you select a plan in the list, its coverages will appear in the panel on the right.
+    </div>
+
+    <h2>4. Coverage management</h2>
+    <ul>
+      <li>Fill in the <strong>Description</strong> and <strong>Insured Amount</strong> fields.</li>
+      <li>Click <strong>Create coverage</strong> to add it to the selected plan.</li>
+    </ul>
+    <div class="tip">
+      ⚠️ Duplicate coverages with the same description and insured amount are not allowed.
+    </div>
+
+    <h2>5. Automatic validations</h2>
+    <p>The system performs real-time validations:</p>
+    <ul>
+      <li>Text fields: letters only.</li>
+      <li>Numeric fields: numbers only.</li>
+      <li>Checks for duplicate products, plans, or coverages.</li>
+    </ul>
+
+    <h2>6. Data integrity and security</h2>
+    <p>
+      Each creation or modification automatically recalculates the
+      <strong>DVH/DVV</strong> (Verification Digits) and registers an audit event
+      to ensure data integrity and traceability.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Insurance Management System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

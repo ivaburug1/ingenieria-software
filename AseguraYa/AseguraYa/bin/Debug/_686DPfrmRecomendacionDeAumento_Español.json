@@ -1,0 +1,10 @@
+{
+    "LBLDNI":"ID",
+    "CuotaDesde": "Cuota mensual desde",
+    "CuotaHasta":"Cuota mensual hasta",
+    "CantDeSiniestros":"Cantidad de siniestros",
+    "BTNFiltrar":"Filtrar",
+    "BTNLimpiarFiltro":"Limpiar Filtro",
+    "Imprimir":"Imprimir",
+    "AumentarCuota":"Aumentar cuota"
+}

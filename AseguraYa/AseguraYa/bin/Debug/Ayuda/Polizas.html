@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda - Gestión de Pólizas</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>📊 Ayuda - Gestión de Pólizas</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Pólizas</strong> permite visualizar, filtrar, analizar y exportar la información relacionada con las pólizas de seguros del sistema <strong>AseguraYa</strong>.  
+      Además, genera gráficos automáticos sobre el estado de las pólizas y los productos más vendidos.
+    </p>
+
+    <h2>2. Componentes principales</h2>
+    <ul>
+      <li><strong>Gráfico de barras:</strong> muestra los tres tipos de seguros más vendidos.</li>
+      <li><strong>Gráfico circular:</strong> representa el porcentaje de pólizas <em>activas</em> e <em>inactivas</em>.</li>
+      <li><strong>Grilla de datos:</strong> lista todas las pólizas registradas con información del titular, plan, seguro y vencimiento.</li>
+      <li><strong>Filtros:</strong> permiten filtrar pólizas por estado, tipo de seguro, franquicia, prima, número o fecha de vencimiento.</li>
+      <li><strong>Botón “Filtrar”:</strong> aplica los filtros seleccionados en pantalla.</li>
+      <li><strong>Botón “Imprimir selección”:</strong> genera el documento PDF de la póliza seleccionada.</li>
+      <li><strong>Botón “Imprimir”:</strong> exporta un reporte general en formato PDF, con la grilla y los gráficos incluidos.</li>
+    </ul>
+
+    <h2>3. Gráficos automáticos</h2>
+    <ul>
+      <li>El gráfico de barras se genera con los <strong>3 productos más vendidos</strong>.</li>
+      <li>El gráfico circular refleja la cantidad de pólizas activas e inactivas en el sistema.</li>
+      <li>Ambos gráficos se actualizan automáticamente al abrir el formulario o aplicar filtros.</li>
+    </ul>
+
+    <h2>4. Exportación a PDF</h2>
+    <p>
+      El sistema permite generar un informe completo en formato <strong>PDF</strong> con los siguientes elementos:
+    </p>
+    <ul>
+      <li>Tabla con todas las pólizas visibles en pantalla.</li>
+      <li>Gráfico de productos más vendidos.</li>
+      <li>Gráfico de estado de pólizas.</li>
+      <li>Encabezados e información traducida al idioma activo.</li>
+    </ul>
+
+    <div class="tip">
+      💡 Consejo: las filas con vencimiento anterior a la fecha actual se muestran en <strong>rojo</strong> para indicar su expiración.
+    </div>
+
+    <h2>5. Validaciones</h2>
+    <ul>
+      <li>El campo “Póliza” solo acepta números.</li>
+      <li>Los filtros deben completarse correctamente para obtener resultados válidos.</li>
+      <li>Si no se selecciona ninguna fila, el sistema pedirá elegir una antes de imprimir.</li>
+    </ul>
+
+    <h2>6. Auditoría</h2>
+    <p>
+      Cada acción de impresión o exportación se registra en la bitácora mediante el módulo de eventos del sistema, guardando usuario, acción y fecha.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Módulo de Pólizas — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

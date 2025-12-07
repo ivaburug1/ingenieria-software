@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda - Registrar Siniestro</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🧾 Ayuda - Registrar Siniestro</header>
+
+  <div class="container">
+    <h2>1. Propósito del formulario</h2>
+    <p>
+      El formulario <strong>Registrar Siniestro</strong> permite registrar un evento o accidente que involucra una póliza activa en el sistema <strong>AseguraYa</strong>.  
+      Aquí se cargan los datos del siniestro, incluyendo fecha, valores económicos y cobertura afectada.
+    </p>
+
+    <h2>2. Estructura de la pantalla</h2>
+    <ul>
+      <li><strong>Número de póliza:</strong> campo donde se ingresa la póliza afectada. Solo se permiten números.</li>
+      <li><strong>Buscar:</strong> verifica que la póliza exista y carga automáticamente las coberturas disponibles.</li>
+      <li><strong>Fecha:</strong> calendario para seleccionar la fecha en la que ocurrió el siniestro.</li>
+      <li><strong>Valor del bien:</strong> monto total del bien asegurado o afectado.</li>
+      <li><strong>Valor de reparación:</strong> monto estimado del costo de reparación o indemnización.</li>
+      <li><strong>Coberturas:</strong> lista desplegable de las coberturas asociadas a la póliza.</li>
+      <li><strong>Registrar:</strong> confirma la carga del siniestro en la base de datos.</li>
+    </ul>
+
+    <h2>3. Proceso de registro</h2>
+    <ol>
+      <li>Ingresar el <strong>Número de póliza</strong> y presionar <strong>Buscar</strong>.</li>
+      <li>Si la póliza existe, se habilitarán las coberturas relacionadas.</li>
+      <li>Completar los campos <strong>Fecha</strong>, <strong>Valor del bien</strong>, <strong>Valor de reparación</strong> y seleccionar la cobertura correspondiente.</li>
+      <li>Presionar <strong>Registrar</strong> para guardar el siniestro.</li>
+      <li>El sistema generará un documento con los datos del siniestro y actualizará los dígitos verificadores (DVH/DVV).</li>
+    </ol>
+
+    <div class="tip">
+      💡 Consejo: asegurate de presionar el botón “Buscar” antes de registrar el siniestro.  
+      Si no lo hacés, el sistema no permitirá completar la operación.
+    </div>
+
+    <h2>4. Validaciones y errores comunes</h2>
+    <ul>
+      <li>El número de póliza debe contener solo números.</li>
+      <li>Los valores del bien y reparación deben ser decimales válidos (por ejemplo, 1234.50).</li>
+      <li>Debe seleccionarse una cobertura válida antes de registrar.</li>
+      <li>No se permiten campos vacíos.</li>
+    </ul>
+
+    <h2>5. Auditoría y trazabilidad</h2>
+    <p>
+      Cada registro de siniestro queda guardado con la fecha, el usuario y los datos del evento.  
+      Además, se genera un informe automático en PDF y se registra un evento en la bitácora del sistema.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Módulo de Siniestros — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|c:\\users\\ivan alejandro urso\\desktop\\aseguraya\\aseguraya\\686dpfrmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|solutionrelative:aseguraya\\686dpfrmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\aseguraya\\686dpfrmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|solutionrelative:aseguraya\\686dpfrmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F957F3-0032-4788-915F-F769F8436477}|686DP_SERVICIOS\\686DP_SERVICIOS.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_servicios\\singleton\\686dp_sesionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F957F3-0032-4788-915F-F769F8436477}|686DP_SERVICIOS\\686DP_SERVICIOS.csproj|solutionrelative:686dp_servicios\\singleton\\686dp_sesionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F957F3-0032-4788-915F-F769F8436477}|686DP_SERVICIOS\\686DP_SERVICIOS.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_servicios\\singleton\\686dp_singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F957F3-0032-4788-915F-F769F8436477}|686DP_SERVICIOS\\686DP_SERVICIOS.csproj|solutionrelative:686dp_servicios\\singleton\\686dp_singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F957F3-0032-4788-915F-F769F8436477}|686DP_SERVICIOS\\686DP_SERVICIOS.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_servicios\\686dp_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F957F3-0032-4788-915F-F769F8436477}|686DP_SERVICIOS\\686DP_SERVICIOS.csproj|solutionrelative:686dp_servicios\\686dp_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0370561D-7DF9-4A72-870E-397E65EAA97F}|686DP_BE\\686DP_BE.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_be\\686dp_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0370561D-7DF9-4A72-870E-397E65EAA97F}|686DP_BE\\686DP_BE.csproj|solutionrelative:686dp_be\\686dp_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E424721-9E86-4EE5-A443-7DA7952172C1}|686DP_Dal\\686DP_DAL.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_dal\\686dpdalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E424721-9E86-4EE5-A443-7DA7952172C1}|686DP_Dal\\686DP_DAL.csproj|solutionrelative:686dp_dal\\686dpdalgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\aseguraya\\686dpfrmgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|solutionrelative:aseguraya\\686dpfrmgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\aseguraya\\686dpfrminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|solutionrelative:aseguraya\\686dpfrminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\aseguraya\\_686dpfrmrepararsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|solutionrelative:aseguraya\\_686dpfrmrepararsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\aseguraya\\_686dpfrmrepararsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}|AseguraYa\\686DP_GUI.csproj|solutionrelative:aseguraya\\_686dpfrmrepararsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE7379EB-8D9B-4F0F-A0B4-AE3CBA6050F2}|686DP_BLL\\686DP_BLL.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_bll\\686dp_blldigitoverificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE7379EB-8D9B-4F0F-A0B4-AE3CBA6050F2}|686DP_BLL\\686DP_BLL.csproj|solutionrelative:686dp_bll\\686dp_blldigitoverificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD70163B-4FB8-4693-94DE-144FE11FB574}|686DP_MPP\\686DP_MPP.csproj|C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686dp_mpp\\686dp_mppdigitoverificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD70163B-4FB8-4693-94DE-144FE11FB574}|686DP_MPP\\686DP_MPP.csproj|solutionrelative:686dp_mpp\\686dp_mppdigitoverificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "686DP_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_BE\\686DP_Usuario.cs",
+              "RelativeDocumentMoniker": "686DP_BE\\686DP_Usuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_BE\\686DP_Usuario.cs",
+              "RelativeToolTip": "686DP_BE\\686DP_Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:39:35.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "686DP_SesionUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_SERVICIOS\\Singleton\\686DP_SesionUsuario.cs",
+              "RelativeDocumentMoniker": "686DP_SERVICIOS\\Singleton\\686DP_SesionUsuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_SERVICIOS\\Singleton\\686DP_SesionUsuario.cs",
+              "RelativeToolTip": "686DP_SERVICIOS\\Singleton\\686DP_SesionUsuario.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:34:12.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "686DPDalGeneral.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_Dal\\686DPDalGeneral.cs",
+              "RelativeDocumentMoniker": "686DP_Dal\\686DPDalGeneral.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_Dal\\686DPDalGeneral.cs",
+              "RelativeToolTip": "686DP_Dal\\686DPDalGeneral.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCYAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:56:44.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "686DPfrmGestionUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\686DPfrmGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "AseguraYa\\686DPfrmGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\Dana Perelmuter\\Desktop\\E3\\Proyects\\Entrega Final\\AseguraYa\\AseguraYa\\686DPfrmGestionUsuarios.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Dana Perelmuter\\Desktop\\E3\\Proyects\\Entrega Final\\AseguraYa\\AseguraYa\\686DPfrmGestionUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:05:42.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "686DPfrmInicio.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\686DPfrmInicio.cs",
+              "RelativeDocumentMoniker": "AseguraYa\\686DPfrmInicio.cs",
+              "ToolTip": "C:\\Users\\Dana Perelmuter\\Desktop\\E3\\Proyects\\Entrega Final\\AseguraYa\\AseguraYa\\686DPfrmInicio.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Dana Perelmuter\\Desktop\\E3\\Proyects\\Entrega Final\\AseguraYa\\AseguraYa\\686DPfrmInicio.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:56:12.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_686DPfrmRepararSistema.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\_686DPfrmRepararSistema.cs",
+              "RelativeDocumentMoniker": "AseguraYa\\_686DPfrmRepararSistema.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\_686DPfrmRepararSistema.cs",
+              "RelativeToolTip": "AseguraYa\\_686DPfrmRepararSistema.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwFoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:03:44.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_686DPfrmRepararSistema.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\_686DPfrmRepararSistema.cs",
+              "RelativeDocumentMoniker": "AseguraYa\\_686DPfrmRepararSistema.cs",
+              "ToolTip": "C:\\Users\\Dana Perelmuter\\Desktop\\E3\\Proyects\\Entrega Final\\AseguraYa\\AseguraYa\\_686DPfrmRepararSistema.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Dana Perelmuter\\Desktop\\E3\\Proyects\\Entrega Final\\AseguraYa\\AseguraYa\\_686DPfrmRepararSistema.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:03:41.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "686DPfrmLogIn.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\686DPfrmLogIn.cs",
+              "RelativeDocumentMoniker": "AseguraYa\\686DPfrmLogIn.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\686DPfrmLogIn.cs",
+              "RelativeToolTip": "AseguraYa\\686DPfrmLogIn.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:59:44.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "686DP_Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_SERVICIOS\\Singleton\\686DP_Singleton.cs",
+              "RelativeDocumentMoniker": "686DP_SERVICIOS\\Singleton\\686DP_Singleton.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_SERVICIOS\\Singleton\\686DP_Singleton.cs",
+              "RelativeToolTip": "686DP_SERVICIOS\\Singleton\\686DP_Singleton.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:29:22.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "686DP_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_SERVICIOS\\686DP_Usuario.cs",
+              "RelativeDocumentMoniker": "686DP_SERVICIOS\\686DP_Usuario.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_SERVICIOS\\686DP_Usuario.cs",
+              "RelativeToolTip": "686DP_SERVICIOS\\686DP_Usuario.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:44:16.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "686DPfrmLogIn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\686DPfrmLogIn.cs",
+              "RelativeDocumentMoniker": "AseguraYa\\686DPfrmLogIn.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\AseguraYa\\686DPfrmLogIn.cs [Design]",
+              "RelativeToolTip": "AseguraYa\\686DPfrmLogIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:55:01.2Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "686DP_BLLDigitoVerificador.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_BLL\\686DP_BLLDigitoVerificador.cs",
+              "RelativeDocumentMoniker": "686DP_BLL\\686DP_BLLDigitoVerificador.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_BLL\\686DP_BLLDigitoVerificador.cs",
+              "RelativeToolTip": "686DP_BLL\\686DP_BLLDigitoVerificador.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAADwv3MAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:59:44.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "686DP_MPPDigitoVerificador.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_MPP\\686DP_MPPDigitoVerificador.cs",
+              "RelativeDocumentMoniker": "686DP_MPP\\686DP_MPPDigitoVerificador.cs",
+              "ToolTip": "C:\\Users\\Ivan Alejandro Urso\\Desktop\\AseguraYa\\686DP_MPP\\686DP_MPPDigitoVerificador.cs",
+              "RelativeToolTip": "686DP_MPP\\686DP_MPPDigitoVerificador.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvykAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:51:47.639Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

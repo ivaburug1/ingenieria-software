@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayuda - Iniciar Sesión</title>
+  <style>
+    /* ======== ESTILO GENERAL ASEGURAYA ======== */
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul, ol {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    li::marker {
+      color: #56ccf2;
+    }
+
+    .ok, .alerta {
+      padding: 12px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    .ok {
+      background-color: rgba(0, 255, 180, 0.15);
+      border-left: 5px solid #00e676;
+      color: #b2ffcb;
+    }
+
+    .alerta {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #ffca2c;
+      color: #fff7d1;
+    }
+
+    code {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: #a3d5ff;
+      font-family: Consolas, monospace;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>🔐 Ayuda - Iniciar Sesión</header>
+
+  <div class="container">
+    <h2>1. Descripción general</h2>
+    <p>
+      Este formulario permite a los usuarios registrados acceder al sistema <strong>AseguraYa</strong> ingresando su DNI y contraseña. 
+      Se aplican mecanismos de seguridad para validar las credenciales, gestionar intentos fallidos y bloquear usuarios después de tres errores consecutivos.
+    </p>
+
+    <h2>2. Objetivos principales</h2>
+    <ul>
+      <li>Permitir el acceso al sistema solo a usuarios válidos y activos.</li>
+      <li>Aplicar validaciones de formato y seguridad (SHA256 para contraseñas).</li>
+      <li>Bloquear automáticamente usuarios con múltiples intentos fallidos.</li>
+      <li>Registrar todos los eventos en la bitácora del sistema.</li>
+      <li>Iniciar sesión con idioma personalizado del usuario.</li>
+    </ul>
+
+    <h2>3. Funcionamiento del formulario</h2>
+    <ol>
+      <li>El usuario ingresa su <strong>DNI</strong> y <strong>contraseña</strong>.</li>
+      <li>El sistema verifica que ambos campos estén completos y que el DNI sea numérico.</li>
+      <li>Se busca el usuario en la base de datos.</li>
+      <li>Si existe, se calcula el hash SHA256 de la contraseña ingresada y se compara con la almacenada.</li>
+      <li>Si coinciden:
+        <ul>
+          <li>Se inicia la sesión y se crea una instancia Singleton del usuario activo.</li>
+          <li>Se cargan sus permisos, idioma y perfil.</li>
+          <li>Se registran los eventos de acceso en la bitácora.</li>
+        </ul>
+      </li>
+      <li>Si no coinciden:
+        <ul>
+          <li>Se incrementa el contador de intentos.</li>
+          <li>Al tercer intento fallido, el usuario queda bloqueado automáticamente.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>4. Validaciones</h2>
+    <ul>
+      <li><strong>DNI:</strong> debe ser numérico (valida mediante expresión regular).</li>
+      <li><strong>Contraseña:</strong> no puede estar vacía.</li>
+      <li>Ambos campos deben completarse antes de iniciar sesión.</li>
+    </ul>
+
+    <h2>5. Mensajes del sistema</h2>
+    <div class="ok">
+      ✅ <strong>Sesión iniciada correctamente:</strong> el usuario accede al sistema sin errores.
+    </div>
+    <div class="alerta">
+      ⚠️ <strong>Usuario o contraseña incorrectos:</strong> se informa el número de intentos restantes.
+    </div>
+    <div class="alerta">
+      ⚠️ <strong>Usuario bloqueado:</strong> luego de 3 intentos fallidos, el acceso queda bloqueado.
+    </div>
+    <div class="alerta">
+      ⚠️ <strong>Usuario desactivado:</strong> la cuenta existe pero está inactiva administrativamente.
+    </div>
+    <div class="alerta">
+      ⚠️ <strong>Falta ingresar datos:</strong> alguno de los campos se encuentra vacío.
+    </div>
+    <div class="alerta">
+      ⚠️ <strong>Error inesperado:</strong> se muestra un mensaje genérico con la excepción capturada.
+    </div>
+
+    <h2>6. Casos especiales</h2>
+    <ul>
+      <li>Si el sistema detecta que la base no pasó la verificación de integridad (DVH/DVV), no se permite el inicio de sesión.</li>
+      <li>Los usuarios con permiso de <strong>Administrador General</strong> acceden directamente al módulo de reparación del sistema.</li>
+      <li>Si el usuario tiene activado el cambio obligatorio de contraseña, se abre automáticamente el formulario <code>_686DPfrmCambiarContraseña</code>.</li>
+    </ul>
+
+    <h2>7. Errores comunes</h2>
+    <ul>
+      <li><code>Formato de DNI no válido</code> → el campo contiene letras u otros caracteres no numéricos.</li>
+      <li><code>NullReferenceException</code> → puede ocurrir si el idioma o las dependencias de inicio no se cargan correctamente.</li>
+      <li><code>UsuarioBloqueado</code> → se intenta iniciar sesión con una cuenta ya bloqueada.</li>
+      <li><code>ErrorDB</code> → error interno en la conexión o recuperación de datos del perfil.</li>
+    </ul>
+
+    <h2>8. Consejos de uso</h2>
+    <ul>
+      <li>Verificar que el <strong>idioma</strong> del usuario esté correctamente configurado para evitar mensajes no traducidos.</li>
+      <li>No compartir credenciales personales.</li>
+      <li>Si la cuenta queda bloqueada, contactar con el <strong>Administrador General</strong> para su desbloqueo.</li>
+    </ul>
+
+    <h2>9. Versión</h2>
+    <p>
+      <strong>Formulario:</strong> _686DPfrmLogIn<br>
+      <strong>Módulo:</strong> Seguridad y Acceso<br>
+      <strong>Autor:</strong> Equipo AseguraYa - Diploma 686DP<br>
+      <strong>Última actualización:</strong> Octubre 2025
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Sistema de Gestión — <a href="#">Volver al menú principal</a>
+    </footer>
+  </div>
+</body>
+</html>

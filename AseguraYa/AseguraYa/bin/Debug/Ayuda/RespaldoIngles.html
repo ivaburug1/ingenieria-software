@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help - Backup Management</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>💾 Help - Backup Management</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Backup Management</strong> window allows users to create and restore 
+      database backups for the <strong>AseguraYa</strong> system.  
+      Its purpose is to ensure data integrity and enable recovery in case of system failures.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>BackUP:</strong> creates a full database backup in a <code>.bak</code> file.</li>
+      <li><strong>Restore:</strong> allows restoring a previous backup by selecting the desired file.</li>
+    </ul>
+
+    <h2>3. Backup process</h2>
+    <ul>
+      <li>Click <strong>BackUP</strong> to choose where to save the backup file.</li>
+      <li>The system generates a file named <code>BCK_YYYYMMDD_HHmmss.bak</code>.</li>
+      <li>The event is automatically logged in the system’s audit record.</li>
+    </ul>
+
+    <div class="tip">
+      💡 Tip: store backups in a secure or external location for greater protection.
+    </div>
+
+    <h2>4. Restore process</h2>
+    <ul>
+      <li>Click <strong>Restore</strong> and select the <code>.bak</code> backup file to restore.</li>
+      <li>The system will replace the current database with the data from the selected backup.</li>
+      <li>Once completed, a confirmation message will appear on screen.</li>
+    </ul>
+
+    <div class="tip">
+      ⚠️ Warning: restoring a backup will overwrite all current data with the selected backup file.
+    </div>
+
+    <h2>5. Logging and traceability</h2>
+    <p>
+      Every backup and restore operation is automatically recorded with the date, user, and action type,  
+      ensuring full traceability of the system’s database recovery activities.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Backup Management System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

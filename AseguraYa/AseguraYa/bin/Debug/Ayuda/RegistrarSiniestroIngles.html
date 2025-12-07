@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help - Register Claim</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🧾 Help - Register Claim</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Register Claim</strong> form allows users to record an incident or loss related to an active insurance policy within the <strong>AseguraYa</strong> system.  
+      The form collects the event date, property value, repair cost, and coverage information.
+    </p>
+
+    <h2>2. Screen structure</h2>
+    <ul>
+      <li><strong>Policy Number:</strong> numeric field identifying the affected policy.</li>
+      <li><strong>Search:</strong> verifies the policy and loads available coverages.</li>
+      <li><strong>Date:</strong> selects the date when the incident occurred.</li>
+      <li><strong>Asset Value:</strong> total insured value of the affected item.</li>
+      <li><strong>Repair Cost:</strong> estimated repair or compensation value.</li>
+      <li><strong>Coverages:</strong> dropdown list showing all applicable coverages.</li>
+      <li><strong>Register:</strong> confirms and saves the claim to the system.</li>
+    </ul>
+
+    <h2>3. Registration process</h2>
+    <ol>
+      <li>Enter the <strong>Policy Number</strong> and click <strong>Search</strong>.</li>
+      <li>If the policy exists, available coverages will be displayed.</li>
+      <li>Select the <strong>Date</strong>, fill in the asset and repair values, and choose the appropriate coverage.</li>
+      <li>Click <strong>Register</strong> to save the claim.</li>
+      <li>The system generates a report, recalculates verification digits (DVH/DVV), and logs the event.</li>
+    </ol>
+
+    <div class="tip">
+      💡 Tip: Always click “Search” before registering a claim.  
+      The system will block registration if the policy is not validated.
+    </div>
+
+    <h2>4. Validations and common errors</h2>
+    <ul>
+      <li>The policy number must be numeric.</li>
+      <li>Asset and repair values must be valid decimal numbers (e.g., 1234.50).</li>
+      <li>Coverage selection is mandatory before registration.</li>
+      <li>Empty fields are not allowed.</li>
+    </ul>
+
+    <h2>5. Logging and traceability</h2>
+    <p>
+      Each claim record is stored with the date, responsible user, and event details.  
+      A PDF report is automatically generated and the event is logged in the system’s audit trail.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Claims Module — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -89,9 +89,8 @@ namespace StageLink
 
             cambiarContraseñaToolStripMenuItem.Enabled = true;
             logoutToolStripMenuItem.Enabled = true;
-            loginToolStripMenuItem.Enabled = false;
+            loginToolStripMenuItem.Enabled = true;
         }
-
 
         public static void ResetMenuStripLogout()
         {

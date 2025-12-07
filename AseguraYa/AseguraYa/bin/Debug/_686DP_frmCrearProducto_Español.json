@@ -1,0 +1,19 @@
+{
+  "GesestionSeguros": "Gestión de Seguros",
+  "Productos": "Productos",
+  "CrearProducto": "Crear Producto",
+  "AsociarPlan": "Asociar Plan",
+  "GestionPlan": "Gestión de Planes",
+  "Franquicia": "Franquicia",
+  "Prima": "Prima",
+  "CrearPlan": "Crear Plan",
+  "AsociarCobertura": "Asociar Cobertura",
+  "GestionCobertura": "Gestión de Coberturas",
+  "Descripcion": "Descripción",
+  "SumaAsegurada": "Suma Asegurada",
+  "CrearCobertura": "Crear Cobertura",
+  "crearproducto": "crear producto",
+  "AgruparSeguro": "Agrupar Seguro",
+  "Planes": "Planes",
+  "Coberturas": "Coberturas"
+}

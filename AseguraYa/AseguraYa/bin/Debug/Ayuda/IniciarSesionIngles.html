@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help - Log In</title>
+  <style>
+    /* ======== ASEGURAYA GENERAL STYLE ======== */
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    ul, ol {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    li::marker {
+      color: #56ccf2;
+    }
+
+    .ok, .alerta {
+      padding: 12px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    .ok {
+      background-color: rgba(0, 255, 180, 0.15);
+      border-left: 5px solid #00e676;
+      color: #b2ffcb;
+    }
+
+    .alerta {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #ffca2c;
+      color: #fff7d1;
+    }
+
+    code {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: #a3d5ff;
+      font-family: Consolas, monospace;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+      margin-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section titles with icon */
+    h2::before {
+      content: "📘 ";
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>🔐 Help - Log In</header>
+
+  <div class="container">
+    <h2>1. General Description</h2>
+    <p>
+      This form allows registered users to access the <strong>AseguraYa</strong> system by entering their ID number (DNI) and password.
+      Security mechanisms are applied to validate credentials, manage failed attempts, and automatically block users after three consecutive errors.
+    </p>
+
+    <h2>2. Main Objectives</h2>
+    <ul>
+      <li>Allow access only to valid and active users.</li>
+      <li>Apply format and security validations (SHA256 for passwords).</li>
+      <li>Automatically block users after multiple failed attempts.</li>
+      <li>Record all access events in the system logbook.</li>
+      <li>Start the session with the user's preferred language.</li>
+    </ul>
+
+    <h2>3. Form Operation</h2>
+    <ol>
+      <li>The user enters their <strong>ID (DNI)</strong> and <strong>password</strong>.</li>
+      <li>The system verifies that both fields are filled and that the ID is numeric.</li>
+      <li>The user is searched in the database.</li>
+      <li>If found, the SHA256 hash of the entered password is calculated and compared to the stored one.</li>
+      <li>If they match:
+        <ul>
+          <li>The session starts and a Singleton instance of the active user is created.</li>
+          <li>Their permissions, language, and profile are loaded.</li>
+          <li>Access events are logged in the system’s event log.</li>
+        </ul>
+      </li>
+      <li>If they do not match:
+        <ul>
+          <li>The attempt counter increases.</li>
+          <li>After the third failed attempt, the user is automatically blocked.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>4. Validations</h2>
+    <ul>
+      <li><strong>ID (DNI):</strong> must be numeric (validated using a regular expression).</li>
+      <li><strong>Password:</strong> cannot be empty.</li>
+      <li>Both fields must be completed before logging in.</li>
+    </ul>
+
+    <h2>5. System Messages</h2>
+    <div class="ok">✅ <strong>Session started successfully:</strong> the user accesses the system without errors.</div>
+    <div class="alerta">⚠️ <strong>Incorrect user or password:</strong> displays the number of remaining attempts.</div>
+    <div class="alerta">⚠️ <strong>User blocked:</strong> after 3 failed attempts, access is locked.</div>
+    <div class="alerta">⚠️ <strong>User deactivated:</strong> the account exists but is administratively inactive.</div>
+    <div class="alerta">⚠️ <strong>Missing data:</strong> one or more fields are empty.</div>
+    <div class="alerta">⚠️ <strong>Unexpected error:</strong> a generic message is displayed with the captured exception.</div>
+
+    <h2>6. Special Cases</h2>
+    <ul>
+      <li>If the system detects that the database did not pass integrity verification (DVH/DVV), login is not allowed.</li>
+      <li>Users with the <strong>General Administrator</strong> permission access the system repair module directly.</li>
+      <li>If the user is required to change their password, the form <code>_686DPfrmChangePassword</code> opens automatically.</li>
+    </ul>
+
+    <h2>7. Common Errors</h2>
+    <ul>
+      <li><code>Invalid DNI format</code> → the field contains letters or non-numeric characters.</li>
+      <li><code>NullReferenceException</code> → may occur if the language or startup dependencies are not properly loaded.</li>
+      <li><code>UserBlocked</code> → attempting to log in with an already blocked account.</li>
+      <li><code>DBError</code> → internal error while connecting or retrieving profile data.</li>
+    </ul>
+
+    <h2>8. Usage Tips</h2>
+    <ul>
+      <li>Ensure the user’s <strong>language</strong> is correctly configured to avoid untranslated messages.</li>
+      <li>Never share personal credentials.</li>
+      <li>If the account becomes blocked, contact the <strong>General Administrator</strong> for reactivation.</li>
+    </ul>
+
+    <h2>9. Version</h2>
+    <p>
+      <strong>Form:</strong> _686DPfrmLogIn<br>
+      <strong>Module:</strong> Security and Access<br>
+      <strong>Author:</strong> AseguraYa Team - Diploma 686DP<br>
+      <strong>Last Update:</strong> October 2025
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Management System — <a href="#">Return to Main Menu</a>
+    </footer>
+  </div>
+</body>
+</html>

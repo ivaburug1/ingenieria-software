@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAFDC495-691A-4C30-BEBB-75F6C3FDDA85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AseguraYa</RootNamespace>
+    <AssemblyName>AseguraYa</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Creme Rosa Pastell Kreativ Organisch Sport Badminton Verein Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9160DB2A24D2AC193794F5C90C1143A5FFCB8B0A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>686DP_GUI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.6, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.6\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.6, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.6\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.6, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.6\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.6, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.6\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="686DPfrmAuditarSiniestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmAuditarSiniestro.Designer.cs">
+      <DependentUpon>686DPfrmAuditarSiniestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmBitacoraCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmBitacoraCambio.Designer.cs">
+      <DependentUpon>686DPfrmBitacoraCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmBitacoraDeEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmBitacoraDeEventos.Designer.cs">
+      <DependentUpon>686DPfrmBitacoraDeEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmCambiarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmCambiarContraseña.Designer.cs">
+      <DependentUpon>686DPfrmCambiarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmCancelarSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmCancelarSeguro.Designer.cs">
+      <DependentUpon>686DPfrmCancelarSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmCrearPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmCrearPerfil.Designer.cs">
+      <DependentUpon>686DPfrmCrearPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmDatosExtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmDatosExtra.Designer.cs">
+      <DependentUpon>686DPfrmDatosExtra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmFamilias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmFamilias.Designer.cs">
+      <DependentUpon>686DPfrmFamilias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmGenerarContratación.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmGenerarContratación.Designer.cs">
+      <DependentUpon>686DPfrmGenerarContratación.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmGestionarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmGestionarClientes.Designer.cs">
+      <DependentUpon>686DPfrmGestionarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmGestionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmGestionUsuarios.Designer.cs">
+      <DependentUpon>686DPfrmGestionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmIdioma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmIdioma.Designer.cs">
+      <DependentUpon>686DPfrmIdioma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmInicio.Designer.cs">
+      <DependentUpon>686DPfrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmLogIn.Designer.cs">
+      <DependentUpon>686DPfrmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmModificarSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmModificarSeguro.Designer.cs">
+      <DependentUpon>686DPfrmModificarSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmPagar.Designer.cs">
+      <DependentUpon>686DPfrmPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmRecomendacionDeAumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmRecomendacionDeAumento.Designer.cs">
+      <DependentUpon>686DPfrmRecomendacionDeAumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmRegistrarCliente.Designer.cs">
+      <DependentUpon>686DPfrmRegistrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DPfrmRegistrarSiniestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DPfrmRegistrarSiniestro.Designer.cs">
+      <DependentUpon>686DPfrmRegistrarSiniestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DP_ExpresionesRegulares.cs" />
+    <Compile Include="686DP_frmCrearProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DP_frmCrearProducto.Designer.cs">
+      <DependentUpon>686DP_frmCrearProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DP_frmPolizas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DP_frmPolizas.Designer.cs">
+      <DependentUpon>686DP_frmPolizas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DP_frmReporteSiniestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="686DP_frmReporteSiniestro.Designer.cs">
+      <DependentUpon>686DP_frmReporteSiniestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="686DP_GeneradorDePolizas.cs" />
+    <Compile Include="frmInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputBox.Designer.cs">
+      <DependentUpon>frmInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneradorDeSiniestro.cs" />
+    <Compile Include="GestionDeRespaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionDeRespaldo.Designer.cs">
+      <DependentUpon>GestionDeRespaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_686DPfrmRepararSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_686DPfrmRepararSistema.Designer.cs">
+      <DependentUpon>_686DPfrmRepararSistema.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="686DPfrmAuditarSiniestro.resx">
+      <DependentUpon>686DPfrmAuditarSiniestro.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmBitacoraCambio.resx">
+      <DependentUpon>686DPfrmBitacoraCambio.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmBitacoraDeEventos.resx">
+      <DependentUpon>686DPfrmBitacoraDeEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmCambiarContraseña.resx">
+      <DependentUpon>686DPfrmCambiarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmCancelarSeguro.resx">
+      <DependentUpon>686DPfrmCancelarSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmCrearPerfil.resx">
+      <DependentUpon>686DPfrmCrearPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmDatosExtra.resx">
+      <DependentUpon>686DPfrmDatosExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmFamilias.resx">
+      <DependentUpon>686DPfrmFamilias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmGenerarContratación.resx">
+      <DependentUpon>686DPfrmGenerarContratación.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmGestionarClientes.resx">
+      <DependentUpon>686DPfrmGestionarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmGestionUsuarios.resx">
+      <DependentUpon>686DPfrmGestionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmIdioma.resx">
+      <DependentUpon>686DPfrmIdioma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmInicio.resx">
+      <DependentUpon>686DPfrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmLogIn.resx">
+      <DependentUpon>686DPfrmLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmModificarSeguro.resx">
+      <DependentUpon>686DPfrmModificarSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmPagar.resx">
+      <DependentUpon>686DPfrmPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmRecomendacionDeAumento.resx">
+      <DependentUpon>686DPfrmRecomendacionDeAumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmRegistrarCliente.resx">
+      <DependentUpon>686DPfrmRegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DPfrmRegistrarSiniestro.resx">
+      <DependentUpon>686DPfrmRegistrarSiniestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DP_frmCrearProducto.resx">
+      <DependentUpon>686DP_frmCrearProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DP_frmPolizas.resx">
+      <DependentUpon>686DP_frmPolizas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="686DP_frmReporteSiniestro.resx">
+      <DependentUpon>686DP_frmReporteSiniestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputBox.resx">
+      <DependentUpon>frmInputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionDeRespaldo.resx">
+      <DependentUpon>GestionDeRespaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="_686DPfrmRepararSistema.resx">
+      <DependentUpon>_686DPfrmRepararSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="686DP_GUI_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\686DP_BE\686DP_BE.csproj">
+      <Project>{0370561d-7df9-4a72-870e-397e65eaa97f}</Project>
+      <Name>686DP_BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\686DP_BLL\686DP_BLL.csproj">
+      <Project>{be7379eb-8d9b-4f0f-a0b4-ae3cba6050f2}</Project>
+      <Name>686DP_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\686DP_SERVICIOS\686DP_SERVICIOS.csproj">
+      <Project>{e2f957f3-0032-4788-915f-f769f8436477}</Project>
+      <Name>686DP_SERVICIOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Creme Rosa Pastell Kreativ Organisch Sport Badminton Verein Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

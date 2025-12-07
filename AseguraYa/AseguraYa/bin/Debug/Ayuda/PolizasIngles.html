@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help - Policies Management</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #a3d5ff;
+      border-left: 4px solid #56ccf2;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #56ccf2;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    a {
+      color: #56ccf2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>📊 Help - Policies Management</header>
+
+  <div class="container">
+    <h2>1. Purpose of this form</h2>
+    <p>
+      The <strong>Policies</strong> form allows users to view, filter, analyze, and export insurance policy information from the <strong>AseguraYa</strong> system.  
+      It also provides real-time charts showing policy status and best-selling products.
+    </p>
+
+    <h2>2. Main components</h2>
+    <ul>
+      <li><strong>Bar chart:</strong> displays the top 3 best-selling insurance products.</li>
+      <li><strong>Pie chart:</strong> shows the ratio between active and inactive policies.</li>
+      <li><strong>Data grid:</strong> lists all registered policies, including plan, holder, and status.</li>
+      <li><strong>Filters:</strong> allow searching by state, insurance type, premium, franchise, policy number, or expiration date.</li>
+      <li><strong>“Filter” button:</strong> applies the selected filters.</li>
+      <li><strong>“Print selection” button:</strong> generates a PDF version of the selected policy.</li>
+      <li><strong>“Print” button:</strong> exports the full report with data and charts to PDF.</li>
+    </ul>
+
+    <h2>3. Charts</h2>
+    <ul>
+      <li>The bar chart displays the <strong>3 most sold products</strong>.</li>
+      <li>The pie chart compares <strong>active</strong> vs <strong>inactive</strong> policies.</li>
+      <li>Both charts are updated automatically when filters are applied.</li>
+    </ul>
+
+    <h2>4. PDF Export</h2>
+    <p>
+      The system can export a complete report in <strong>PDF</strong> format, including:
+    </p>
+    <ul>
+      <li>All visible policies from the grid.</li>
+      <li>Bar chart (top sales).</li>
+      <li>Pie chart (status distribution).</li>
+      <li>Translated headers and values according to the active language.</li>
+    </ul>
+
+    <div class="tip">
+      💡 Tip: rows with expired policies appear in <strong>red</strong> for easy identification.
+    </div>
+
+    <h2>5. Validations</h2>
+    <ul>
+      <li>The policy number field accepts only numeric values.</li>
+      <li>Filters must be correctly filled to obtain results.</li>
+      <li>If no row is selected, the system will prompt the user before printing.</li>
+    </ul>
+
+    <h2>6. Audit log</h2>
+    <p>
+      Every print or export action is logged in the system’s event module, including the user ID, action, and timestamp.
+    </p>
+
+    <footer>
+      © 2025 AseguraYa | Policies Module — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>

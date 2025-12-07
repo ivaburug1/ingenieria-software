@@ -415,15 +415,22 @@ namespace StageLink
             if (cambiosAplicados > 0)
             {
                 MessageBox.Show(
-                    sm.Traducir("GestionUsuarios_Aplicar_CambiosAplicados")
-                    .Replace("{N}", cambiosAplicados.ToString())
+                    sm.Traducir("GestionUsuarios_Aplicar_OK"),
+                    sm.Traducir("GestionUsuarios_Titulo_OKOK"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
                 );
 
                 CargarUsuarios();
             }
             else
             {
-                MessageBox.Show(sm.Traducir("GestionUsuarios_Aplicar_SinCambios"));
+                MessageBox.Show(
+                    sm.Traducir("GestionUsuarios_Aplicar_SinCambios"),
+                    sm.Traducir("GestionUsuarios_Titulo_Advertencia"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
             }
         }
 

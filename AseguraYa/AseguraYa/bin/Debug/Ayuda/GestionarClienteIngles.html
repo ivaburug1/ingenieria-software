@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help - Client Management</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #007991, #4faf92);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px 40px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #f1faff;
+      border-left: 4px solid #00c6ff;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "✔ ";
+      color: #00c6ff;
+    }
+    p {
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+    .tip {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-left: 5px solid #00c6ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      color: #d7ecff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #ddd;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #00c6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>👥 Help - Client Management</header>
+
+  <div class="container">
+    <h2>1. Purpose</h2>
+    <p>
+      This module allows you to <strong>manage registered clients</strong> in the
+      <strong>AseguraYa</strong> system. You can create, edit, or logically delete clients, encrypt
+      emails, and export or import them as XML files.
+    </p>
+
+    <h2>2. Register Client</h2>
+    <ul>
+      <li>Click <strong>“Register Client”</strong> to enter creation mode.</li>
+      <li>Fill in all required fields:
+        <ul>
+          <li><strong>DNI</strong> – numbers only.</li>
+          <li><strong>Name</strong> and <strong>Surname</strong> – letters only.</li>
+          <li><strong>Email</strong> – must be valid.</li>
+          <li><strong>Address</strong> and <strong>Postal Code</strong>.</li>
+        </ul>
+      </li>
+      <li>Press <strong>Apply</strong> to save.</li>
+    </ul>
+
+    <h2>3. Modify Client</h2>
+    <ul>
+      <li>Select a client from the list and click <strong>“Modify Client”</strong>.</li>
+      <li>Edit the desired fields and press <strong>Apply</strong>.</li>
+    </ul>
+
+    <h2>4. Delete Client</h2>
+    <ul>
+      <li>Select a client and click <strong>“Delete Client”</strong>.</li>
+      <li>Press <strong>Apply</strong> to perform a logical deletion.</li>
+    </ul>
+
+    <h2>5. Encrypt/Decrypt Emails</h2>
+    <p>
+      The <strong>“Show Mails”</strong> button toggles between showing
+      <em>encrypted and decrypted</em> client emails (AES-256 algorithm).
+    </p>
+
+    <h2>6. Serialization / Deserialization</h2>
+    <ul>
+      <li><strong>Serialize:</strong> Exports selected clients as XML.</li>
+      <li><strong>Deserialize:</strong> Imports clients from an XML file.</li>
+    </ul>
+
+    <h2>7. Automatic validations</h2>
+    <ul>
+      <li>Alphabetic fields (name, surname, address) accept letters only.</li>
+      <li>Numeric fields (DNI, postal code) accept digits only.</li>
+      <li>Email is validated automatically.</li>
+    </ul>
+
+    <footer>
+      © 2025 AseguraYa | Client Management System — <a href="#">Back to main menu</a>
+    </footer>
+  </div>
+</body>
+</html>
