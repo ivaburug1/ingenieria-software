@@ -1,0 +1,370 @@
+﻿using BLL_391IAU;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Servicios_391IAU.Composite;
+using SessionManager_391IAU;
+
+namespace StageLink
+{
+    public partial class PantallaPrincipal : Form, IObserver_391IAU
+    {
+        public static PantallaPrincipal Instancia { get; private set; }
+
+        public PantallaPrincipal()
+        {
+            var sm = SessionManager_391IAU.SessionManager_391IAU.Instancia;
+
+            sm.CargarMensajes(sm.IdiomaActual);
+            InitializeComponent();
+            Instancia = this;
+            ResetMenuStripLogout();
+        }
+        public void ActualizarIdioma(string idioma)
+        {
+            SessionManager_391IAU.SessionManager_391IAU.Instancia.TraducirFormulario(this);
+        }
+
+        public void ActivarControlPorNombre(string nombre)
+        {
+            Control[] controles = this.Controls.Find(nombre, true);
+            foreach (Control c in controles)
+            {
+                c.Enabled = true;
+                c.Visible = true;
+            }
+
+            foreach (var control in this.Controls)
+            {
+                if (control is MenuStrip menu)
+                {
+                    foreach (ToolStripItem item in menu.Items)
+                        ActivarItemMenu(item, nombre);
+                }
+            }
+        }
+
+        private void ActivarItemMenu(ToolStripItem item, string nombre)
+        {
+            if (item.Name == nombre)
+            {
+                item.Enabled = true;
+                item.Visible = true;
+            }
+
+            if (item is ToolStripMenuItem menuItem)
+            {
+                foreach (ToolStripItem subItem in menuItem.DropDownItems)
+                    ActivarItemMenu(subItem, nombre);
+            }
+        }
+
+        private void ActivarPermisoUsuario(IComponentePermiso_391IAU comp)
+        {
+            if (comp is PermisoSimple_391IAU permiso)
+            {
+                ActivarControlPorNombre(permiso.Nombre);
+            }
+            else if (comp is Familia_391IAU familia)
+            {
+                ActivarControlPorNombre(familia.Nombre);
+
+                foreach (var hijo in familia.ObtenerHijos())
+                    ActivarPermisoUsuario(hijo);
+            }
+        }
+
+        public void ActivarPermisosDeSesion()
+        {
+            BLLUsuario bll = new BLLUsuario();
+
+            foreach (IComponentePermiso_391IAU comp in bll.TraerPermisos())
+                ActivarPermisoUsuario(comp);
+
+            cambiarContraseñaToolStripMenuItem.Enabled = true;
+            logoutToolStripMenuItem.Enabled = true;
+            loginToolStripMenuItem.Enabled = false;
+        }
+
+        public static void ResetMenuStripLogout()
+        {
+            if (Instancia == null) return;
+
+            Instancia.administradorToolStripMenuItem.Enabled = false;
+            Instancia.maestrosToolStripMenuItem.Enabled = false;
+            Instancia.vendedorToolStripMenuItem.Enabled = false;
+            Instancia.ayudaToolStripMenuItem.Enabled = true;
+
+            Instancia.crearUsuariosToolStripMenuItem.Enabled = false;
+            Instancia.gestionDeUsuariosToolStripMenuItem.Enabled = false;
+            Instancia.agregarConciertosToolStripMenuItem.Enabled = false;
+            Instancia.crearClientesToolStripMenuItem.Enabled = false;
+            Instancia.gestionDeClientesToolStripMenuItem.Enabled = false;
+            Instancia.venderBoletoToolStripMenuItem.Enabled = false;
+
+            Instancia.logoutToolStripMenuItem.Enabled = false;
+            Instancia.cambiarContraseñaToolStripMenuItem.Enabled = false;
+
+            Instancia.loginToolStripMenuItem.Enabled = true;
+
+            Instancia.reportesToolStripMenuItem.Enabled = false;
+        }
+
+
+        private void PantallaPrincipal_Load(object sender, EventArgs e)
+        {
+            var sm = SessionManager_391IAU.SessionManager_391IAU.Instancia;
+
+            sm.CargarMensajes(sm.IdiomaActual);
+
+            sm.AgregarObservador(this);
+            sm.RegistrarFormulario(this);
+
+            sm.TraducirFormulario(this);
+
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.MdiParent = this;
+            login.StartPosition = FormStartPosition.CenterScreen;
+            login.Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var sm = SessionManager_391IAU.SessionManager_391IAU.Instancia;
+
+            DialogResult resultado = MessageBox.Show(
+                sm.Traducir("ConfirmarLogout_Pregunta"),
+                sm.Traducir("ConfirmarLogout_Titulo"),
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (resultado == DialogResult.Yes)
+            {
+                try
+                {
+                    int dniActual = sm.UsuarioActual?.DNI_391IAU ?? 0;
+                    string nombreCompleto = sm.UsuarioActual != null
+                        ? sm.UsuarioActual.Nombre_391IAU + " " + sm.UsuarioActual.Apellido_391IAU
+                        : "Usuario";
+
+                    BLLUsuario bll = new BLLUsuario();
+                    bll.Logout();
+
+                    try
+                    {
+                        BLLBitacoraEventos bllBitacora = new BLLBitacoraEventos();
+
+                        bllBitacora.RegistrarEvento(
+                            dniActual,
+                            2,
+                            "Logout",
+                            $"El usuario {nombreCompleto} hizo LogOut."
+                        );
+                    }
+                    catch
+                    {
+                    }
+
+                    MessageBox.Show(
+                        sm.Traducir("LogoutCorrecto"),
+                        sm.Traducir("LogoutCorrecto_Titulo"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information
+                    );
+
+                    ResetMenuStripLogout();
+                    sm.CambiarIdioma("Español");
+                }
+                catch (Exception ex)
+                {
+                    try
+                    {
+                        int dniActual = sm.UsuarioActual?.DNI_391IAU ?? 0;
+
+                        BLLBitacoraEventos bllBitacora = new BLLBitacoraEventos();
+                        bllBitacora.RegistrarEvento(
+                            dniActual,
+                            2,
+                            "Logout",
+                            "Error al intentar cerrar sesión."
+                        );
+                    }
+                    catch { }
+
+                    MessageBox.Show(
+                        sm.Traducir("ErrorAlCerrarSesion") + " " + ex.Message,
+                        sm.Traducir("ErrorAlCerrarSesion_Titulo"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error
+                    );
+                }
+            }
+        }
+
+        private void crearUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearUsuario crearUsuario = new CrearUsuario();
+            crearUsuario.ShowDialog();
+        }
+
+        private void cambiarContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CambiarContraseña cambiarContraseña = new CambiarContraseña();
+            cambiarContraseña.MdiParent = this;
+            cambiarContraseña.Show();
+        }
+
+        private void gestionDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDeUsuarios gestionDeUsuarios = new GestionDeUsuarios();
+            gestionDeUsuarios.ShowDialog();
+        }
+
+        private void aToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDeUsuarios gestionDeUsuarios = new GestionDeUsuarios();
+            gestionDeUsuarios.ShowDialog();
+        }
+
+        private void agregarConciertosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgregarEventos agregarEventos = new AgregarEventos();
+            agregarEventos.ShowDialog();
+        }
+
+        private void crearClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearClientes crearClietnes = new CrearClientes();
+            crearClietnes.ShowDialog();
+        }
+
+        private void venderBoletoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VenderBoleto venderBoleto = new VenderBoleto();
+            venderBoleto.ShowDialog();
+        }
+
+        private void administradorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maestrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gestionDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDeClientes gestionDeClientes = new GestionDeClientes();
+            gestionDeClientes.ShowDialog();
+        }
+
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void gestionDePerfilesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestionDePerfiles gestion = new GestionDePerfiles();
+
+            gestion.PermisosActualizados += () =>
+            {
+                ResetMenuStripLogout();
+                ActivarPermisosDeSesion();
+            };
+
+            gestion.ShowDialog();
+        }
+
+        private void gestionDePerfilesToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            GestionDePerfiles gestionDePerfiles = new GestionDePerfiles();
+            gestionDePerfiles.ShowDialog();
+        }
+
+        private void cambiarIdiomaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CambiarIdioma cambiarIdioma = new CambiarIdioma();
+            cambiarIdioma.ShowDialog();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void reportesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void validarStockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ValidarStock validarStock = new ValidarStock();
+            validarStock.Show();
+        }
+
+        private void venderProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VenderProducto venderProducto = new VenderProducto();
+            venderProducto.Show();
+        }
+
+        private void auditoriaDeEventosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            but bitacoraDeEventos = new but();
+            bitacoraDeEventos.Show();
+        }
+
+        private void gestionDeRespaldoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GestorRespaldo gestorRespaldo = new GestorRespaldo();
+            gestorRespaldo.Show();
+        }
+
+        private void reporteRFN1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reportes reportes = new Reportes();
+            reportes.Show();
+        }
+
+        private void reporteRFN2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteRFN2 reporteRFN2 = new ReporteRFN2();
+            reporteRFN2.Show();
+        }
+
+        private void bitacoraDeCambiosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AuditoriaDeCambios auditoriaDeCambios = new AuditoriaDeCambios();
+            auditoriaDeCambios.Show();
+        }
+
+        private void reporteInteligenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteInteligene reporteInteligene = new ReporteInteligene();
+            reporteInteligene.Show();
+        }
+    }
+}
